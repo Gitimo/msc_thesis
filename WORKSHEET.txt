@@ -1,0 +1,44 @@
+Introduction
+
+Part1
+Introduction
+PVDF
+
+Experimental Techniques
+	CPD & SPV
+	Lifetimes
+	IR GATIR
+	Ellipsometry
+	Generally, ellipsometry is an optical technique for investigating the dielectric properties of (layers of) thin films of material(s) on reflective surfaces. The measured ellipsometry signal depends both on the film's thickness(es) as well as its optical constants of all kinds. Because it is an optical technique that requires moderate intensities, it can be employed as a non-destructive, contact-free characterisation tool. A drawback of the technique is that experimental data need to be fit to a model of the material, with inherent assumptions about its dielectric properties. In the scope of this study, we will use ellipsometry to determine the thickness of a single layer of interest on a given substrate: we will use it to determine the thickness of silicon-oxide on silicon, as well as that of PVDF on $SiO_2$. 
+	Electron Microscopy
+
+
+Experimental Work & Results
+Sample Prep
+	Si-H
+	PVDF poling, annealing
+	Nanoparticles
+CPD SPV
+	Standard Experiments
+	Pole-Reverse-Pole
+Lifetimes
+Ellipsometry
+IR
+Microscopy
+IV
+
+Discussion
+
+Part2
+
+Introduction
+Lakeshore
+Comparison of Systems
+	Sample Preparation
+	Results & Discussion
+CPD(P,T)
+	Si-H	HOPG
+	Si-AlO3
+Intensity
+VO2
+Discussion
