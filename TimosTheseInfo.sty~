@@ -1,0 +1,18 @@
+\ProvidesPackage{TimosTheseInfo}
+
+\thesistitle{Thesis Title} %  \ttitle
+\supervisor{\href{mailto:david.cahen@weizmann.ac.il}{Prof. Dr. David \textsc{Cahen}}} %  \supname
+\examiner{\href{mailto:h.meekes@science.ru.nl}{Dr. Hugo \\textsc{Meekes}}} %  \examname
+\degree{Masters of Science} % \degreename
+\author{\href{mailto:t.bretten@gmail.com}{Timo \textsc{Bretten}}} % \authorname
+
+\subject{Chemistry and Physics of Surfaces and Interfaces} %  \subjectname
+
+\university{\href{http://www.ru.nl}{Radboud Universiteit Nijmegen}} %  \univname
+\department{\href{http://www.weizmann.ac.il}{Weizmann Institute of Science}} %  \deptname
+\group{\href{https://www.weizmann.ac.il/materials/Cahen/}{Materials and Interfaces -- Optoelectronic Materials Group}} %  \groupname
+\faculty{\href{http://www.ru.nl/fnwi}{Fakulteit der Natuurwetenschappen, Wiskunde en Informatica}} % \facname
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords

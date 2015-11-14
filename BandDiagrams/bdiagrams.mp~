@@ -1,0 +1,10 @@
+beginfig(1);
+
+z1=(1,1);
+z2=(0,0);
+
+draw z1--z2;
+label(btex Test$_2$ etex, z2);
+
+endfig;
+end;
