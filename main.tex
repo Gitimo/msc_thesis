@@ -20,7 +20,7 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 \frontmatter
 \pagestyle{plain}
 	%TitlePage
-	\include{./tex/TimosTitle}
+	%\include{./tex/TimosTitle}
 	%Declaration
 	%\include{./tex/Declaration}
 	%Quotation-page
@@ -28,13 +28,13 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 	%Abstract
 	%\include{./tex/Abstract}
 	%Acknowledgements
-	%\include{./tex/Acknowledgments.tex}
+	%\include{./tex/Acknowledgments}
 	%Content lists
 	%\tableofcontents % Prints the main table of contents
 	%\listoffigures % Prints the list of figures
 	%\listoftables % Prints the list of tables
 	%Abbreviations
-	%\include{./tex/Abbreviations.tex}
+	%\include{./tex/Abbreviations}
 	%Constants
 	%\include{./tex/Constants}
 	%Symbols
@@ -44,9 +44,13 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 
 \mainmatter
 \pagestyle{thesis}
+	\chapter{Enhancing Solar Cell Efficiency with a Ferroelectric Polymer}
+	\label{chap:ferro}
+	\include{./tex/ferro}
+
 	\chapter{Temperature Dependent Surface Photovoltage}
 	\label{chap:spv}
-	\include{./tex/spv-t}
+	%\include{./tex/spv-t}
 
 \appendix
 	\bibliographystyle{timounsrt}

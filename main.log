@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  12 NOV 2015 15:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  18 NOV 2015 04:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1209,8 +1209,7 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 Package: TimosTheseCommands 
 ) (./TimosTheseInfo.sty
 Package: TimosTheseInfo 
-) (./main.aux
-(./tex/TimosTitle.aux) (./tex/spv-t.aux))
+) (./main.aux (./tex/ferro.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1230,8 +1229,7 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Now handling font encoding TS1 ...
@@ -1495,186 +1493,50 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\openout2 = `./tex/TimosTitle.aux'.
 
- (./tex/TimosTitle.tex
-<./figs/../figs/logos/LogoRed.png, id=84, 801.99625pt x 1027.84pt>
-File: ./figs/../figs/logos/LogoRed.png Graphic file (type png)
-
-<use ./figs/../figs/logos/LogoRed.png>
-Package pdftex.def Info: ./figs/../figs/logos/LogoRed.png used on input line 9.
-
-(pdftex.def)             Requested size: 83.3653pt x 106.83638pt.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/12'.
-(microtype)             Ignoring protrusion settings for this character.
-
-<./figs/../figs/logos/titlebackground.pdf, id=92, 723.66362pt x 964.56363pt>
-File: ./figs/../figs/logos/titlebackground.pdf Graphic file (type pdf)
-
-<use ./figs/../figs/logos/titlebackground.pdf>
-Package pdftex.def Info: ./figs/../figs/logos/titlebackground.pdf used on input
- line 44.
-(pdftex.def)             Requested size: 597.5378pt x 796.45184pt.
- [1
-
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/../figs/logos/title
-background.pdf> <./figs/../figs/logos/LogoRed.png>]) [2
-
-
-]
 Chapter 1.
 --------------------
- 1. Temperature Dependent Surface Photovoltage
+ 1. Enhancing Solar Cell Efficiency with a Ferroelectric Polymer
 --------------------
 [1
 
-]
-\openout2 = `./tex/spv-t.aux'.
-
- (./tex/spv-t.tex [2
-
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 50.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 50.
- [3]
-<./figs/bb-dark.png, id=159, 216.81pt x 184.5294pt>
-File: ./figs/bb-dark.png Graphic file (type png)
- <use ./figs/bb-dark.png>
-Package pdftex.def Info: ./figs/bb-dark.png used on input line 74.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-
-<./figs/bb-light.png, id=160, 216.81pt x 184.5294pt>
-File: ./figs/bb-light.png Graphic file (type png)
- <use ./figs/bb-light.png>
-Package pdftex.def Info: ./figs/bb-light.png used on input line 80.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 72--84
-[]$[]$ $[]$ 
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 84.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 84.
-[4 <./figs/bb-dark.png> <./figs/bb-light.png>]
-<./figs/bbdefn.png, id=183, 216.81pt x 184.5294pt>
-File: ./figs/bbdefn.png Graphic file (type png)
- <use ./figs/bbdefn.png>
-Package pdftex.def Info: ./figs/bbdefn.png used on input line 96.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
-
-<./figs/bbdefp.png, id=184, 216.81pt x 184.5294pt>
-File: ./figs/bbdefp.png Graphic file (type png)
- <use ./figs/bbdefp.png>
-Package pdftex.def Info: ./figs/bbdefp.png used on input line 102.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 94--106
-[]$[]$ $[]$ 
- []
-
-[5 <./figs/bbdefn.png> <./figs/bbdefp.png>]
-<./figs/Config_TTPX.png, id=206, 470.75874pt x 222.8325pt>
-File: ./figs/Config_TTPX.png Graphic file (type png)
-
-<use ./figs/Config_TTPX.png>
-Package pdftex.def Info: ./figs/Config_TTPX.png used on input line 127.
-(pdftex.def)             Requested size: 333.46758pt x 157.84836pt.
-
-<./figs/ledspec.png, id=211, 1044.90375pt x 703.62875pt>
-File: ./figs/ledspec.png Graphic file (type png)
-
-<use ./figs/ledspec.png>
-Package pdftex.def Info: ./figs/ledspec.png used on input line 135.
-(pdftex.def)             Requested size: 333.46758pt x 224.55382pt.
- [6] [7 <./figs/Config_TTPX.png>] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
-
- []
-
-<./figs/Sih.png, id=239, 1221.56375pt x 915.42pt>
-File: ./figs/Sih.png Graphic file (type png)
- <use ./figs/Sih.png>
-Package pdftex.def Info: ./figs/Sih.png used on input line 149.
-(pdftex.def)             Requested size: 333.46758pt x 249.89049pt.
- [9 <./figs/ledspec.png>] <./figs/HOPGMcA.png, id=248, 1211.52625pt x 909.3975p
-t>
-File: ./figs/HOPGMcA.png Graphic file (type png)
-
-<use ./figs/HOPGMcA.png>
-Package pdftex.def Info: ./figs/HOPGMcA.png used on input line 161.
-(pdftex.def)             Requested size: 197.99498pt x 148.61485pt.
-
-<./figs/HOPGMcAPres.png, id=249, 1235.61626pt x 926.46124pt>
-File: ./figs/HOPGMcAPres.png Graphic file (type png)
-
-<use ./figs/HOPGMcAPres.png>
-Package pdftex.def Info: ./figs/HOPGMcAPres.png used on input line 167.
-(pdftex.def)             Requested size: 197.99498pt x 148.44887pt.
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 159--171
-[]$[]$ $[]$ 
- []
-
-[10 <./figs/Sih.png>] [11 <./figs/HOPGMcA.png> <./figs/HOPGMcAPres.png>]
-<./figs/currentseries.png, id=269, 1200.485pt x 900.36375pt>
-File: ./figs/currentseries.png Graphic file (type png)
-
-<use ./figs/currentseries.png>
-Package pdftex.def Info: ./figs/currentseries.png used on input line 185.
-(pdftex.def)             Requested size: 333.46758pt x 250.09431pt.
- [12] [13 <./figs/currentseries.png>]
-
-LaTeX Warning: Reference `fig:perovskitecpd' on page 14 undefined on input line
- 195.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
- []
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `./tex/ferro.aux'.
 
-[14] [15] <./figs/vox1.pdf, id=303, 820.06375pt x 571.13374pt>
-File: ./figs/vox1.pdf Graphic file (type pdf)
+ (./tex/ferro.tex
+[2
 
-<use ./figs/vox1.pdf>
-Package pdftex.def Info: ./figs/vox1.pdf used on input line 207.
-(pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
- <./figs/vox2.pdf, id=305, 820.06375pt x 571.13374pt>
-File: ./figs/vox2.pdf Graphic file (type pdf)
+] [3]
 
-<use ./figs/vox2.pdf>
-Package pdftex.def Info: ./figs/vox2.pdf used on input line 214.
-(pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
- <./figs/vox3.png, id=312, 578.16pt x 433.62pt>
-File: ./figs/vox3.png Graphic file (type png)
+LaTeX Warning: Reference `fig:atr' on page 4 undefined on input line 48.
 
-<use ./figs/vox3.png>
-Package pdftex.def Info: ./figs/vox3.png used on input line 222.
-(pdftex.def)             Requested size: 333.46758pt x 250.09708pt.
- [16] [17 <./figs/vox1.pdf>] [18 <./figs/vox2.pdf>]
-[19 <./figs/vox3.png>] [20]) [21] (./main.bbl [22
 
+LaTeX Warning: Reference `fig:atr' on page 4 undefined on input line 48.
+
+[4]
+
+LaTeX Warning: Reference `fig:dls-setup' on page 5 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:dls-signal' on page 5 undefined on input line 59.
+
+
+[5]) [6]
+Chapter 2.
+--------------------
+ 2. Temperature Dependent Surface Photovoltage
+--------------------
+(./main.bbl [7
+
+
+] [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 58.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 26.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1682,84 +1544,62 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
-[]\T1/lmr/m/n/10.95 (+20) Lake Shore Cry-otron-ics Inc.  Model TTPX Cryo-genic 
-Probe Sta-
+Underfull \hbox (badness 2111) in paragraph at lines 22--28
+\T1/lmr/m/n/10.95 (+20) blocks.  [][]$\T1/lmtt/m/n/10.95 http : / / www . sinto
+ninstruments . com / PDFs / WhitePaperHamburgFinal .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
-\T1/lmr/m/n/10.95 (+20) tion.  [][]$\T1/lmtt/m/n/10.95 http : / / lakeshore . c
-om / products / cryogenic-[]probe-[]stations /
- []
+! Package inputenc Error: Unicode char \u8:‐ not set up for use with LaTeX.
 
-[23])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
- [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (./main.aux (./tex/TimosTitle.aux) (./tex/spv-t.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 Keung~L. Luke and Li‐
+                            Jen Cheng.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+ (./main.aux (./tex/ferro.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5C82F95062366E3C2D03D53D2861B09;4626.
+(rerunfilecheck)             Checksum: C083F5B9469C9DC4BE551D90B0CCD1F9;4011.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 23923 strings out of 494985
- 426872 string characters out of 6180356
- 513387 words of memory out of 5000000
- 26404 multiletter control sequences out of 15000+600000
- 135158 words of font info for 197 fonts, out of 8000000 for 9000
+ 23576 strings out of 494985
+ 421292 string characters out of 6180356
+ 493547 words of memory out of 5000000
+ 26249 multiletter control sequences out of 15000+600000
+ 85087 words of font info for 113 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 47i,13n,49p,10402b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.42} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.37} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (26 pages, 1192209 bytes).
+ 47i,12n,49p,10402b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (9 pages, 251985 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 48876 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 23769 words of extra memory for PDF output out of 24883 (max. 10000000)
 
