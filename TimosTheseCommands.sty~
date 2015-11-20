@@ -1,5 +1,5 @@
 \ProvidesPackage{TimosTheseCommands}
-
+%Set the Date
 \date{\today}
 
 %Centerfloat from Memoire
@@ -11,31 +11,58 @@
   \parfillskip \z@skip}
 \makeatother
 
-\newcommand{\sih}{Si--H}
-\newcommand{\siox}{SiO$_2$}
-\newcommand{\wfp}{\ensuremath{\upvarphi _{\text{Probe}}}}
-\newcommand{\wfs}{\ensuremath{\upvarphi _{\text{Sample}}}}
-\newcommand{\cpd}{\text{CPD}}
-\newcommand{\McA}{Mc Allister}
+%Redefine \mit
+\LetLtxMacro{\oldmit}{\mit}
+
+%Abbreviations
+\newcommand{\ald}{ALD}
 \newcommand{\hopg}{HOPG}
 \newcommand{\kp}{KP}
 \newcommand{\spv}{SPV}
-\newcommand{\ie}{i.e.}
-\newcommand{\litmin}{\emph{cm$^3$}/min}
+\newcommand{\cpd}{\text{CPD}}
 \newcommand{\wf}{WF}
-\newcommand{\degcent}{$^{\circ}$ C}
-
 \newcommand{\pvdf}{PVDF}
 \newcommand{\ir}{IR}
 \newcommand{\ftir}{FTIR}
 \newcommand{\atr}{ATR}
 \newcommand{\dls}{DLS}
+\newcommand{\src}{SRC}
+\newcommand{\uhv}{UHV}
+\newcommand{\tem}{TEM}
+\newcommand{\led}{LED}
+\newcommand{\pcb}{PCB}
+\renewcommand{\mit}{MIT}
 
-\newcommand{\trad}{\ensuremath{$\tau_{\text{rad}}}}
-\newcommand{\tsrh}{\ensuremath{$\tau_{\text{SRH}}}}
-\newcommand{\taug}{\ensuremath{$\tau_{\text{A}}}}
-\newcommand{\tsurf}{\ensuremath{$\tau_{\text{S}}}}
-\newcommand{\tbulk}{\ensuremath{$\tau_{\text{B}}}}
-\newcommand{\teff}{\ensuremath{$\tau_{\text{eff}}}}
+%Chemicals
+\newcommand{\sih}{\text{Si--H}}
+\newcommand{\siox}{\text{SiO}\ensuremath{_2}}
+\newcommand{\water}{\text{H}\ensuremath{_2}\text{O}}
+\newcommand{\vadiox}{\text{VO}\ensuremath{_2}}
+\newcommand{\wvadiox}{\text{W:VO}\ensuremath{_2}}
+\newcommand{\nitro}{\text{N}\ensuremath{_2}}
+\newcommand{\oxy}{\text{O}\ensuremath{_2}}
+\newcommand{\tiox}{\text{TiO}\ensuremath{_2}}
 
-\newcommand{\ssurf}{\ensuremath{$S_{\text{S}}}}
+%Symbols
+\newcommand{\wfp}{\ensuremath{\upvarphi _{\text{Probe}}}}
+\newcommand{\wfs}{\ensuremath{\upvarphi _{\text{Sample}}}}
+\newcommand{\trad}{\ensuremath{\tau_{\text{rad}}}}
+\newcommand{\tsrh}{\ensuremath{\tau_{\text{SRH}}}}
+\newcommand{\taug}{\ensuremath{\tau_{\text{A}}}}
+\newcommand{\tsurf}{\ensuremath{\tau_{\text{S}}}}
+\newcommand{\tbulk}{\ensuremath{\tau_{\text{B}}}}
+\newcommand{\teff}{\ensuremath{\tau_{\text{eff}}}}
+\newcommand{\ssurf}{\ensuremath{S_{\text{S}}}}
+
+%Misc
+\newcommand{\ie}{i.e.}
+\newcommand{\litmin}{\emph{cm$^3$}/min}
+\newcommand{\degcent}{$^{\circ}$ C}
+\newcommand{\McA}{Mc Allister}
+
+%Quotation marks
+\newcommand{\enquote}[1]{``#1''}
+\newcommand{\enhyphen}[1]{`#1'}
+
+%Rename the Bibliography
+\renewcommand\bibname{References}

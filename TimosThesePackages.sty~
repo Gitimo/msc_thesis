@@ -14,13 +14,11 @@
 \usepackage{subcaption}
 \usepackage{microtype}
 \usepackage{wallpaper}
+\usepackage{letltxmacro}
+\usepackage{tocbibind}
 
-
-%Centerfloat from Memoire
-\makeatletter
-\newcommand*{\centerfloat}{%
-  \parindent \z@
-  \leftskip \z@ \@plus 1fil \@minus \textwidth
-  \rightskip\leftskip
-  \parfillskip \z@skip}
-\makeatother
+\sisetup{%
+	exponent-product = \cdot ,%
+	separate-uncertainty = true ,%
+	per-mode = symbol%
+	}

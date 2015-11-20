@@ -11,14 +11,14 @@
 \textbf{\hopg{}}& \textbf{H}ighly \textbf{O}rdered \textbf{P}yrolitic \textbf{G}raphite	\\
 \textbf{\ir{}}	& \textbf{I}nfra \textbf{R}ed						\\
 \textbf{\kp{}}	& \textbf{K}elvin \textbf{P}robe					\\
-\textbf{\led{}} & \textbf{L}ight \textbf{E}mitting \textbf{D}iode			\\
-\textbf{\mit{}} & \textbf{M}etal \textbf{I}nsulator \textbf{T}ransition			\\
-\textbf{\pcb{}} & \textbf{P}rinted \textbf{C}ircuit \textbf{B}oard			\\
 \textbf{\pvdf{}}& \textbf{P}oly \textbf{V}inyl \textbf{D}i \textbf{F}luorite		\\
 \textbf{\spv{}}	& \textbf{S}urface \textbf{P}hoto \textbf{V}oltage			\\
-\textbf{\src{}} & \textbf{S}pace \textbf{C}harge \textbf{R}egion			\\
-\textbf{\tem{}} & \textbf{T}ransmission \textbf{E}lectron \textbf{M}icroscopy		\\
-\textbf{\uhv{}} & \textbf{U}ltra \textbf{H}igh \textbf{V}acuum				\\
 \textbf{\wf{}}	& \textbf{W}ork \textbf{F}unction					\\
+\textbf{\src{}} & \textbf{S}pace \textbf{C}harge \textbf{R}egion			\\
+\textbf{\uhv{}} & \textbf{U}ltra \textbf{H}igh \textbf{V}acuum				\\
+\textbf{\tem{}} & \textbf{T}ransmission \textbf{E}lectron \textbf{M}icroscopy		\\
+\textbf{\led{}} & \textbf{L}ight \textbf{E}mitting \textbf{D}iode			\\
+\textbf{\pcb{}} & \textbf{P}rinted \textbf{C}ircuit \textbf{B}oard			\\
+\textbf{\mit{}} & \textbf{M}etal \textbf{I}nsulator \textbf{T}ransition			\\
 
 \end{abbreviations}
