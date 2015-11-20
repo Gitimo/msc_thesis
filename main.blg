@@ -1,62 +1,61 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: ./tex/TimosTitle.aux
-A level-1 auxiliary file: ./tex/Declaration.aux
-A level-1 auxiliary file: ./tex/Abbreviations.aux
 A level-1 auxiliary file: ./tex/ferro.aux
 A level-1 auxiliary file: ./tex/spv-t.aux
 The style file: timounsrt.bst
 Database file #1: biblio.bib
+Warning--entry type for "besocke" isn't style-file defined
+--line 8 of file biblio.bib
 Warning--entry type for "sintononline" isn't style-file defined
---line 1 of file biblio.bib
+--line 16 of file biblio.bib
 Warning--entry type for "ledengin" isn't style-file defined
---line 107 of file biblio.bib
+--line 122 of file biblio.bib
 Warning--entry type for "lakeshore" isn't style-file defined
---line 115 of file biblio.bib
+--line 130 of file biblio.bib
 Warning--entry type for "radue_raman" isn't style-file defined
---line 134 of file biblio.bib
+--line 149 of file biblio.bib
 Warning--entry type for "booth_theobands" isn't style-file defined
---line 155 of file biblio.bib
-You've used 34 entries,
+--line 170 of file biblio.bib
+You've used 35 entries,
             1829 wiz_defined-function locations,
-            659 strings with 10001 characters,
-and the built_in function-call counts, 7792 in all, are:
-= -- 645
-> -- 372
+            660 strings with 10027 characters,
+and the built_in function-call counts, 7927 in all, are:
+= -- 656
+> -- 376
 < -- 2
-+ -- 139
-- -- 105
-* -- 562
-:= -- 1247
-add.period$ -- 103
-call.type$ -- 34
-change.case$ -- 32
++ -- 141
+- -- 106
+* -- 563
+:= -- 1267
+add.period$ -- 106
+call.type$ -- 35
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 330
-empty$ -- 805
-format.name$ -- 105
-if$ -- 1746
+cite$ -- 35
+duplicate$ -- 336
+empty$ -- 825
+format.name$ -- 106
+if$ -- 1779
 int.to.chr$ -- 0
-int.to.str$ -- 34
+int.to.str$ -- 35
 missing$ -- 27
-newline$ -- 173
-num.names$ -- 34
-pop$ -- 107
+newline$ -- 178
+num.names$ -- 35
+pop$ -- 114
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 131
+skip$ -- 134
 stack$ -- 0
 substring$ -- 503
-swap$ -- 51
+swap$ -- 52
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 60
-width$ -- 36
-write$ -- 372
-(There were 5 warnings)
+while$ -- 61
+width$ -- 37
+write$ -- 382
+(There were 6 warnings)

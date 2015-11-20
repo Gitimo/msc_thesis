@@ -1,6 +1,6 @@
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
@@ -19,28 +19,28 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 \begin{document}
 \frontmatter
 \pagestyle{plain}
-	%TitlePage
-	\include{./tex/TimosTitle}
-	%Declaration
-	\include{./tex/Declaration}
-	%Quotation-page
-	\include{./tex/Quotation}
-	%Abstract
-	\include{./tex/Abstract}
-	%Acknowledgements
-	\include{./tex/Acknowledgments}
-	%Content lists
-	\tableofcontents % Prints the main table of contents
-	\listoffigures % Prints the list of figures
-	%\listoftables % Prints the list of tables
-	%Abbreviations
-	\include{./tex/Abbreviations}
+%	%TitlePage
+%	\include{./tex/TimosTitle}
+%	%Declaration
+%	\include{./tex/Declaration}
+%	%Quotation-page
+%	\include{./tex/Quotation}
+%	%Abstract
+%	\include{./tex/Abstract}
+%	%Acknowledgements
+%	\include{./tex/Acknowledgments}
+%	%Content lists
+%	\tableofcontents % Prints the main table of contents
+%	\listoffigures % Prints the list of figures
+%	%\listoftables % Prints the list of tables
+%	%Abbreviations
+%	\include{./tex/Abbreviations}
 	%Constants
 	%\include{./tex/Constants}
 	%Symbols
 	%\include{./tex/Symbols}
 	%Dedication
-	\dedicatory{Dedicated to my family who pushed me on, willing or not.} 
+%	\dedicatory{Dedicated to my family who pushed me on, willing or not.} 
 
 \mainmatter
 \pagestyle{thesis}
@@ -53,7 +53,9 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 	\include{./tex/spv-t}
 
 \appendix
+	\label{chap:app}
 	\bibliographystyle{timounsrt}
 	\bibliography{biblio}
-
+%	\include{./tex/Appendix}
+	
 \end{document}

@@ -32,6 +32,8 @@
 \newcommand{\led}{LED}
 \newcommand{\pcb}{PCB}
 \renewcommand{\mit}{MIT}
+\newcommand{\sps}{SPS}
+\newcommand{\uv}{UV}
 
 %Chemicals
 \newcommand{\sih}{\text{Si--H}}
@@ -63,6 +65,3 @@
 %Quotation marks
 \newcommand{\enquote}[1]{``#1''}
 \newcommand{\enhyphen}[1]{`#1'}
-
-%Rename the Bibliography
-\renewcommand\bibname{References}

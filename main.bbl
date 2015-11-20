@@ -1,18 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{lakeshore}
-{Lake} {Shore}~{Cryotronics} {Inc.}
-\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
-\newblock
-  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
-  2015.
-
-\bibitem{ledengin}
-{LED} {Engin}.
-\newblock {LZP-00CW0R}.
-\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
-  2015.
-
 \bibitem{gaaslifetime}
 O.~D. Miller, E.~Yablonovitch, and S.~R. Kurtz.
 \newblock Strong internal and external luminescence as solar cells approach the
@@ -121,6 +108,24 @@ J.~D. McNamara, A.~A. Baski, and M.~A. Reshchikov.
 L~Kronik.
 \newblock Surface photovoltage phenomena: theory, experiment, and applications.
 \newblock {\em Surface Science Reports}, 37(1-5):1--206, 1999.
+
+\bibitem{besocke}
+Besocke Delta~PHI GmbH.
+\newblock Kelvin system.
+\newblock \url{http://www.besocke-delta-phi.de/kelvin.htm}, 2005.
+
+\bibitem{lakeshore}
+{Lake} {Shore}~{Cryotronics} {Inc.}
+\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
+\newblock
+  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
+  2015.
+
+\bibitem{ledengin}
+{LED} {Engin}.
+\newblock {LZP-00CW0R}.
+\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
+  2015.
 
 \bibitem{nakano_gapopen}
 M.~Nakano, K.~Shibuya, D.~Okuyama, T.~Hatano, S.~Ono, M.~Kawasaki, Y.~Iwasa,
