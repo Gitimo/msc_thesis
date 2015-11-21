@@ -15,7 +15,7 @@
 \usepackage{microtype}
 \usepackage{wallpaper}
 \usepackage{letltxmacro}
-\usepackage{tocbibind}
+\usepackage[notindex,nottoc,notlof,notlot]{tocbibind}
 
 \sisetup{%
 	exponent-product = \cdot ,%
