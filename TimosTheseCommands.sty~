@@ -21,7 +21,7 @@
 \newcommand{\spv}{SPV}
 \newcommand{\cpd}{\text{CPD}}
 \newcommand{\wf}{WF}
-\newcommand{\pvdf}{PVDF}
+\newcommand{\pvdf}{P(VDF)}
 \newcommand{\ir}{IR}
 \newcommand{\ftir}{FTIR}
 \newcommand{\atr}{ATR}
@@ -35,6 +35,11 @@
 \newcommand{\sps}{SPS}
 \newcommand{\uv}{UV}
 \newcommand{\sem}{SEM}
+\newcommand{\bfs}{BFS}
+\newcommand{\pvtr}{P(VDF-TrFE 70:30)}
+\newcommand{\np}{NP}
+\newcommand{\nps}{NPs}
+\newcommand{\opvs}{OPVs}
 
 %Chemicals
 \newcommand{\sih}{\text{Si--H}}
@@ -58,9 +63,9 @@
 \newcommand{\ssurf}{\ensuremath{S_{\text{S}}}}
 
 %Misc
+\newcommand{\eg}{e.g.}
 \newcommand{\ie}{i.e.}
-\newcommand{\litmin}{\emph{cm$^3$}/min}
-\newcommand{\degcent}{$^{\circ}$ C}
+\newcommand{\etal}{\emph{et al.}}
 \newcommand{\McA}{Mc Allister}
 
 %Quotation marks

@@ -3,7 +3,125 @@ The goal of this part of the project was to see whether a well known ferroelectr
 Solar cells convert light energy directly into electrical energy via the photoelectric effect and thus they are a proven method for obtaining sustainable energy. Significant amounts of research effort are put into exploring new materials and their possibilities as well as into improving existing types of solar cells. REF Broadly, one can divide the research approaches of solar energy conversion into two main categories: either a high quality, high cost approach that tries to maximise ultimate efficiencies as much as possible or a \enhyphen{low} quality, low cost approach that tries to strike an advantageous balance between production costs and obtained efficiency. The former is, for example, represented by complex III-IV multi-junction solar cells that maximise the usage of the available solar spectrum in each of their layers separately. REF Efficiencies as high as XXX\SI{0}{\percent} have been reported REF and even higher efficiencies may be reached when utilising light-concentrator schemes~\footnote{An added advantage of concentrators is that they allow collection of light over a great area with relatively cheap lens materials and minimise the area necessary for the costly actual cell.} REF. The second approach focuses more on new materials or tries to combine the advantages of wet-chemical production processes, namely their versatility and low cost, with solar cell preparation. Here, the Cahen group has made significant advances by showing how molecular surface modifications can be used to improve the efficiency of existing cells and by demonstrating a silicon inversion-layer type solar cell where the inversion layer is created by, again, molecular surface modifications REF. To explain a little further: in a \enhyphen{typical} silicon solar cell a p-n-junction is created by changing the type of dopant introduced into molten silicon during cell growth. This process is relatively costly in terms of energy and, accordingly, in terms of money as well. In an inversion-layer type solar cell, on the other hand, only one type of material (either p- or n-type doped silicon) is used and the necessary junction is formed by excluding one type of charge carriers in a thin layer directly the cell surface by a strong electric field created by chemisorbed dipolar molecules. In this respect, the attempt at creating a comparable effect by a physisorbed ferroelectric polymer is a logical continuation of ongoing work in the Cahen group. Furthermore, one significant loss mechanism in solar cells is unwanted surface recombination of created charge carriers. The efficiency of this loss mechanism is dependent on the product of the two types of charge carriers and therefore, if one type of charge carrier can be excluded from the surface, a reduction of losses is expected. Similar approaches are realised by, for example, including a back-surface field (\bfs{}) in industrially grown silicon solar cells REF. The ferroelectric polymer of choice has also been implemented as a \enhyphen{sandwich} layer in organic solar cells and was shown to increase efficiency REF, but some discussion about the mechanism by which this improvement is achieved still exists in the literature REF.\\
 Having established why the combination of ferroelectric polymer with silicon solar cells may be of potential societal benefit and research interest, the polymer material will be introduced in detail in the following Section. In Section \ref{sec:exptech} the diverse experimental methods used throughout this project are introduced from a theoretical standpoint and in Section \ref{sec:expwork} the experimental approach is outlined and the obtained results are reported and discussed. The concluding Section gives a short summary of this part of the project and tries to analyse its failures as well as partial successes.
 
-\section{\pvdf{}} 
+\section{Ferroelectricity}
+Ferro\emph{electricity} is best described in analogy to the more well-known phenomenon ferro\emph{magnetism}. A ferromagnetic material is a material that can retain a magnetisation even when the external magnetic field is removed. Ferromagnetism lies at the heart of virtually all permanent magnets. In analogy, a ferroelectric material, is a material that can retain an electric polarisation even when the external electric field is removed. In this context \enquote{poling} is the process of giving the material a remnant polarisation. To understand polarisation, a description in terms of dipoles is illuminating. The following discussion is largely based on Atkins~\cite[Chapters 18.1 to 18.3 and 20.10]{atkins} but is expressed in terms of macroscopic physical quantities instead of in microscopic thermodynamic quantities,~\eg{} susceptibility instead of polarisability. When an external electric field is applied to a material, bound charges elements are displaced: positive charge moves with the field, negative charge moves against it, setting up a dipole moment even when the material remains electrically neutral. The polarisation density $\vec{P}$ is then defined for a certain volume element $\Delta V$ of the material carrying a certain dipole moment $\Delta \vec{p}$ as:
+\begin{equation}
+	\vec{P} \equiv \frac{\Delta \vec{P}}{\delta V} \, .
+\end{equation}
+The relationship between applied electric field $\vec{E}$ and $\vec{P}$ is not always easy to establish. It is therefore practical to introduce the experimentally accessible electric displacement field $\vec{D}$, which is defined as:
+\begin{equation}
+	\vec{D} \equiv \epsilon_0 \vec{E} + \vec{P} \equiv \frac{1}{\mu _0 c^2} \vec{E} + \vec{P} \, ,
+\end{equation}
+with the permittivity of free space $\epsilon _0 \approx$\SI{8.85e-12}{\farad\per\metre} which is defined by the vacuum permeability $\mu _0$ and the speed of light $c$ as above. In a homogeneous linear isotropic dielectric medium, the polarisation density is proportional to the electric field and related to it by its electric susceptibility $\chi$, a scalar quantity:
+\begin{equation}
+	\vec{P} = \chi \epsilon_0 \vec{E}
+\end{equation}
+and the susceptibility is related to the electric permittivity of the material $\epsilon$ as:
+\begin{equation}
+	\chi +1 = \frac{\epsilon}{\epsilon _0} \, .
+\end{equation}
+In anisotropic materials, it is possible that an electric field applied in one direction can lead to a polarisation in a different direction. The scalar susceptibility is therefore replaced by a susceptibility matrix which relates the $n^{\text{th}}$ component of the polarisation to the $m^{\text{th}}$ component of the electric field:
+\begin{equation}
+	P_n = \sum _m \epsilon _0 \chi _{n,m} E_m
+\end{equation}
+and in non-linear materials, the linear susceptibility $\chi^{(1)}$ is expanded with second and third-order susceptibilities $\chi^{(2)}$ and $\chi^{(3)}$ respectively. Furthermore, because polarisation is dependent on the displacement of charges, \ie{} the reorientation of dipole moments, the susceptibility is also a function of the frequency of the applied electric field. It is entirely possible to apply an electric field that oscillates so quickly that the dipoles simply do not have enough time to rearranges themselves. These effects are succinctly summarised in Maxwell's equations in matter, specifically in his formulation of Gauss' law. In ferroelectric materials, however, the above description usually fails, because the polarisation is not only dependent on the applied field, but also on its own history, \ie{} ferroelectric materials exhibit hysteresis.\\
+\begin{figure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/dielpolplot}
+	\caption{}
+	\label{fig:dielplot}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/parelpolplot}
+	\caption{}
+	\label{fig:parelplot}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/ferelpolplot}
+	\caption{}
+	\label{fig:ferelplot}
+\end{subfigure}
+\caption{Schematic polarisation plots for a dielectric (\ref{fig:dielplot}), a paraelectric (\ref{fig:parelplot}) and a ferroelectric (\ref{fig:ferelplot}).}
+\label{fig:polplot}
+\end{figure}
+In Figure \ref{fig:polplot} three polarisation plots, $\vec{P}$ vs. $\vec{E}$, for three different classes of materials are shown. Figure \ref{fig:dielplot} shows the behaviour of a \enhyphen{normal}~\footnote{\ie{} linear, homogeneous, isotropic} dielectric material. The slope of the polarisation curve corresponds to the material's electric permittivity $\epsilon$ and is a constant. Figure \ref{fig:parelplot} depicts the behaviour of a paraelectric material. The \enhyphen{kink} in the curve is explained by the material becoming inherently polarised at an applied electric field: once a certain threshold applied magnetic field is reached, all previously unaligned dipoles in the material are aligned against the applied field and weaken it to the maximum extend possible for that material. When the external field is removed, the dipoles return to their unaligned state and the material thus loses its polarisation. Lastly, Figure \ref{fig:ferelplot} depicts the polarisation plot of a ferroelectric material. These materials exhibit a spontaneous electric polarisation that can be reversed by an applied field, leading to a hysteretic loop in the polarisation plot. As the applied field strength increases, so does the material's polarisation up to a point where all dipoles are aligned against the applied field. This alignment is retained in the material, leading to a non-zero polarisation at zero applied electric field. When the field is applied in the reverse direction and reaches a sufficient strength, the ordering in the material reverses as well, leading to symmetry around the axes observed in the polarisation plot.\\
+\begin{figure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/ferroscheme1}
+	\caption{}
+	\label{fig:ferroscheme1}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/ferroscheme2}
+	\caption{}
+	\label{fig:ferroscheme2}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=0.9\linewidth]{./figs/chap1/ferroscheme3}
+	\caption{}
+	\label{fig:ferroscheme3}
+\end{subfigure}
+\caption{Schematic representation of the structural phases in a ferroelectric at a temperature above the Curie temperature (\ref{fig:ferroscheme1}), below the Curie temperature (\ref{fig:ferroscheme2}) and below the Curie temperature in the presence of an external electric field (\ref{fig:ferroscheme3}). Adopted from Kittel~\cite[p. 478]{kittel}.}
+\label{fig:ferroscheme}
+\end{figure}
+It is usual for a ferroelectric material to lose its ferroelectricity above a material specific Curie temperature $T_C$, \ie{} most ferroelectric materials undergo a ferroelectric/paraelectric phase transition at $T_C$ because the internal dipoles are coupled to the material lattice. Temperature naturally influences the lattice and therefore, the dipoles, see Figure \ref{fig:ferroscheme} for an overview of the structural phases at different temperatures. Ferroelectric transitions are broadly classified into two main groups at the extremes of a continuous spectrum: order-disorder and displacive transitions~\cite[pp. 467ff.]{kittel}. Order-disorder transitions are relatively simply characterised by the fact that the  in the unit cells point in random directions above $T_C$. In a displacive transition, the polarisation of the material becomes unusually large, leading to a \enhyphen{polarisation catastrophe}: the local electric field caused by a displacement of charge is stronger than the elastic restoring force, leading to an asymmetrical shift of charges. In close analogy with ferromagnetism, ferroelectric domains may exist in a ferroelectic material. Each domain is characterised by a polarisation in the same direction, whereas adjacent domains have a polarisation in a different direction. The net polarisation of the material is the vector-sum of the contributions of the individual domain polarisations and the total polarisation of the material can be changed by movement of domain walls or by nucleation of new domains.
+\section{Polyvinylidene Difluorite and its Copolymers}
+Polyvinylidene difluorite (\pvdf{}) is a ferroelectric polymer that is used on an industrial scale as a speciality plastic. On the industrial level, it is largely more interesting because its chemical properties than its ferroelectricity: its melting point, $\sim$\SI{177}{\degreeCelsius}, is relatively low compared to other fluoropolymers and is therefore more easily processed, yet it retains the stability with respect to acids, bases, solvents and heats typical for the fluorofamily. It is an insulator with a relatively low density, $\sim$\SI{1.8}{\gram\per\cubic\centi\metre}, and high mechanical strength. It is therefore often used for piping, wire-insulation, tubing etc. With regards to its ferroelectric behaviour \pvdf{} is often employed as a copolymer which includes trifluoroethylene (\trfe{}) in its chains. These copolymers are collectively referred to as \pvfe{} usually identified by the molar ratio of their constituent difluoro- and trifluoroethylene groups. For this project \pvtr{} was available and except where otherwise specifically noted, the terms \pvdf{} and \pvtr{} may be used synonymously. An approximate chemical structure for \pvtr{} is depicted in Figure \ref{fig:pvstruct}. The structure is only approximate because the exact position of \trfe{} in the chain is random, but will on average approach a distribution that reflects the molar ratio.\\
+\begin{figure}[b]
+\centering
+	\includegraphics[width=0.9\textwidth]{./figs/chap1/pvdfstruct}
+	\caption{An approximate chemical structure for \pvtr{}. The direction of the dipole moment, from Hydrogen to Fluorine, is indicated.}
+	\label{fig:pvstruct}
+\end{figure}
+The \emph{\enhyphen{Encyclopedia of Smart Materials}} devotes an entire Chapter to polyvinylidene difluorite and its copolymers~\cite[pp. 807-820]{encyclopedia} and much of the following discussion is largely based on this excellent summary.\\
+\begin{figure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/pvdfbeta}
+	\caption{}
+	\label{fig:pvdfbeta}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/pvdfalpha}
+	\caption{}
+	\label{fig:pvdfalpha}
+\end{subfigure}
+\caption{Along-the-chain and top down views of ball and stick models for two crystalline forms of pure \pvdf{}. Fluorine atoms are green, carbon black, hydrogen grey. Figure \ref{fig:pvdfbeta} shows the all-\emph{trans} $\beta$-phase designated TTT and Figure \ref{fig:pvdfalpha} shown the TGT$\bar{\text{G}}$ $\alpha$-phase. Adopted from~\cite[p. 809]{encyclopedia}.}
+\label{fig:pvdfstruct}
+\end{figure}
+\begin{figure}
+\centering
+	\includegraphics[width=0.9\textwidth]{./figs/chap1/fischerproject}
+	\caption{Fischer-Projections and internal energy as a function of the torsion angle along the chain. The minimum at \ang{180} corresponds to the \emph{trans} $\beta$-phase. Adopted from~\cite[p. 809]{encyclopedia}.}
+	\label{fig:pvfischer}
+\end{figure}
+Overall, the structure of the (co)polymer is semi-crystalline and will consist of ordered regions of monomer units, crystallites of $\sim$\SIrange{10}{20}{\nano\metre} surrounded by a sea of amorphous, scrambled chains. The polymer may furthermore include regions of head-to-tail bonding (--CH$_2$--CF$_2$--CH$_2$--CF$_2$--) alongside regions of tail-to-tail and/or head-to-head bonding (--CH$_2$--CF$_2$--CF$_2$--CH$_2$-- and --CF$_2$--CH$_2$--CH$_2$--CF$_2$-- respectively) which can be categorised as defects in the crystalline regions of \pvdf{}. Disregarding these defects, there are four major crystalline forms of \pvdf{} which are described by the way the chains are packed within the crystal lattice: according to their conformations (\emph{trans} (T) or \emph{gauche} (G) linkages), their orientation about the chain axis (\emph{parallel} or \emph{antiparallel}) and the relative directions of adjacent chains (\emph{up-up} when pointing in the same and \emph{down-down} when pointing in opposite directions). Figure \ref{fig:pvdfstruct} depicts two of the the major crystalline forms and it is apparent from the Fischer-projections in Figure~\ref{fig:pvfischer} that the all-\emph{trans} $\beta$-phase will be preferred. Here, all Fluorine atoms are on one side of the chain, resulting in a dipole-moment of $\sim$\SI{2.1}{D}~\footnote{The debye is a CGS-unit convenient for the use of with molecular dipole-moments. It is exactly equivalent to \SI{1e-21}{\coulomb\metre} divided by the speed of light and  approximately equal to \SI{0.2082}{\elementarycharge\angstrom}.} in pure \pvdf{}~\cite[pp. 810]{encyclopedia}. Figure \ref{fig:pvdfunit} compares the orthorhombic unit cells of the $\beta$- and $\alpha$-phases of \pvdf{} and shows an absence of a permanent dipole in the latter. Table \ref{tab:pvdflat} summarises the lattice dimensions and angles of pure \pvdf{} in the the $\alpha$- and $\beta$-phase and includes lattice parameters for the $\beta$-phase of \pvfe{} of varying molar ratio. It is apparent that introducing a third Fluorine atom into the unit cell will reduce the net dipolar moment of the monomer unit, but the macroscopic effect on the net polarisation may not be as easily inferred because inclusion of \trfe{} may influence the superstructure of the polymer, the ordering of its crystallites and possibly the structure of its ferroelectric domains. The $\gamma$-phase will not be discussed here.
+\begin{figure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/betaunitcell}
+	\caption{}
+	\label{fig:betaunitcell}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/alphaunitcell}
+	\caption{Structures}
+	\label{fig:alphaunitcell}
+\end{subfigure}
+\caption{Schematic representations of the unit cells for the $\beta$- and $\alpha$-phases of \pvdf{}, Figures \ref{fig:betaunitcell} and \ref{fig:alphaunitcell} respectively. Fluorine atoms are green, carbon black, hydrogen grey. The direction of the dipole moment in the $\beta$-phase is indicated. Adopted from~\cite[pp. 809f]{encyclopedia}.}
+\label{fig:pvdfunit}
+\end{figure}
+\subsection{\pvdf{} Thin Films}
+\subsection{\pvdf{} Nanoparticles}
+Apart from bulk material and thin films, \pvdf{} can also be prepared as nanoparticles (\nps{}) and as nanostructured material. While interesting, \pvdf{} nanostructures require sophisticated preparation steps, whereas \pvdf{} \nps{} can easily be synthesised by a scalable, solution chemistry self-assembly mechanism which sidesteps the otherwise necessary high annealing temperatures, rendering this route especially interesting for the application with organic photovoltaic cells (\opvs{}). The reproducible synthesis was first described by Xiao~\etal{}~\cite{NPsynthesis} and their paper serves as a basis for the following discussion of the properties of \pvdf{} \nps{}. To achieve self-assembly of \pvdf{} chains into nanoparticles, the polymer is first dissolved in a \enhyphen{good} solvent, such as acetone, and then an interface with a \enhyphen{bad} solvent, such as water, is formed. At the interface, \pvdf{} chains tend to coils in on themselves because of the strong hydrophobic interaction between water and fluorine in \pvdf{}. This process is supported by precipitating the \nps{} out with the help of a high speed centrifuge at speeds around \SI{20000}{rpm}. Because water cannot form hydrogen bonds with the polymer, an increase in entropy results REF 29 FROM XIAO causing subsequent polymer chains to aggregate at the surface of the forming \np{}. The \nps{} crystallise in \pvdf{}'s amorphous, non-ferroelectric phase but can be converted to the crystalline, ferroelectrically  active $\beta$-phase by heating above its Curie temperature. This is achieved by refluxing the suspension of \nps{} which can subsequently be processed further. Spin-coating, evaporating or simply mixing the suspension with other chemicals allow for the \nps{} to be included in (\opvs{}) in a non-destructive, controlled manner: for example, Xiao~\etal{} could independently optimise the nanoparticle size and their coverage in the solar cell. \pvdf{} is a non-conducting polymer and as such increases the series resistance of the solar cell, counteracting its positive influences on charge carrier recombination lifetimes. For the optimised coverage of  \SI{18}{\percent}, the solar cell's efficiency could be improved by \SI{1.9}{\percent} from \SI{4.74}{\percent} to \SI{6.64}{\percent} which is a sizeable relative improvement of  \SI{40}{\percent}!
 
 \section{Experimental Techniques}
 \label{sec:exptech}
@@ -58,13 +176,13 @@ Infrared (\ir{}) spectroscopy is a vibrational spectroscopy which employs light 
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/IRoverview}
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/IRoverview}
 	\caption{}
 	\label{fig:iroverview}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/IRwave}
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/IRwave}
 	\caption{}
 	\label{fig:irwave}
 \end{subfigure}
@@ -102,13 +220,13 @@ As can be seen from the above equation, the parasitic resistances can be obtaine
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/dlssetup}
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/dlssetup}
 	\caption{}
 	\label{fig:dlssetup}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/dlsnoise}
+	\includegraphics[width=0.8\linewidth]{./figs/chap1/dlsnoise}
 	\caption{}
 	\label{fig:dlsnoise}
 \end{subfigure}
@@ -134,12 +252,15 @@ In the last equation $n$ is the refractive index of the medium, $\lambda$ is the
 \end{equation}
 Here, $k_B$ is the Boltzmann constant, $T$ is the thermodynamic temperature and $\eta$ is the viscosity of the suspending medium. As can easily be seen in Equation \eqref{diameter}, the determined particle diameter is directly proportional to the absolute temperature $T$, however, the viscosity of the medium is usually also very sensitively dependent on temperature and a specific value for $\eta$ needs to be supplied for the measurement. For practical purposes, the viscosity of typical (mixtures of) solvents in a range of temperatures is internally tabulated by software, as are their refractive indices. Therefore, the user of a \dls{} apparatus supplies the type of solvent used, the machine monitors the temperature during the experiment and carries out the necessary calculations and data-fitting routines. It is important to note that, for a successful size determination via \dls{}, a solution of nanoparticles should be sufficiently dilute to avoid clusters of nanoparticles while at the same time being concentrated enough to allow for measurable scattering intensities. Furthermore, the Stokes-Einstein relation assumes rigid, spherical particles so the apparent diameter of a soft, ovoid particle may significantly differ from its true dimensions.
 
-\section{Experimental Approach \& Results}
+\section{Experimental Approach, Results and Discussion}
 \label{sec:expwork}
-\subsection{Sample Prep}
-\subsubsection{Si-H}
+\subsection{Sample Preparation}
+\subsubsection{\sih{}}
+\subsubsection{\pvtr{} thin films}
 \subsubsection{Nanoparticles}
-\subsection{\pvdf{} poling, annealing}
+The synthesis of \pvtr{} nanoparticles follows the procedure described by Xiao~\etal{}~\cite{NPsynthesis}. \pvtr{} is dissolved in acetone, a good solvent for the polymer, at a concentration of \SI{5}{\milli\gram\per\milli\litre} and a mixture of water and methanol of 1:10 by volume is prepared. These solutions and pure acetone are placed in ice and the solutions are allowed to cool down for five minutes. \SI{2}{\milli\litre} of the \pvtr{}-acetone solution are injected into a \SI{15}{\milli\litre} centrifuge tube. \SI{0.5}{\milli\litre} of pure acetone are carefully injected from the bottom to form a buffer layer and subsequently \SI{4}{\milli\litre} of the water:methanol blend are also carefully injected from the bottom. The centrifuge tube is handled carefully so as not to disturb the sensitive layers and placed in ice. The nanoparticles are then precipitated out by centrifuging at \SI{19500}{rpm} for ten minutes at \SI{2}{\degreeCelsius}. The bottom layer is containing \nps{} is transferred to a flask via a micro porous filter and refluxed at \SI{90}{\degreeCelsius} for \SI{60}{\minute}. The obtained solution contains \pvtr{} \nps{} and can be used for further experiments.\\
+It was found that the time needed to transfer the prepared layers to the centrifuge should be minimised in order to obtain the smallest nanoparticle sizes from the synthesis. Ultra-high centrifuge speeds were found to impact the narrowness of the size distribution to a small extend. Centrifuging at \SI{16000}{rpm} was still sufficient to obtain a population with a sufficiently narrow distribution.\\
+The synthesis was carried out toward the end of the project and the problem with it became apparent too late to order a different polymer preparation: the ratio of polymer to co-polymer available for this project was 70:30 and therefore, its Curie-temperature is above the boiling point of any water:methanol mixture and indeed the synthesis by Xiao~\etal{} makes use of a 50:50 polymer:co-polymer mixture. \enhyphen{Refluxing} under conditions of increased pressure proved fruitless and substituting the water:methanol mixture with pure water in an attempt to boil under pressure at elevated temperatures was not feasible experimentally, because acetone would mix with pure water and no stable interface layers would form. Therefore, even though \nps{} could be synthesised, the material did not crystallise in its ferroelectric phase and the \nps{} could not usefully combined with solar cells. Possible further experimentation should use the appropriate polymer:copolymer mixture.
 \subsection{CPD SPV}
 \subsubsection{Standard Experiments}
 \subsubsection{Pole-Reverse-Pole}

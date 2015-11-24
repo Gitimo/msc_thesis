@@ -1,5 +1,27 @@
 \begin{thebibliography}{10}
 
+\bibitem{atkins}
+Peter Atkins and Julio De~Paula.
+\newblock {\em Atkins' Physical Chemistry}.
+\newblock Oxford University Press, 8th edition, 2006.
+
+\bibitem{kittel}
+Charles Kittel.
+\newblock {\em Introduction to Solid State Physics}.
+\newblock John Wiley and Sons, Inc., eigths edition, 2005.
+
+\bibitem{encyclopedia}
+Mel~M. Schwartz, editor.
+\newblock {\em Encyclopedia of Smart Materials}, volume 1 and 2.
+\newblock John Wiley and Sons, Inc., 2002.
+
+\bibitem{NPsynthesis}
+Zhengguo Xiao, Qingfeng Dong, Pankaj Sharma, Yongbo Yuan, Baodong Mao, Wenjing
+  Tian, Alexei Gruverman, and Jinsong Huang.
+\newblock Synthesis and application of ferroelectric {P}({VDF-TrFE})
+  nanoparticles in organic photovoltaic devices for high efficiency.
+\newblock {\em Advanced Energy Materials}, 3(12):1581--1588, 2013.
+
 \bibitem{gaaslifetime}
 O.~D. Miller, E.~Yablonovitch, and S.~R. Kurtz.
 \newblock Strong internal and external luminescence as solar cells approach the

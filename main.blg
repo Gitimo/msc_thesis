@@ -5,57 +5,61 @@ A level-1 auxiliary file: ./tex/ferro.aux
 A level-1 auxiliary file: ./tex/spv-t.aux
 The style file: timounsrt.bst
 Database file #1: biblio.bib
+You're missing a field part---line 27 of file biblio.bib
+ :    eid = 
+ :          ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "besocke" isn't style-file defined
---line 8 of file biblio.bib
+--line 105 of file biblio.bib
 Warning--entry type for "sintononline" isn't style-file defined
---line 16 of file biblio.bib
+--line 113 of file biblio.bib
 Warning--entry type for "ledengin" isn't style-file defined
---line 122 of file biblio.bib
+--line 219 of file biblio.bib
 Warning--entry type for "lakeshore" isn't style-file defined
---line 130 of file biblio.bib
+--line 227 of file biblio.bib
 Warning--entry type for "radue_raman" isn't style-file defined
---line 149 of file biblio.bib
+--line 246 of file biblio.bib
 Warning--entry type for "booth_theobands" isn't style-file defined
---line 170 of file biblio.bib
-You've used 35 entries,
+--line 267 of file biblio.bib
+You've used 39 entries,
             1829 wiz_defined-function locations,
-            660 strings with 10027 characters,
-and the built_in function-call counts, 7927 in all, are:
-= -- 656
-> -- 376
-< -- 2
-+ -- 141
-- -- 106
-* -- 563
-:= -- 1267
-add.period$ -- 106
-call.type$ -- 35
-change.case$ -- 33
+            681 strings with 10599 characters,
+and the built_in function-call counts, 8773 in all, are:
+= -- 724
+> -- 419
+< -- 3
++ -- 157
+- -- 118
+* -- 616
+:= -- 1400
+add.period$ -- 118
+call.type$ -- 39
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 336
-empty$ -- 825
-format.name$ -- 106
-if$ -- 1779
+cite$ -- 39
+duplicate$ -- 380
+empty$ -- 916
+format.name$ -- 118
+if$ -- 1970
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 27
-newline$ -- 178
-num.names$ -- 35
-pop$ -- 114
+int.to.str$ -- 39
+missing$ -- 33
+newline$ -- 198
+num.names$ -- 40
+pop$ -- 136
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 134
+skip$ -- 145
 stack$ -- 0
-substring$ -- 503
-swap$ -- 52
-text.length$ -- 2
+substring$ -- 534
+swap$ -- 57
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 61
-width$ -- 37
-write$ -- 382
-(There were 6 warnings)
+while$ -- 67
+width$ -- 41
+write$ -- 426
+(There was 1 error message)
