@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  24 NOV 2015 06:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  24 NOV 2015 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1694,18 +1694,14 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 102.
 
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Reference `tab:pvdflat' on page 5 undefined on input line 105.
-
-<./figs/chap1/betaunitcell.png, id=314, 225.0006pt x 208.6194pt>
+) <./figs/chap1/betaunitcell.png, id=315, 225.0006pt x 208.6194pt>
 File: ./figs/chap1/betaunitcell.png Graphic file (type png)
 
 <use ./figs/chap1/betaunitcell.png>
 Package pdftex.def Info: ./figs/chap1/betaunitcell.png used on input line 109.
 (pdftex.def)             Requested size: 166.73378pt x 154.59239pt.
 
-<./figs/chap1/alphaunitcell.png, id=315, 225.0006pt x 208.6194pt>
+<./figs/chap1/alphaunitcell.png, id=316, 225.0006pt x 208.6194pt>
 File: ./figs/chap1/alphaunitcell.png Graphic file (type png)
 
 <use ./figs/chap1/alphaunitcell.png>
@@ -1718,43 +1714,57 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 107--119
  []
 
 [5 <./figs/chap1/ferroscheme1.png> <./figs/chap1/ferroscheme2.png> <./figs/chap
-1/ferroscheme3.png> <./figs/chap1/pvdfstruct.png>] [6 <./figs/chap1/pvdfbeta.pn
-g> <./figs/chap1/pvdfalpha.png>] [7 <./figs/chap1/fischerproject.png> <./figs/c
-hap1/betaunitcell.png> <./figs/chap1/alphaunitcell.png>] [8] [9]
-<./figs/chap1/IRoverview.png, id=393, 216.81pt x 112.2594pt>
+1/ferroscheme3.png> <./figs/chap1/pvdfstruct.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 123.
+
+(./tabs/pvdftab.tex
+Underfull \hbox (badness 3128) in paragraph at lines 3--3
+[]\T1/lmr/m/n/10.95 (+20) TrFE con-tent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+[]\T1/lmr/m/n/10.95 (+20) Crystalline
+ []
+
+) [6 <./figs/chap1/pvdfbeta.png> <./figs/chap1/pvdfalpha.png>] [7 <./figs/chap1
+/fischerproject.png> <./figs/chap1/betaunitcell.png> <./figs/chap1/alphaunitcel
+l.png>] [8] [9] <./figs/chap1/IRoverview.png, id=394, 216.81pt x 112.2594pt>
 File: ./figs/chap1/IRoverview.png Graphic file (type png)
 
 <use ./figs/chap1/IRoverview.png>
-Package pdftex.def Info: ./figs/chap1/IRoverview.png used on input line 179.
+Package pdftex.def Info: ./figs/chap1/IRoverview.png used on input line 186.
 (pdftex.def)             Requested size: 166.73378pt x 86.3355pt.
 
-<./figs/chap1/IRwave.png, id=394, 216.81pt x 112.2594pt>
+<./figs/chap1/IRwave.png, id=395, 216.81pt x 112.2594pt>
 File: ./figs/chap1/IRwave.png Graphic file (type png)
 
 <use ./figs/chap1/IRwave.png>
-Package pdftex.def Info: ./figs/chap1/IRwave.png used on input line 185.
+Package pdftex.def Info: ./figs/chap1/IRwave.png used on input line 192.
 (pdftex.def)             Requested size: 166.73378pt x 86.3355pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 177--189
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 184--196
 []$[]$ $[]$ 
  []
 
 [10] [11 <./figs/chap1/IRoverview.png> <./figs/chap1/IRwave.png>] [12]
-<./figs/chap1/dlssetup.png, id=430, 216.81pt x 156.585pt>
+<./figs/chap1/dlssetup.png, id=434, 216.81pt x 156.585pt>
 File: ./figs/chap1/dlssetup.png Graphic file (type png)
 
 <use ./figs/chap1/dlssetup.png>
-Package pdftex.def Info: ./figs/chap1/dlssetup.png used on input line 223.
+Package pdftex.def Info: ./figs/chap1/dlssetup.png used on input line 230.
 (pdftex.def)             Requested size: 166.73378pt x 120.42506pt.
 
-<./figs/chap1/dlsnoise.png, id=431, 216.81pt x 156.585pt>
+<./figs/chap1/dlsnoise.png, id=435, 216.81pt x 156.585pt>
 File: ./figs/chap1/dlsnoise.png Graphic file (type png)
 
 <use ./figs/chap1/dlsnoise.png>
-Package pdftex.def Info: ./figs/chap1/dlsnoise.png used on input line 229.
+Package pdftex.def Info: ./figs/chap1/dlsnoise.png used on input line 236.
 (pdftex.def)             Requested size: 166.73378pt x 120.42506pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 221--233
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 228--240
 []$[]$ $[]$ 
  []
 
@@ -1773,110 +1783,119 @@ Chapter 2.
  (./tex/spv-t.tex [18
 
 ] [19]
-<./figs/bb-dark.png, id=508, 216.81pt x 184.5294pt>
-File: ./figs/bb-dark.png Graphic file (type png)
- <use ./figs/bb-dark.png>
-Package pdftex.def Info: ./figs/bb-dark.png used on input line 73.
+<./figs/chap2/bb-dark.png, id=512, 216.81pt x 184.5294pt>
+File: ./figs/chap2/bb-dark.png Graphic file (type png)
+
+<use ./figs/chap2/bb-dark.png>
+Package pdftex.def Info: ./figs/chap2/bb-dark.png used on input line 73.
 (pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
 
-<./figs/bb-light.png, id=509, 216.81pt x 184.5294pt>
-File: ./figs/bb-light.png Graphic file (type png)
- <use ./figs/bb-light.png>
-Package pdftex.def Info: ./figs/bb-light.png used on input line 79.
+<./figs/chap2/bb-light.png, id=513, 216.81pt x 184.5294pt>
+File: ./figs/chap2/bb-light.png Graphic file (type png)
+
+<use ./figs/chap2/bb-light.png>
+Package pdftex.def Info: ./figs/chap2/bb-light.png used on input line 79.
 (pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
 
 Overfull \hbox (2.43333pt too wide) in paragraph at lines 71--83
 []$[]$ $[]$ 
  []
 
-[20 <./figs/bb-dark.png> <./figs/bb-light.png>]
-<./figs/bbdefn.png, id=531, 216.81pt x 184.5294pt>
-File: ./figs/bbdefn.png Graphic file (type png)
- <use ./figs/bbdefn.png>
-Package pdftex.def Info: ./figs/bbdefn.png used on input line 95.
+[20 <./figs/chap2/bb-dark.png> <./figs/chap2/bb-light.png>]
+<./figs/chap2/bbdefn.png, id=535, 216.81pt x 184.5294pt>
+File: ./figs/chap2/bbdefn.png Graphic file (type png)
+
+<use ./figs/chap2/bbdefn.png>
+Package pdftex.def Info: ./figs/chap2/bbdefn.png used on input line 95.
 (pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
 
-<./figs/bbdefp.png, id=532, 216.81pt x 184.5294pt>
-File: ./figs/bbdefp.png Graphic file (type png)
- <use ./figs/bbdefp.png>
-Package pdftex.def Info: ./figs/bbdefp.png used on input line 101.
+<./figs/chap2/bbdefp.png, id=536, 216.81pt x 184.5294pt>
+File: ./figs/chap2/bbdefp.png Graphic file (type png)
+
+<use ./figs/chap2/bbdefp.png>
+Package pdftex.def Info: ./figs/chap2/bbdefp.png used on input line 101.
 (pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
 
 Overfull \hbox (2.43333pt too wide) in paragraph at lines 93--105
 []$[]$ $[]$ 
  []
 
-[21 <./figs/bbdefn.png> <./figs/bbdefp.png>] [22]
-<./figs/Config_TTPX.png, id=565, 470.75874pt x 222.8325pt>
-File: ./figs/Config_TTPX.png Graphic file (type png)
+[21 <./figs/chap2/bbdefn.png> <./figs/chap2/bbdefp.png>] [22]
+<./figs/chap2/Config_TTPX.png, id=569, 470.75874pt x 222.8325pt>
+File: ./figs/chap2/Config_TTPX.png Graphic file (type png)
 
-<use ./figs/Config_TTPX.png>
-Package pdftex.def Info: ./figs/Config_TTPX.png used on input line 134.
+<use ./figs/chap2/Config_TTPX.png>
+Package pdftex.def Info: ./figs/chap2/Config_TTPX.png used on input line 134.
 (pdftex.def)             Requested size: 333.46758pt x 157.84836pt.
 
-<./figs/ledspec.png, id=570, 1044.90375pt x 703.62875pt>
-File: ./figs/ledspec.png Graphic file (type png)
+<./figs/chap2/ledspec.png, id=574, 1044.90375pt x 703.62875pt>
+File: ./figs/chap2/ledspec.png Graphic file (type png)
 
-<use ./figs/ledspec.png>
-Package pdftex.def Info: ./figs/ledspec.png used on input line 142.
+<use ./figs/chap2/ledspec.png>
+Package pdftex.def Info: ./figs/chap2/ledspec.png used on input line 142.
 (pdftex.def)             Requested size: 333.46758pt x 224.55382pt.
- [23] [24 <./figs/Config_TTPX.png>] [25 <./figs/ledspec.png>] <./figs/Sih.png, 
-id=596, 1221.56375pt x 915.42pt>
-File: ./figs/Sih.png Graphic file (type png)
- <use ./figs/Sih.png>
-Package pdftex.def Info: ./figs/Sih.png used on input line 157.
+ [23] [24 <./figs/chap2/Config_TTPX.png>]
+[25 <./figs/chap2/ledspec.png>]
+<./figs/chap2/Sih.png, id=600, 1221.56375pt x 915.42pt>
+File: ./figs/chap2/Sih.png Graphic file (type png)
+
+<use ./figs/chap2/Sih.png>
+Package pdftex.def Info: ./figs/chap2/Sih.png used on input line 157.
 (pdftex.def)             Requested size: 333.46758pt x 249.89049pt.
+ [26]
+<./figs/chap2/HOPGMcA.png, id=607, 1211.52625pt x 909.3975pt>
+File: ./figs/chap2/HOPGMcA.png Graphic file (type png)
 
-[26] <./figs/HOPGMcA.png, id=603, 1211.52625pt x 909.3975pt>
-File: ./figs/HOPGMcA.png Graphic file (type png)
-
-<use ./figs/HOPGMcA.png>
-Package pdftex.def Info: ./figs/HOPGMcA.png used on input line 169.
+<use ./figs/chap2/HOPGMcA.png>
+Package pdftex.def Info: ./figs/chap2/HOPGMcA.png used on input line 169.
 (pdftex.def)             Requested size: 197.99498pt x 148.61485pt.
 
-<./figs/HOPGMcAPres.png, id=604, 1235.61626pt x 926.46124pt>
-File: ./figs/HOPGMcAPres.png Graphic file (type png)
+<./figs/chap2/HOPGMcAPres.png, id=608, 1235.61626pt x 926.46124pt>
+File: ./figs/chap2/HOPGMcAPres.png Graphic file (type png)
 
-<use ./figs/HOPGMcAPres.png>
-Package pdftex.def Info: ./figs/HOPGMcAPres.png used on input line 175.
+<use ./figs/chap2/HOPGMcAPres.png>
+Package pdftex.def Info: ./figs/chap2/HOPGMcAPres.png used on input line 175.
 (pdftex.def)             Requested size: 197.99498pt x 148.44887pt.
 
 Overfull \hbox (2.43333pt too wide) in paragraph at lines 167--179
 []$[]$ $[]$ 
  []
 
-[27 <./figs/Sih.png>] [28 <./figs/HOPGMcA.png> <./figs/HOPGMcAPres.png>]
-<./figs/currentseries.png, id=626, 1200.485pt x 900.36375pt>
-File: ./figs/currentseries.png Graphic file (type png)
+[27 <./figs/chap2/Sih.png>] [28 <./figs/chap2/HOPGMcA.png> <./figs/chap2/HOPGMc
+APres.png>] <./figs/chap2/currentseries.png, id=630, 1200.485pt x 900.36375pt>
+File: ./figs/chap2/currentseries.png Graphic file (type png)
 
-<use ./figs/currentseries.png>
-Package pdftex.def Info: ./figs/currentseries.png used on input line 193.
+<use ./figs/chap2/currentseries.png>
+Package pdftex.def Info: ./figs/chap2/currentseries.png used on input line 193.
+
 (pdftex.def)             Requested size: 333.46758pt x 250.09431pt.
- [29] [30] [31 <./figs/currentseries.png>]
+ [29] [30] [31 <./figs/chap2/currentseries.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
-[32] [33] <./figs/vox1.pdf, id=672, 820.06375pt x 571.13374pt>
-File: ./figs/vox1.pdf Graphic file (type pdf)
+[32] [33] <./figs/chap2/vox1.pdf, id=676, 820.06375pt x 571.13374pt>
+File: ./figs/chap2/vox1.pdf Graphic file (type pdf)
 
-<use ./figs/vox1.pdf>
-Package pdftex.def Info: ./figs/vox1.pdf used on input line 216.
+<use ./figs/chap2/vox1.pdf>
+Package pdftex.def Info: ./figs/chap2/vox1.pdf used on input line 216.
 (pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
- <./figs/vox2.pdf, id=674, 820.06375pt x 571.13374pt>
-File: ./figs/vox2.pdf Graphic file (type pdf)
 
-<use ./figs/vox2.pdf>
-Package pdftex.def Info: ./figs/vox2.pdf used on input line 223.
+<./figs/chap2/vox2.pdf, id=678, 820.06375pt x 571.13374pt>
+File: ./figs/chap2/vox2.pdf Graphic file (type pdf)
+
+<use ./figs/chap2/vox2.pdf>
+Package pdftex.def Info: ./figs/chap2/vox2.pdf used on input line 223.
 (pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
- <./figs/vox3.png, id=681, 578.16pt x 433.62pt>
-File: ./figs/vox3.png Graphic file (type png)
 
-<use ./figs/vox3.png>
-Package pdftex.def Info: ./figs/vox3.png used on input line 231.
+<./figs/chap2/vox3.png, id=685, 578.16pt x 433.62pt>
+File: ./figs/chap2/vox3.png Graphic file (type png)
+
+<use ./figs/chap2/vox3.png>
+Package pdftex.def Info: ./figs/chap2/vox3.png used on input line 231.
 (pdftex.def)             Requested size: 333.46758pt x 250.09708pt.
- [34] [35 <./figs/vox1.pdf>] [36 <./figs/vox2.pdf>]
-[37 <./figs/vox3.png>] [38]) [39] (./main.bbl
+ [34] [35 <./figs/chap2/vox1.pdf>] [36 <./figs/chap2/vox2.pdf>] [37 <./figs/cha
+p2/vox3.png>] [38]) [39] (./main.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 48.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -1909,48 +1928,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 97A21D296011995C62A940109D78CBDE;10150.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 38269BD6E1C16BAEFE82E759A7B0172F;10151.
  ) 
 Here is how much of TeX's memory you used:
- 24738 strings out of 494985
- 439858 string characters out of 6180356
- 521864 words of memory out of 5000000
- 27091 multiletter control sequences out of 15000+600000
+ 24748 strings out of 494985
+ 440378 string characters out of 6180356
+ 522069 words of memory out of 5000000
+ 27095 multiletter control sequences out of 15000+600000
  129075 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 47i,12n,52p,10402b,1083s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.108} has been referenced but does not e
+ 47i,14n,52p,10402b,1083s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.107} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.108} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.105} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.102} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.103} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.92} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.93} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.89} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.90} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.86} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.87} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.83} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.84} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.75} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.76} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.34} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.35} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
@@ -1981,10 +1996,10 @@ e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (42 pages, 1403283 bytes).
+Output written on main.pdf (42 pages, 1404190 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 199 named destinations out of 1000 (max. 500000)
+ 912 PDF objects out of 1000 (max. 8388607)
+ 764 compressed objects within 8 object streams
+ 200 named destinations out of 1000 (max. 500000)
  44602 words of extra memory for PDF output out of 51595 (max. 10000000)
 

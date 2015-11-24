@@ -70,13 +70,13 @@ In the context of this work, the surface photovoltage (\spv{}) is defined as the
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/bb-dark}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/bb-dark}
 	\caption{}
 	\label{fig:bbdark}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/bb-light}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/bb-light}
 	\caption{}
 	\label{fig:bblight}
 \end{subfigure}
@@ -92,13 +92,13 @@ To gain a deeper insight into the behaviour of a semiconductor as it reacts to l
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/bbdefn}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/bbdefn}
 	\caption{}
 	\label{fig:bbdefn}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/bbdefp}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/bbdefp}
 	\caption{}
 	\label{fig:bbdefp}
 \end{subfigure}
@@ -131,7 +131,7 @@ The second system is very similar, but is placed inside a humidity and oxygen co
 Lakeshore is an international vendor of cryogenic probe stations. For this research, a Lakeshore Model TTPX Probe Station was used. The probe station can be thought of as being divided into four components. An outer vacuum-chamber is connected to a pump to reduce the pressure inside the station. An Argon gas inlet connected to the vacuum chamber can be used to provide an inert atmosphere. Inside the vacuum chamber is a separate, smaller chamber: the radiation shielding stage, primarily used to shield the sample from \ir{} radiation and thus used to facilitate measurements at low temperatures. The radiation shielding to some extend also provides electrical shielding from stray electrical signals and can therefore act as a quasi Faraday-cage. Both these chambers are fitted with windows to allow for placement of the probe-arms and to allow for visual inspection of the experiment. The radiation shielding stage's windows is made from sapphire glass, as sapphire glass is oblique to infra-red radiation. Inside the shielding stage is placed the sample stage, which allows for mounting of samples and can provide an electrical ground. The fourth and last component of the probe station are its six probe-arms. They allow for placement of several probes on the sample from the outside. For many measurements, these probes are conceptually simple gold wires which allow for electrical measurements of the sample, such as IV and CV characterisation. Being a cryogenic system, the Lakeshore is fitted with three thermocouples. They measure the temperature of the sample stage, the radiation chamber and the probe-arm respectively. The temperature is adjusted by an electrical heater and by controlling the flow of of coolant, either liquid nitrogen or -- to achieve lower temperatures -- liquid helium. Evacuation of the cryogenic system is achieved by a combination of two pumps: a `weak pump' to reduce the pressure to $\sim$ \num{5e-2} and a \enhyphen{turbo pump} to reduce it down to $\sim$ \num{5e-4}. A schematic of the Lakeshore model TTPX cryogenic system showing its components is given in Figure \ref{fig:McAscheme}.\\
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/Config_TTPX}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/Config_TTPX}
 	\caption{Schematic of the Lakeshore model TTPX cryogenic system and its components, typical operational temperatures are indicated. Taken from the vendor's website~\cite{lakeshore}.}
 	\label{fig:McAscheme}
 \end{figure}
@@ -139,7 +139,7 @@ In our case, one of the probe arms is fitted with a modified \McA{} ultra-high v
 The original probe head configuration is not suitable for the Lakeshore cryogenic system because the sample needs to be placed horizontally onto the sample-stage. Therefore, a vertical geometry is needed for the probe-head. Such a custom system was provided by \McA{}. The stainless-steel Kelvin probe head is now vertically mounted in a plastic base. The size and especially the weight-distribution of the original cylinder are carefully designed by \McA{} to comply with a vibration-response that is suitable for the probe head controller. The probe head is electrically connected by a gold wire that runs along the base-arm and is either soldered directly onto the cylinder or tightly wrapped around a conductive screw which is used to hold the probe head in place in its plastic holder. In the latter case, conductive silver paste suitable for \uhv{} environments is applied to the screw to ensure low resistance electrical connection. Contact potential difference measurements are severely negatively affected by non-ohmic back contacts. A second probe arm of the cryogenic system was fitted with an optical fibre to allow for laser illumination of the sample. However, in practice, it quickly became clear that such an illumination set-up was unsuitable for \spv{} measurements. This was due to several reasons. For suitable \cpd{} measurements, the probe head needs to be brought in very close proximity to the sample: distances on the scale of a few hundred micrometers are often necessary to obtain a sufficiently noise-free signal~\footnote{This adds to the practical danger of involuntarily crashing the vibrating probe head onto the sample, potentially damaging the sample, contaminating the probe head and generally interfering with conducting an experiment}. Therefore, there is simply not enough room for the exit of the optical fibre to be placed in a position where light would illuminate the sample. A further difficulty of the fibre illumination scheme are noticeable reductions in light intensity due to absorption in the fibre. After all, the fibre needs to be able withstand vacuum conditions and low temperatures, limiting the choice of suitable materials. Lastly, the fibre would provide a very localised spot of illumination. For a successful measurement of the \spv{}, the whole area under the probe head has to be saturated by illumination at the very least. Full saturation of the whole sample surface is in most cases desirable to suppress unwanted carrier recombination in the dark areas. For these reasons, it was decided to modify the probe head and employ a different illumination scheme. The cryogenic system's windows allow for illumination by a source of light placed outside the vacuum chamber, on top of the external window, focused onto the sample surface. To allow this scheme to work, the main body of the probe head needed to be hollowed out and holes needed to be drilled into the head's disk to let light pass through and onto the sample. Such a probe head, manufactured from stainless steel, was provided by \McA{} and used in initial experiments. When successful measurements were not forthcoming, three further modifications of the probe head were tried, all based on the same principle. The idea was to replace the massive disk with a wire-grid used for transmission electron microscopy (\tem{}). Three different types of wire-grids were purchased from Structure Probe Inc., a stiff, stainless steel grid with \SI{70}{\percent} opacity, two thin, flexible gold grids with \SIlist{70;60}{\percent} opacity respectively. The grids were laser-welded onto custom-made, hollowed out stainless steel cylinders. These new probe heads were manufactured by the Weizmann Institute's Department for Construction and Engineering. Care was taken to ensure acoustic vibration characteristics of the new probe heads were similar, if not identical to those of the original \McA{} probe heads. The wire-grids would add two benefits: they would increase the overall transmission of the probe head as well as allow for a more even illumination of the sample surface. In practice, however, no immediate, significant difference between the performance of the original hollow stainless steel probe head and the new, \tem{} wire-grid heads was found. At this point, an inherent limitation of the adopted illumination scheme has to be pointed out: namely that even in the ideal case, illumination from above will only result in an illuminated area directly under the probe head. The probe arm, probe head holder and even the edge of the hollow cylinder will all cast a a shadow on the sample, especially since they need to be placed directly above it.\\
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/ledspec}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/ledspec}
 	\caption{Typical relative spectral intensity of the LEDengine LED at an operating temperature of \SI{25}{\degreeCelsius}, taken from the vendor's supplementary information~\cite[p. 10]{ledengin}.}
 	\label{fig:ledspec}
 \end{figure}
@@ -154,7 +154,7 @@ n-\sih{} (100) with different resitivities/doping-levels is prepared according t
 The standard deviation of measured \cpd{} between spots of the same piece is comparable to that between pieces, so all obtained values were averaged. The values obtained across the three systems agree very well with each other and in the case of mid- and high-resistivity silicon also with theory, see Figure \ref{fig:nsih}. A three,  instead of only one, minute long HF etch did not influence the \cpd{} obtained for the low resistivity sample. A possible explanation for the deviation from theory might be found in the increased surface-reactivity of highly doped silicon: by the time the experiments are started, the silicon surface might already be oxidised. 
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\textwidth]{./figs/Sih}
+	\includegraphics[width=0.8\textwidth]{./figs/chap2/Sih}
 \caption{Summary of the calculated work functions for the n-\sih{} samples used. There is good agreement between the different systems and good agreement with theory, except for the case of low resistivity, highly doped silicon. Indicated errors include deviations in the samples \& the inaccuracy of calibration with \hopg{}.}
 	\label{fig:nsih}
 \end{figure}
@@ -166,13 +166,13 @@ Once it was established that results obtained from the three independent system 
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.95\linewidth]{./figs/HOPGMcA}
+	\includegraphics[width=0.95\linewidth]{./figs/chap2/HOPGMcA}
 	\caption{}
 	\label{fig:hopg-p1}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-	\includegraphics[width=0.95\linewidth]{./figs/HOPGMcAPres}
+	\includegraphics[width=0.95\linewidth]{./figs/chap2/HOPGMcAPres}
 	\caption{}
 	\label{fig:hopg-p2}
 \end{subfigure}
@@ -190,7 +190,7 @@ To determine the possible influence of temperature on the quality and reliabilit
 A necessary condition for the successful determination of the \spv{} of a sample is saturation with light. In practice, this means that the light-intensity during a measurement of the \spv{} is gradually increased up to the point where further increase in intensity does not lead to further increase of the measured surface photovoltage. Detailed interpretation of the measured signal is often problematic and requires intimate knowledge of the sample and even theoretical discussions of the \spv{} tend to be very involved. However, from the point of view of establishing whether a new experimental set-up is suitable for more advanced \spv{}-measurements, a successful, saturated measurement of the \spv{} of a relatively simple test-sample is a necessary precondition. To that end, \spv{} measurements of an alumina surface were chosen as a test case. Alumina was chosen for its stability, relative simplicity and because of its relatively large \spv{} signal. The sample is the same as used for the determination of the temperature dependence of the \cpd{}: 20 nm aluminium deposited by \ald{} onto a wafer of silicon. The preparation and cleaning protocol of the sample is the same as above: rinsing; sonication; oxidation and creation of an ohmic back-contact using InGa-eutectic. The sample's \spv{} was determined in the ambient probe station as is~\footnote{i.e. ambient probe station and xenon light source} and was found to be \SI{530+-20}{\milli\volt}. To check if the \led{} is a suitable source, it was installed in the ambient probe station and an \spv{} measurement was carried out. To facilitate the comparison between the systems, the ambient probe station's light focusing lens was removed as no such lens could readily be installed with the Lakeshore. Since the \led{} has a variable electrical source, it was possible to increase the current through the \led{} from \SIrange{1}{1.6}{\ampere} in steps of \SI{0.1}{\ampere}. In a set of preliminary experiments not reported here, it was established that the illumination intensity of the \led{} as determined from a standard silicon test-cell does indeed increase smoothly over the appropriate current range when combined with the Kelvin probe stations as described. The sample was introduced into the Lakeshore's inner chamber and the \led{} was placed on top of the vacuum chamber's outer window. The current through the \led{} was increased in the same steps as for the measurement in ambient and the results of the experiment are summarised in Figure \ref{fig:Iseries}.
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/currentseries}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/currentseries}
 	\caption{Comparison of the measured \spv{} as a function of illumination level as evidenced by the current through the \led{}. \enhyphen{Upstairs} refers to the combination of \led{} and the ambient probe station, while \enhyphen{Downstairs} refers to measurements with the \led{}, the \McA{} cryostation and the custom Lakeshore \kp{} probe head. \enhyphen{Old} signifies the weaker, damaged \led{} of nominally \SI{4200}{\lumen} intensity, while \enhyphen{new} refers to the fully functional \led{} of \SI{5400}{\lumen} intensity. Note that the measurement saturates independent of illumination intensity (\enhyphen{old} vs. \enhyphen{new}) at a lower measured \spv{} than the comparison with the ambient probe station.}
 	\label{fig:Iseries}
 \end{figure}
@@ -213,14 +213,14 @@ Before each measurement, the sample was subjected to the same cleaning procedure
 In the first experiment, the Lakeshore was cooled down to the lowest temperature achievable by liquid nitrogen cooling: \SI{97}{\kelvin} for this cryogenic system. During this cool-down, the \cpd{} was quickly measured at three points where the temperature remained relatively stable for a sufficient time. Once the lowest possible temperature was reached, the flow of nitrogen was stopped, the heater was set to \SI{300}{\kelvin} and the \cpd{} was measured continuously. This protocol allows for a quick measurement of the \cpd{}(T)-response of the system to identify the temperature range of interest, but uncertainties in temperature are introduced because of the temperature gradient present in the inner chamber and because of having to note down the temperature manually. The experiment had to be aborted. The data obtained during this initial experiment are shown in Figure \ref{fig:vox1}.\\
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/vox1}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/vox1}
 	\caption{Raw data of the contact potential difference of the \wvadiox{} sample obtained during a temperature-sweep. Data points in red were obtained while cooling down, data points in black were recorded while warming up.}
 	\label{fig:vox1}
 \end{figure}
 For the next experiment, the temperature range was extended and more care was taken to more accurately determine the temperature. The system was cooled down to \SI{100}{\kelvin} and gradually increased. The \cpd{} was measured at 11 well defined temperatures. For each of these temperatures, the flow of liquid nitrogen and the heater setting were carefully adjusted until all three of the cryogenic system's temperature read-outs were within a range of \SI{5}{\kelvin} of each other. Holding the temperature constant, the \cpd{} was then recorded once every second for a period of 100 seconds and these data were averaged. The temperature was increased to the next set-point and the procedure was repeated. The observations of this experiment are plotted in Figure \ref{fig:vox2}. The uncertainty in \cpd{} was taken to be twice the standard deviation of \cpd{} values obtained during the 100 second period. Uncertainty in temperature is not shown but assumed to be less than \SI{5}{\kelvin}.\\
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/vox2}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/vox2}
 	\caption{The contact potential difference of the \wvadiox{} sample as a function of temperature. Experimental uncertainties are explained in the text.}
 	\label{fig:vox2}
 \end{figure}
@@ -228,7 +228,7 @@ In the last experiment, both dark and light \cpd{} were measured for the same sa
 Probably the most remarkable feature of these measurements is the sudden drop in \cpd{} (sudden rise in \wf{}) at $\sim$ \SI{120}{\kelvin} and the consequent sudden rise in \cpd{} around $\sim$ \SI{170}{\kelvin} seen in both Figure \ref{fig:vox1} and Figure \ref{fig:vox2}. Since these features were observed during cool down as well as during heating up in the first and were again observed in the second, independent measurement, they are most likely not an artefact of the measurement, nor should they be ascribed to simple experimental failure. They represent a change in work function of $\sim$ \SIrange{200}{400}{\milli\electronvolt} which is remarkably large. Such changes can most likely not be explained by changes in shielding of accumulated surface-charges or repositioning of the Fermi level. A (reversible) surface-reconstruction or even a (reversible) change of chemical composition might be able to explain the data, but without further measurements, we cannot be sure. To the best of my knowledge, neither a structural reconstruction nor a change in \wf{} at the temperatures is question has yet been reported in the literature for \wvadiox{}. In conjunction with the measurements carried out by Nir Kedem, the experiments reported in the literature and those summarised in Figure \ref{fig:vox3}, it has to be assumed that the changes in \wf{} seen at around \SIlist{120;170}{\kelvin} are not explained by the known \mit{} of vanadium-dioxide. The difference in \cpd{} between heating up and cooling down seen in Figure \ref{fig:vox1} might be taken as evidence for hysteresis at lower temperatures than previously observed, but the data is sparse, so no conclusive explanation can be drawn from them. Figure \ref{fig:vox2} on the whole corroborates what was observed in the initial, relatively inaccurate experiment even though the size of the observed effect is greater, but nothing more can be concluded from these measurements alone.\\
 \begin{figure}
 \centering
-	\includegraphics[width=0.8\linewidth]{./figs/vox3}
+	\includegraphics[width=0.8\linewidth]{./figs/chap2/vox3}
 	\caption{Measured surface photovoltage and calculated work function for the \wvadiox{} sample as a function of temperature. The appearance of an \spv{} coincides with the \mit{} temperatures observed in earlier measurements, its positive sign indicates an n-type semiconductor. The change in \wf{} is substantial but remains unexplained without further experiments. Experimental uncertainties are explained in the text.}
 	\label{fig:vox3}
 \end{figure}

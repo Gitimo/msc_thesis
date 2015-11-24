@@ -136,7 +136,7 @@
 \usepackage{booktabs} % Required for better table rules
 
 %\RequirePackage[centerlast,small,sc]{caption} 	% original
-\RequirePackage[small,sc]{caption}			% My choice
+\RequirePackage[hang,small,sc]{caption}			% My choice
 \setlength{\captionmargin}{50pt}
 
 %----------------------------------------------------------------------------------------
