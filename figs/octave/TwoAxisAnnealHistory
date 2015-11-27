@@ -1,0 +1,540 @@
+T=[1,2,3]
+clear T
+T=[180,200,220,240,260,280,300];
+dcpd=[-0.758,-0.727,-0.711,-0.682,-0.614,-0.582];
+lcpd=[-0.736,-0.705,-0.653,-0.56,-0.555,-0.562,-0.577];
+spv=lcdp-dcpd;
+spv=lcpd-dcpd;
+dcpd=[-0.758,-0.727,-0.711,-0.682,-0.614,-0.536,-0.582];
+spv=lcpd-dcpd;
+plot(T,dcps,T,lcpd)
+plot(T,dcpd,T,lcpd)
+plot(T,dcpd,'b.',T,lcpd,'rx')
+plot(1./T,dcpd,'b.',1./T,lcpd,'rx')
+ln(dcpd)
+log(dcpd)
+log(abs(dcpd))
+plot(T,log(abs(dcpd)),'b.',T,log(abs(lcpd)),'rx')
+plot(T,spv,'rx')
+4.41+0.758
+wf=5.168-dcpd;
+ax = plotyy (T,wf,'bx',T,spv,'r+')
+clf
+[ax,h1,h2] = plotyy (T,wf,T,spv)
+set(h1,'linestyle','bx')
+set(h1,'linestyle','x')
+help linestyle
+set(h1,'marker','x')
+set(h2,'marker','+')
+set([h1,h2],'linestyle','none')
+clf
+[ax,h1,h2] = plotyy (T,wf,T,spv,@bar)
+set(h2,'width',0.4)
+clf
+[ax,h1,h2] = plotyy (T,wf,T,spv,@bar)
+set(h2,'width',0.4)
+clf
+[ax,p,b]=plotyy(T,wf,T,spv,'plot','bar')
+b.Width=0.4;
+set(b,'Width',0.4)
+help bar
+set(b,'W',0.4)
+set(b,'facecolor','r')
+set(b,'basevalue',0.4)
+set(b,'basevalue',0)
+doc bar
+clf
+bar(T,spv)
+get(gca(),"default")
+get(0,"factory")
+get(gca(),"factory")
+clf
+h=bar(T,spv);
+get(h)
+set(h,'linewidth',0.2)
+set(h,'barwidth',0.4)
+clf
+[ax,p,b]=plotyy(T,wf,T,spv,'plot','bar')
+set(b,'barwidth',0.4,'facecolor','red')
+hold on
+plot(T,cpd)
+plot(T,dcpd)
+clf
+[ax,p,b]=plotyy(T,wf,T,spv,'plot','bar')
+set(b,'barwidth',0.4,'facecolor','red')
+hold on
+n=plot(T,wf)
+clf
+hold off
+clf
+[ax,b,p]=plotyy(T,spv,T,wf,'bar','plot')
+set(b,'barwidth',0.4,'facecolor','red')
+set(p,'linewidth',2,'marker','x')
+get(p,'markersize')
+set(p,'markersize',8)
+set(p,'markersize',10)
+clf
+[ax,b,p]=plotyy(T,1000*spv,T,wf,'bar','plot')
+set(b,'barwidth',0.4,'facecolor','red')
+set(p,'linewidth',2,'marker','x')
+set(p,'markersize',10)
+set(p,'linecolor','blue','markercolor','blue')
+get(p)
+set(p,'markeredgecolor','blue')
+set(p,'color','blue')
+xlabel ('Temperature (K)')
+ylabel (ax(1),'Surface Photo Voltage (mV)')
+ylabel (ax(1),'Work function (eV)')
+ylabel (ax(1),'Surface Photo Voltage (mV)')
+ylabel (ax(2),'Work function (eV)')
+get(ax)
+get(ax,'ycolor')
+set(ax(1),'ycolor','red')
+set(ax(2),'ycolor','blue')
+get(ax,'ylabel')
+get(ax(1),'ylabel')
+get(p)
+get(ax)
+get(ax,'ylabel')
+set(get(ax(1),'ylabel'),'color','red')
+set(get(ax(2),'ylabel'),'color','blue')
+get(ax,'xlim')
+set(ax(1),'xlim',[160 320])
+set(ax(2),'xlim',[160 320])
+get(p,'ylim')
+get(ax(2),'ylim')
+set(ax(2),'ylim',[5.65 5.95])
+get(ax)
+get(ax,'axtick')
+get(ax,'xtick')
+set(ax(2),'xtick',[180 200 220 240 260 280 300])
+get(ax,'xlabel')
+set(get(ax,'xlabel'),'fontsize',14)
+set(get(ax,'xlabel')(1),'fontsize',14)
+set(get(ax(1),'xlabel'),'fontsize',14)
+set(get(ax(1),'xlabel'),'fontsize',20)
+set(get(ax(1),'xlabel'),'fontsize',40)
+set(get(ax(2),'xlabel'),'fontsize',40)
+set(get(ax(2),'xlabel'),'fontsize',20)
+set(get(ax(2),'xlabel'),'fontsize',15)
+set(get(ax(2),'xlabel'),'fontsize',18)
+set(get(ax(2),'ylabel'),'fontsize',18)
+set(get(ax(2),'ylabel'),'fontsize',16)
+set(get(ax(1),'ylabel'),'fontsize',16)
+set(get(ax(2),'xlabel'),'fontsize',16)
+perror = errorbar (ax(2),T,wf,0.2)
+clf(perror)
+cla(perror)
+delete(perror)
+perror = errorbar (ax(2),T,wf,0.02)
+set(perror,'color','blue')
+set(perror,'linesize',6)
+get(perror)
+set(perror,'linewidth',0.8,'markersize',10)
+set(perror,'linewidth',10,'markersize',10)
+set(perror,'linewidth',2,'markersize',10)
+set(perror,'linewidth',3,'markersize',10)
+get(perror)
+hold on
+berror=errorbar (ax(1),T,spv*1000,25)
+set(berror,'linestyle','none')
+set(berror,'markeredgecolor','black')
+set(berror,'color','black')
+get(gca())
+get(ax(1),'ylim')
+set(ax(1),'ylim',[-50 150])
+delete(berror)
+berror=errorbar (ax(1),T,spv*1000,20)
+set(berror,'linestyle','none','color','black')
+get(berror,'linewidth')
+set(berror,'linewidth',0.8)
+set(berror,'linewidth',1)
+set(berror,'linewidth',3)
+set(berror,'linewidth',2)
+h
+planck=6.626*10^(-34);
+c
+c=299792458;
+wl
+wl=400*10^(-9);
+E
+E=planck*c/wl
+E*6.241509*10^(18)
+dcpd
+5.165+dcpd(1)
+wfprobe=5.165+dcpd(1);
+wfs=wfprobe-dcpd
+delete(perror)
+hold on
+perror = errorbar (ax(2),T,wfs,0.02)
+get(ax(2),'ylim')
+set(ax(2),'ylim',[4.9 5.2])
+set(perror,'color','blue','linesize',3)
+set(perror,'color','blue','linewidth',3)
+spv
+max(wfs)
+quit()
+# Octave 3.8.1, Thu Nov 05 02:15:32 2015 CET <timo@timo-P35-DS3>
+k=8.617e-5
+k=0.08617
+k*300
+k*100
+3*k*220
+# Octave 3.8.1, Fri Nov 06 01:07:11 2015 CET <timo@timo-P35-DS3>
+1.9/4.74*100
+quit()
+# Octave 3.8.1, Sat Nov 21 13:55:02 2015 CET <timo@timo-P35-DS3>
+t=[50,60,80,110,120,130,140]
+c=[35,38,45,62,75,84,88]
+p=[80,83,85,98,118,127,130]
+ax = plotyy(t,p,t,c)
+set(ax(1),color,'red')
+get(ax(1))
+set(ax(1),color,'red')
+set(ax(1),'color','red')
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+get(h1)
+set(h1,'color','red')
+set(h2,'color','blue')
+get(h1)
+get(ax)
+get(ax,'ycolor')
+get(ax,'ycolor'(1))
+get(ax,'ycolor')(1)
+set(get(ax,'ycolor')(1),'red')
+set(ax,get(ax,'ycolor')(1),'red')
+set(ax,'ycolor','red')
+set(ax(2),'ycolor','blue')
+set(ax,'xlim',[40 150])
+set(ax(1),'ylim',[70 140])
+hold on
+set(ax,'xlabel','Annealing Temperature (°C)')
+set(ax(1),'ylabel','$P_r$ (mC/m
+set(ax(1),'ylabel','$P_r$ (mC/m²)'
+)
+set(ax(1),'ylabel','P_r (mC/m²)')
+set(ax(2),'ylabel','Crystallinity (%)')
+get(ax,'fontsize')
+set(ax,'fontsize',15)
+get(ax(1))
+get(ax)
+get(ax,'linewidth')
+set(ax,'linewidth',0.9)
+set(ax,'linewidth',2)
+set(ax(1),'linewidth',2)
+get(ax(1)
+)
+get(ax)
+get(ax,'children')
+set(ax(1),'marker','x')
+get(ax(1))
+get(h1)
+set(h1,'linewidth',2')
+set(h2,'linewidth',2')
+set(h1,'marker','x')
+set(h1,'marker','o')
+set(h2,'marker','x')
+get(h1,'markersize')
+set(h1,'markersize',8)
+set(h1,'markersize',10)
+set(h2,'markersize',10)
+get(h1)
+xlabel('Annealing Temperature (°C)','fontsize',15)
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+hx = xlabel('Annealing Temperature (°C)')
+set(hx,'fontsize',15)
+set(ax,'fontsize',15)
+set(ax(1),'color','red')
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+hx = xlabel('Annealing Temperature (°C)')
+set(ax,'fontsize',15)
+set(hx,'fontsize',15)
+set(ax,'xlim',[40 150])
+set(ax(1),'ylim',[70 140])
+set(ax(1),'ylabel','P_r (mC/m²)','fontsize',15)
+get(ax(1),'ylabel')
+get(ax(1))
+set(get(ax(1),'ylabel'),'fontsize',15)
+set(ax(2),'ylabel','Crystallinity (%)')
+set(get(ax(2),'ylabel'),'fontsize',15)
+set(ax,'linewidth',2)
+set(h1,'linewidth',2)
+set(h2,'linewidth',2)
+set(h2,'color','blue')
+set(h1,'color','blue')
+set(h1,'color','red')
+get(ax(1))
+set(ax(1),'color','red')
+set(ax(1),'color','none')
+set(h1,'color','red')
+get(ax(1))
+set(ax(1),'ycolor','red')
+set(ax(2),'ycolor','blue')
+get(get(ax(1),'ylabel')
+)
+set(get(ax(1),'ylabel'),'color','red')
+set(get(ax(2),'ylabel'),'color','blue')
+set(h1,'marker','o','markersize',2)
+set(h1,'marker','o','markersize',10)
+set(h2,'marker','x','markersize',10)
+set(h2,'marker','+','markersize',10)
+set(h2,'marker','o','markersize',10)
+set(ax(2),'ylim',[30 95])
+set(ax(1),'ylim',[75 135])
+set(ax(1),'ylim',[80 130])
+set(ax(1),'ylabel','Y1')
+set(ax(2),'ylabel','Y2')
+set(hx,'X')
+set(hx,'xlabel','X')
+get(ax,'xlabel')
+set(ax,'xlabel','X')
+set(ax,'xlabel','')
+set(ax(2),'ylabel','')
+set(ax(1),'ylabel','')
+get(ax)
+get(ax,'dataaspectratio')
+get(ax,'plotboxaspectratio')
+get(ax,'plotboxaspectratiomode')
+set(ax,'plotboxaspectratio',[1.41 1 1])
+set(ax,'plotboxaspectratio',[2 1 1])
+yerr=[3,3,4,5,6,6,6]
+set(ax,'plotboxaspectratio',[1.41 1 1])
+set(ax,'plotboxaspectratio',[3 2 1])
+hold on
+herr = errorbar(t,c,yerr)
+set(herr,'color','black')
+get(herr)
+set(herr,'linestyle','none')
+set(herr,'linewidth',2)
+cinterp=interp1(t,c,[40:0.05:150],'spline');
+tinter=[40:0.05:150];
+hold on
+plot(tinter,cinterp)
+gco
+clf
+ax = plotyy(t,p,t,c)
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+set(ax,'linewidth',2)
+set(h1,'linewidth',2)
+set(h2,'linewidth',2)
+set(h1,'marker,'o','markersize',10)
+set(h1,'marker','o','markersize',10)
+set(h2,'marker','o','markersize',10)
+set(h1,'color','red')
+set(h2,'color','blue')
+set(ax(1),'ycolor','red')
+set(ax(2),'ycolor','blue')
+set(ax,'fontsize',15)
+set(ax,'plotboxaspectratio',[3 2 1])
+set(ax,'xlim',[40 150])
+xint=[40:0.05:150];
+cint=interp1(t,c,xint,'spline');
+pint=interp1(t,p,xint,'spline');
+hold on
+herr = errorbar(t,c,yerr)
+set(herr,'linestyle','none','color','black','linewidth',2)
+set(h1,'linestyle','none')
+set(h2,'linestyle','none')
+cip=plot(xint,pint);
+set(cip,'xlim',[40 150])
+get(cip)
+clf(cip)
+cip
+get(cip)
+set(cip,'visibility','off')
+set(cip,'visible','off')
+cinter(1)
+cinterp(1)
+cinterp(2)
+cinterp
+xint=[40:1:150];
+cint=interp1(t,c,xint,'spline');
+pint=interp1(t,p,xint,'spline');
+cint
+xint=[50:1:140];
+cint=interp1(t,c,xint,'spline');
+pint=interp1(t,p,xint,'spline');
+cint
+refresh()
+xint=[40:1:150];
+cint=interp1(t,c,xint,'spline','extrap');
+pint=interp1(t,p,xint,'spline','extrap');
+cint
+hold on
+hcip=plot(xint,cint,'b-')
+hpip=plot(xint,pint,'r-')
+pint=interp1(t,p,xint,'pchip','extrap');
+set(hpip,'visible','off')
+hpip=plot(xint,pint,'r-')
+p
+pint
+set(hpip,'visible','off')
+pint=interp1(t,p,xint,'pchip','extrap');
+pint=interpft(p,200);
+hpip=plot(xint,pint,'r-')
+length(xint)
+pint=interpft(p,111);
+hpip=plot(xint,pint,'r-')
+set(hpip,'visible','off')
+pint=polyfit(t,p,5);
+pint
+t
+p
+[pint,pstruct]=polyfit(t,p,5);
+pstruct 
+pstruct {yf}
+get(pstruct,'yf')
+pstruct (1)
+pstruct[1]
+pstruct(1)
+yf
+pstruct.yf
+[poly,pstruct]=polyfit(t,p,5);
+pint=polyval(poly,xint);
+pint
+xint 
+hpip=plot(xint,pint,'r-')
+pint
+set(hpip,'visible','off')
+hpip=plot(ax(1),xint,pint,'r-')
+set(hpip,'visible','off')
+pint=interp1(t,p,xint,'pchip','extrap');
+hpip=plot(ax(1),xint,pint,'r-')
+set(cip,'visible','off')
+pint=interp1(t,p,xint,'spline','extrap');
+hpip=plot(ax(1),xint,pint,'r-')
+set(-36.035,'visible','off')
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+set(ax,'plotboxaspectratio',[1.41 1 1])
+herr = errorbar(t,c,yerr)
+set(ax,'xlim',[40 150])
+set(ax,'plotboxaspectratio',[3 2 1])
+set(ax,'fontsize',15)
+set(ax(2),'ycolor','blue')
+set(ax(1),'ycolor','red')
+set(ax,'linewidth',2)
+set(ax,'linewidth',2)
+set(herr,'linestyle','none','color','black','linewidth',2)
+set(h1,'color','red')
+set(h1,'linestyle','none')
+set(h1,'marker','o','markersize',10)
+set(h2,'marker','o','markersize',10)
+clf
+[ax,h1,h2] = plotyy(t,p,t,c)
+hold on
+herr = errorbar(t,c,yerr)
+set(h2,'marker','o','markersize',10)
+set(h1,'marker','o','markersize',10)
+set(h1,'linestyle','none')
+set(h1,'color','red')
+set(herr,'linestyle','none','color','black','linewidth',2)
+set(ax,'linewidth',2)
+set(ax(1),'ycolor','red')
+set(ax(2),'ycolor','blue')
+set(ax,'fontsize',15)
+set(ax,'plotboxaspectratio',[3 2 1])
+set(ax,'xlim',[40 150])
+set(h2,'linestyle','none')
+set(h2,'color','blue')
+pint=interp1(t,p,xint,'spline','extrap');
+cint=interp1(t,c,xint,'spline','extrap');
+hpip=(ax(1),xint,pint,'r-')
+hpip=plot(ax(1),xint,pint,'r-')
+hcip=plot(ax(2),xint,cint,'b-')
+tnew[1:6]=t
+tnew=t
+t[8]=160
+t(8)=160
+pnew=p;
+pnew(8)=p(6)
+pintnew=interp1(tnew,pnew,[40:0.5:160],'spline','extrap');
+tnew
+pnew
+tnew(8)=160;
+pintnew=interp1(tnew,pnew,[40:0.5:160],'spline','extrap');
+hpipnew=plot(ax(1),xint,pint,'r-')
+set(hpipnew,'visible','off')
+hpipnew=plot(ax(1),[40:0.5:160],pintnew,'r-')
+set(hpip,'visible','off')
+set(hpipnew,'visible','off')
+tnew=[50 60 80 100 110 120 130 140 160]
+tnew=[50 60 80 95 110 120 130 140 160]
+pnew=[80 83 85 90 98 118 127 130 130]
+xintnew=[40:0.5:160];
+pintnew=interp1(tnew,pnew,[40:0.5:160],'spline','extrap');
+hpipnew=plot(ax(1),[40:0.5:160],pintnew,'r-')
+pnew=p;
+tnew=t;
+set(hpipnew,'visible','off')
+pnew(8)=130;
+tnew(8)=160;
+pintnew=interp1(tnew,pnew,[40:0.5:160],'spline','extrap');
+hpipnew=plot(ax(1),[40:0.5:160],pintnew,'r-')
+set(h1,'markerfacecolor','red')
+set(h2,'markerfacecolor','blue')
+set(ax(2),'ylim',[30 95])
+set(ax(1),'ylim',[75 135])
+set(ax(1),'ylim',[70 135])
+set(ax(1),'ylim',[75 135])
+set(ax(1),'ylim',[78 135])
+quit()
+# Octave 3.8.1, Thu Nov 26 03:09:45 2015 CET <timo@timo-P35-DS3>
+t=[50 60 80 110 120 130 140];
+c=[35 38 45 62 75 84 88];
+tn=[50 60 80 110 120 130 140 160];
+p=[80 83 85 98 118 123 127 130};
+p=[80 83 85 98 118 123 127 130];
+pn=p;
+pn(8)=130;
+yerr=[2.5 2.5 3 5 6 6.5 7];
+[ax,h1,h2]=plotyy(t,p,t,c);
+t
+p
+clear p pn
+p=[80 83 85 98 118 127 130];
+length(p)
+pn=p;
+pn(8)=130;
+length(yerr)
+[ax,h1,h2]=plotyy(t,p,t,c);
+set(ax,'linewidth',2,'fontsize',15,'xlim',[40 150])
+set(ax(1),'ycolor','red','ylim',[0 140])
+set(ax(1),'ycolor','blue','ylim',[0 100])
+set(ax(1),'ycolor','red','ylim',[0 140])
+set(ax(2),'ycolor','blue','ylim',[0 100])
+set(ax,'linewidth',2,'fontsize',15,'xlim',[40 150])
+clf
+[ax,h1,h2]=plotyy(t,p,t,c);
+set(ax,'linewidth',2,'fontsize',15,'xlim',[40 150])
+set(ax(1),'ycolor','red','ylim',[0 140])
+set(ax(2),'ycolor','blue','ylim',[0 100])
+set(h1,'linestyle','none','marker','o','markersize',10,'color','red','markerfacecolor','red')
+set(h2,'linestyle','none','marker','o','markersize',10,'blue','red','markerfacecolor','blue')
+set(h2,'linestyle','none','marker','o','markersize',10,'color','blue','markerfacecolor','blue')
+hold on
+herr=(ax(2),t,yerr)
+herr=errorbar(ax(2),t,yerr)
+herr=errorbar(ax(2),t,yerr)
+herr=errorbar(t,yerr)
+herr=errorbar(ax(2),t,c,yerr)
+set(herr,'linestyle','none','color','black','linewidth',2)
+xint=[40:0.5:160];
+pint=interp1(tn,pn,xint,'spline',extrap);
+pint=interp1(tn,pn,xint,'spline','extrap');
+cint=interp1(t,c,xint,'spline','extrap');
+hpip=plot(ax(1),xint,pint,'r-');
+hpip=plot(ax(2),xint,cint,'b-');
+set(ax,'plotboxaspectratio',[3 2 1])
+pwd
+cd ./Documents/Studium
+pwd
+cd MasterThese/
+cd figs
+cd octave
+save('TwoYAxisAnneal');
+history -w 'TwoAxisAnnealHistory';

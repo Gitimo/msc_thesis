@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{atkins}
-Peter Atkins and Julio De~Paula.
-\newblock {\em Atkins' Physical Chemistry}.
-\newblock Oxford University Press, 8th edition, 2006.
-
 \bibitem{kittel}
 Charles Kittel.
 \newblock {\em Introduction to Solid State Physics}.
@@ -15,12 +10,52 @@ Mel~M. Schwartz, editor.
 \newblock {\em Encyclopedia of Smart Materials}, volume 1 and 2.
 \newblock John Wiley and Sons, Inc., 2002.
 
+\bibitem{lakeshore}
+{Lake} {Shore}~{Cryotronics} {Inc.}
+\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
+\newblock
+  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
+  2015.
+
+\bibitem{ledengin}
+{LED} {Engin}.
+\newblock {LZP-00CW0R}.
+\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
+  2015.
+
+\bibitem{atkins}
+Peter Atkins and Julio De~Paula.
+\newblock {\em Atkins' Physical Chemistry}.
+\newblock Oxford University Press, 8th edition, 2006.
+
+\bibitem{takeo}
+Takeo Furukawa.
+\newblock Ferroelectric properties of vinylidene fluoride copolymers.
+\newblock {\em Phase Transitions}, 18(3-4):143--211, 1989.
+
+\bibitem{chen_lbpvdf}
+Shuting Chen, Xue Li, Kui Yao, Francis Eng~Hock Tay, Amit Kumar, and Kaiyang
+  Zeng.
+\newblock Self-polarized ferroelectric \{PVDF\} homopolymer ultra-thin films
+  derived from langmuir–blodgett deposition.
+\newblock {\em Polymer}, 53(6):1404 -- 1408, 2012.
+
+\bibitem{kliem_lbpvdf}
+R~Tadros-Morgane and H~Kliem.
+\newblock Polarization curves of langmuir–blodgett pvdf-copolymer films.
+\newblock {\em Journal of Physics D: Applied Physics}, 39(22):4872, 2006.
+
 \bibitem{NPsynthesis}
 Zhengguo Xiao, Qingfeng Dong, Pankaj Sharma, Yongbo Yuan, Baodong Mao, Wenjing
   Tian, Alexei Gruverman, and Jinsong Huang.
 \newblock Synthesis and application of ferroelectric {P}({VDF-TrFE})
   nanoparticles in organic photovoltaic devices for high efficiency.
 \newblock {\em Advanced Energy Materials}, 3(12):1581--1588, 2013.
+
+\bibitem{silverstein}
+Todd~P. Silverstein.
+\newblock The real reason why oil and water don't mix.
+\newblock {\em Journal of Chemical Education}, 75(1):116, 1998.
 
 \bibitem{gaaslifetime}
 O.~D. Miller, E.~Yablonovitch, and S.~R. Kurtz.
@@ -80,6 +115,25 @@ A.~B. Sproul.
   surface recombination on carrier decay in semiconductors.
 \newblock {\em Journal of Applied Physics}, 76(5):2851--2854, 1994.
 
+\bibitem{kang_annealspeed}
+Seok~Ju Kang, Youn~Jung Park, Jinwoo Sung, Pil~Sung Jo, Cheolmin Park, Kap~Jin
+  Kim, and Beong~Ok Cho.
+\newblock Spin cast ferroelectric beta poly(vinylidene fluoride) thin films via
+  rapid thermal annealing.
+\newblock {\em Applied Physics Letters}, 92(1), 2008.
+
+\bibitem{ducharme_finitesize}
+Stephen Ducharme, V.~M. Fridkin, A.~V. Bune, S.~P. Palto, L.~M. Blinov, N.~N.
+  Petukhova, and S.~G. Yudin.
+\newblock Intrinsic ferroelectric coercive field.
+\newblock {\em Phys. Rev. Lett.}, 84:175--178, Jan 2000.
+
+\bibitem{naber_cyclo}
+R.~C.~G. Naber, B.~de~Boer, P.~W.~M. Blom, and D.~M. de~Leeuw.
+\newblock Low-voltage polymer field-effect transistors for nonvolatile
+  memories.
+\newblock {\em Applied Physics Letters}, 87(20), 2005.
+
 \bibitem{tempdepmet}
 Mohamed Akbi.
 \newblock {\em On the Temperature Dependence of the Photoelectric Work Function
@@ -135,19 +189,6 @@ L~Kronik.
 Besocke Delta~PHI GmbH.
 \newblock Kelvin system.
 \newblock \url{http://www.besocke-delta-phi.de/kelvin.htm}, 2005.
-
-\bibitem{lakeshore}
-{Lake} {Shore}~{Cryotronics} {Inc.}
-\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
-\newblock
-  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
-  2015.
-
-\bibitem{ledengin}
-{LED} {Engin}.
-\newblock {LZP-00CW0R}.
-\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
-  2015.
 
 \bibitem{nakano_gapopen}
 M.~Nakano, K.~Shibuya, D.~Okuyama, T.~Hatano, S.~Ono, M.~Kawasaki, Y.~Iwasa,

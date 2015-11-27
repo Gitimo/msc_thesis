@@ -40,6 +40,12 @@
 \newcommand{\np}{NP}
 \newcommand{\nps}{NPs}
 \newcommand{\opvs}{OPVs}
+\newcommand{\trfe}{TrFE}
+\newcommand{\pvfe}{P(VDF-TrFE)}
+\newcommand{\lb}{LB}
+\newcommand{\boe}{BOE}
+\newcommand{\dmf}{DMF}
+\newcommand{\thf}{THF}
 
 %Chemicals
 \newcommand{\sih}{\text{Si--H}}

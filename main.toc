@@ -1,48 +1,55 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Enhancing Solar Cell Efficiency with a Ferroelectric Polymer}{1}{chapter.5}
-\contentsline {section}{\numberline {1.1}Introduction}{2}{section.6}
-\contentsline {section}{\numberline {1.2}PVDF{}}{2}{section.7}
-\contentsline {section}{\numberline {1.3}Experimental Techniques}{2}{section.8}
-\contentsline {subsection}{\numberline {1.3.1}Contact Potential Difference and Surface Photovoltage}{2}{subsection.9}
-\contentsline {subsection}{\numberline {1.3.2}Determination of Excess Carrier Lifetimes}{2}{subsection.10}
-\contentsline {subsection}{\numberline {1.3.3}Infrared Spectroscopy}{4}{subsection.18}
-\contentsline {subsection}{\numberline {1.3.4}Ellipsometry}{5}{subsection.20}
-\contentsline {subsection}{\numberline {1.3.5}Electron Microscopy}{5}{subsection.22}
-\contentsline {subsection}{\numberline {1.3.6}IV}{5}{subsection.23}
-\contentsline {subsection}{\numberline {1.3.7}Dynamic Light Scattering}{5}{subsection.24}
-\contentsline {section}{\numberline {1.4}Experimental Work \& Results}{7}{section.29}
-\contentsline {subsection}{\numberline {1.4.1}Sample Prep}{7}{subsection.30}
-\contentsline {subsubsection}{Si-H}{7}{section*.31}
-\contentsline {subsection}{\numberline {1.4.2}PVDF{} poling, annealing}{7}{subsection.32}
-\contentsline {subsubsection}{Nanoparticles}{7}{section*.33}
-\contentsline {subsection}{\numberline {1.4.3}CPD SPV}{7}{subsection.34}
-\contentsline {subsubsection}{Standard Experiments}{7}{section*.35}
-\contentsline {subsubsection}{Pole-Reverse-Pole}{7}{section*.36}
-\contentsline {subsection}{\numberline {1.4.4}Lifetimes}{7}{subsection.37}
-\contentsline {subsection}{\numberline {1.4.5}Ellipsometry}{7}{subsection.38}
-\contentsline {subsection}{\numberline {1.4.6}IR{}}{7}{subsection.39}
-\contentsline {subsection}{\numberline {1.4.7}IV}{7}{subsection.40}
-\contentsline {subsection}{\numberline {1.4.8}Microscopy}{7}{subsection.41}
-\contentsline {subsection}{\numberline {1.4.9}DLS{}}{7}{subsection.42}
-\contentsline {section}{\numberline {1.5}Discussion}{7}{section.43}
-\contentsline {chapter}{\numberline {2}Temperature Dependent Surface Photovoltage}{9}{chapter.44}
-\contentsline {section}{\numberline {2.1}Introduction}{10}{section.45}
-\contentsline {section}{\numberline {2.2}Theory}{10}{section.46}
-\contentsline {subsection}{\numberline {2.2.1}The Contact Potential Difference and the Kelvin Probe}{10}{subsection.47}
-\contentsline {subsection}{\numberline {2.2.2}The Surface Photovoltage and Band Bending}{12}{subsection.58}
-\contentsline {section}{\numberline {2.3}Kelvin Probes in use}{14}{section.67}
-\contentsline {subsection}{\numberline {2.3.1}The Lakeshore Cryogenic System coupled with a Mc Allister{} Kelvin Probe}{14}{subsection.68}
-\contentsline {section}{\numberline {2.4}Measuring \text {CPD}{} at room temperature}{17}{section.72}
-\contentsline {subsection}{\numberline {2.4.1}Sample Preparation}{17}{subsection.73}
-\contentsline {subsection}{\numberline {2.4.2}Results \& Discussion}{18}{subsection.74}
-\contentsline {section}{\numberline {2.5}\text {CPD}{} as function of pressure and temperature}{18}{section.76}
-\contentsline {subsection}{\numberline {2.5.1}\text {CPD}{} as a function of pressure}{18}{subsection.77}
-\contentsline {subsection}{\numberline {2.5.2}\text {CPD}{} as a function of temperature}{19}{subsection.79}
-\contentsline {subsection}{\numberline {2.5.3}Conclusion}{20}{subsection.81}
-\contentsline {section}{\numberline {2.6}Measuring the SPV{} at room temperature}{20}{section.82}
-\contentsline {section}{\numberline {2.7}Temperature dependent measurement of the SPV{}}{22}{section.87}
-\contentsline {subsection}{\numberline {2.7.1}Vanadium oxide}{23}{subsection.88}
-\contentsline {subsubsection}{Discription of samples and preliminary research carried out at the Cahen group}{23}{section*.89}
-\contentsline {subsubsection}{Experimental procedure, results and discussion}{24}{section*.90}
-\contentsline {section}{\numberline {2.8}Conclusion}{28}{section.94}
-\contentsline {chapter}{List of References}{31}{appendix*.95}
+\contentsline {chapter}{\numberline {1}Enhancing Solar Cell Efficiency with a Ferroelectric Polymer}{1}{chapter.6}
+\contentsline {section}{\numberline {1.1}Introduction and Motivation}{2}{section.7}
+\contentsline {section}{\numberline {1.2}Ferroelectricity}{3}{section.9}
+\contentsline {section}{\numberline {1.3}Polyvinylidene Difluorite and its Copolymers}{5}{section.18}
+\contentsline {subsection}{\numberline {1.3.1}P(VDF){} Nanoparticles}{8}{subsection.28}
+\contentsline {section}{\numberline {1.4}Experimental Techniques}{10}{section.29}
+\contentsline {subsection}{\numberline {1.4.1}Contact Potential Difference and Surface Photovoltage}{10}{subsection.30}
+\contentsline {subsection}{\numberline {1.4.2}Determination of Excess Carrier Lifetimes}{10}{subsection.31}
+\contentsline {subsection}{\numberline {1.4.3}Infrared Spectroscopy}{12}{subsection.39}
+\contentsline {subsection}{\numberline {1.4.4}Ellipsometry and Contact Profilometry}{13}{subsection.43}
+\contentsline {subsubsection}{Ellipsometry}{13}{section*.44}
+\contentsline {subsubsection}{Contact Profilometry}{13}{section*.46}
+\contentsline {subsection}{\numberline {1.4.5}Electron Microscopy}{14}{subsection.47}
+\contentsline {subsection}{\numberline {1.4.6}IV-Curves}{14}{subsection.48}
+\contentsline {subsection}{\numberline {1.4.7}Dynamic Light Scattering}{15}{subsection.51}
+\contentsline {section}{\numberline {1.5}Experimental Approach, Results and Discussion}{16}{section.57}
+\contentsline {subsection}{\numberline {1.5.1}Sample Preparation}{16}{subsection.58}
+\contentsline {subsubsection}{\text {Si--H}{} Substrates}{16}{section*.59}
+\contentsline {subsubsection}{P(VDF-TrFE 70:30){} Thin Films}{17}{section*.60}
+\contentsline {subsubsection}{P(VDF-TrFE 70:30){} Nanoparticles}{18}{section*.61}
+\contentsline {subsection}{\numberline {1.5.2}CPD SPV}{19}{subsection.62}
+\contentsline {subsubsection}{Standard Experiments}{19}{section*.63}
+\contentsline {subsubsection}{Pole-Reverse-Pole}{19}{section*.64}
+\contentsline {subsection}{\numberline {1.5.3}Lifetimes}{19}{subsection.65}
+\contentsline {subsection}{\numberline {1.5.4}Ellipsometry}{19}{subsection.66}
+\contentsline {subsection}{\numberline {1.5.5}IR{}}{19}{subsection.67}
+\contentsline {subsection}{\numberline {1.5.6}IV}{19}{subsection.68}
+\contentsline {subsection}{\numberline {1.5.7}Scanning Electron Microscopy}{19}{subsection.69}
+\contentsline {subsubsection}{Influence of Solvent on Thin Film Morphology}{19}{section*.70}
+\contentsline {subsubsection}{Nanoparticle characterisation}{21}{section*.72}
+\contentsline {subsection}{\numberline {1.5.8}DLS{}}{22}{subsection.76}
+\contentsline {section}{\numberline {1.6}Discussion}{22}{section.77}
+\contentsline {chapter}{\numberline {2}Temperature Dependent Surface Photovoltage}{24}{chapter.78}
+\contentsline {section}{\numberline {2.1}Introduction}{25}{section.79}
+\contentsline {section}{\numberline {2.2}Theory}{25}{section.80}
+\contentsline {subsection}{\numberline {2.2.1}The Contact Potential Difference and the Kelvin Probe}{25}{subsection.81}
+\contentsline {subsection}{\numberline {2.2.2}The Surface Photovoltage and Band Bending}{27}{subsection.92}
+\contentsline {section}{\numberline {2.3}Kelvin Probes in use}{29}{section.101}
+\contentsline {subsection}{\numberline {2.3.1}Established Kelvin Probe System}{29}{subsection.102}
+\contentsline {subsection}{\numberline {2.3.2}The Lakeshore Cryogenic System coupled with a Mc Allister{} Kelvin Probe}{30}{subsection.104}
+\contentsline {section}{\numberline {2.4}Measuring \text {CPD}{} at room temperature}{33}{section.108}
+\contentsline {subsection}{\numberline {2.4.1}Sample Preparation}{33}{subsection.109}
+\contentsline {subsection}{\numberline {2.4.2}Results \& Discussion}{33}{subsection.110}
+\contentsline {section}{\numberline {2.5}\text {CPD}{} as function of pressure and temperature}{34}{section.112}
+\contentsline {subsection}{\numberline {2.5.1}\text {CPD}{} as a function of pressure}{34}{subsection.113}
+\contentsline {subsection}{\numberline {2.5.2}\text {CPD}{} as a function of temperature}{36}{subsection.115}
+\contentsline {subsection}{\numberline {2.5.3}Conclusion}{36}{subsection.117}
+\contentsline {section}{\numberline {2.6}Measuring the SPV{} at room temperature}{36}{section.118}
+\contentsline {section}{\numberline {2.7}Temperature dependent measurement of the SPV{}}{39}{section.123}
+\contentsline {subsection}{\numberline {2.7.1}Vanadium oxide}{40}{subsection.124}
+\contentsline {subsubsection}{Description of samples and preliminary research carried out at the Cahen group}{40}{section*.125}
+\contentsline {subsubsection}{Experimental procedure, results and discussion}{41}{section*.126}
+\contentsline {section}{\numberline {2.8}Conclusion}{45}{section.130}
+\contentsline {chapter}{List of References}{47}{appendix*.131}

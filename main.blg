@@ -1,65 +1,64 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./tex/TimosTitle.aux
+A level-1 auxiliary file: ./tex/Quotation.aux
+A level-1 auxiliary file: ./tex/Abbreviations.aux
 A level-1 auxiliary file: ./tex/ferro.aux
 A level-1 auxiliary file: ./tex/spv-t.aux
 The style file: timounsrt.bst
 Database file #1: biblio.bib
-You're missing a field part---line 27 of file biblio.bib
- :    eid = 
- :          ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "besocke" isn't style-file defined
---line 105 of file biblio.bib
+--line 264 of file biblio.bib
 Warning--entry type for "sintononline" isn't style-file defined
---line 113 of file biblio.bib
+--line 272 of file biblio.bib
 Warning--entry type for "ledengin" isn't style-file defined
---line 219 of file biblio.bib
+--line 378 of file biblio.bib
 Warning--entry type for "lakeshore" isn't style-file defined
---line 227 of file biblio.bib
+--line 386 of file biblio.bib
 Warning--entry type for "radue_raman" isn't style-file defined
---line 246 of file biblio.bib
+--line 405 of file biblio.bib
 Warning--entry type for "booth_theobands" isn't style-file defined
---line 267 of file biblio.bib
-You've used 39 entries,
+--line 426 of file biblio.bib
+You've used 46 entries,
             1829 wiz_defined-function locations,
-            681 strings with 10599 characters,
-and the built_in function-call counts, 8773 in all, are:
-= -- 724
-> -- 419
+            727 strings with 11848 characters,
+and the built_in function-call counts, 10423 in all, are:
+= -- 851
+> -- 515
 < -- 3
-+ -- 157
-- -- 118
-* -- 616
-:= -- 1400
-add.period$ -- 118
-call.type$ -- 39
-change.case$ -- 36
++ -- 192
+- -- 146
+* -- 753
+:= -- 1676
+add.period$ -- 139
+call.type$ -- 46
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 380
-empty$ -- 916
-format.name$ -- 118
-if$ -- 1970
+cite$ -- 46
+duplicate$ -- 448
+empty$ -- 1076
+format.name$ -- 146
+if$ -- 2325
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 33
-newline$ -- 198
-num.names$ -- 40
-pop$ -- 136
+int.to.str$ -- 46
+missing$ -- 40
+newline$ -- 233
+num.names$ -- 47
+pop$ -- 150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 145
+skip$ -- 169
 stack$ -- 0
-substring$ -- 534
-swap$ -- 57
+substring$ -- 634
+swap$ -- 64
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 67
-width$ -- 41
-write$ -- 426
-(There was 1 error message)
+while$ -- 80
+width$ -- 48
+write$ -- 503
+(There were 6 warnings)

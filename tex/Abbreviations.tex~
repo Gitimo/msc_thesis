@@ -5,6 +5,7 @@
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 \textbf{\atr{}} & \textbf{A}ttenuated \textbf{T}otal \textbf{R}eflectance		\\
+\textbf{\bfs{}}	& \textbf{B}ack \textbf{S}urface \textbf{F}ield				\\
 \textbf{\cpd{}} & \textbf{C}ontact \textbf{P}otential \textbf{D}ifference		\\
 \textbf{\dls{}} & \textbf{D}ynamic \textbf{L}ight \textbf{S}cattering			\\
 \textbf{\ftir{}}& \textbf{F}ourier \textbf{T}ransform \textbf{I}nfra \textbf{R}ed	\\
@@ -13,13 +14,17 @@
 \textbf{\kp{}}	& \textbf{K}elvin \textbf{P}robe					\\
 \textbf{\led{}} & \textbf{L}ight \textbf{E}mitting \textbf{D}iode			\\
 \textbf{\mit{}} & \textbf{M}etal \textbf{I}nsulator \textbf{T}ransition			\\
+\textbf{\np{}}	& \textbf{N}ano\textbf{p}article					\\
+\textbf{\opvs{}}& \textbf{O}rganic \textbf{P}hoto\textbf{v}oltaic cells			\\
 \textbf{\pcb{}} & \textbf{P}rinted \textbf{C}ircuit \textbf{B}oard			\\
-\textbf{\pvdf{}}& \textbf{P}oly \textbf{V}inyl \textbf{D}i\textbf{f}luorite		\\
+\textbf{\pvdf{}}& \textbf{P}oly\textbf{v}inylidene \textbf{D}i\textbf{f}luoroethylene	\\
+\textbf{\pvfe{}}& \textbf{P}oly\textbf{v}inylidene \textbf{D}i\textbf{f}luoro-\textbf{Tr}i\textbf{f}luoro\textbf{e}thylene copolymer\\	
 \textbf{\sem{}}	& \textbf{S}canning \textbf{E}lectron \textbf{M}icroscopy		\\
 \textbf{\sps{}} & \textbf{S}urface \textbf{P}hotovoltage \textbf{S}pectroscopy		\\
 \textbf{\spv{}}	& \textbf{S}urface \textbf{P}hoto\textbf{v}oltage			\\
 \textbf{\src{}} & \textbf{S}pace \textbf{C}harge \textbf{R}egion			\\
 \textbf{\tem{}} & \textbf{T}ransmission \textbf{E}lectron \textbf{M}icroscopy		\\
+\textbf{\trfe{}}& \textbf{Tr}i\textbf{f}luoro\textbf{e}thylene				\\
 \textbf{\uhv{}} & \textbf{U}ltra \textbf{H}igh \textbf{V}acuum				\\
 \textbf{\uv{}}	& \textbf{U}ltra\textbf{v}iolet						\\
 \textbf{\wf{}}	& \textbf{W}ork \textbf{F}unction					\\
