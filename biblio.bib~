@@ -1,0 +1,687 @@
+@article{mao_optim,
+title = "Optimization of poly(vinylidene fluoride-trifluoroethylene) films as non-volatile memory for flexible electronics ",
+journal = "Organic Electronics ",
+volume = "11",
+number = "5",
+pages = "925 - 932",
+year = "2010",
+note = "",
+issn = "1566-1199",
+doi = "http://dx.doi.org/10.1016/j.orgel.2010.02.012",
+url = "http://www.sciencedirect.com/science/article/pii/S1566119910000650",
+author = "D. Mao and M.A. Quevedo-Lopez and H. Stiegler and B.E. Gnade and H.N. Alshareef",
+keywords = "Flexible electronics",
+keywords = "Ferroelectric polymer",
+keywords = "Non-volatile memory",
+keywords = "P(VDF-TrFE) ",
+}
+
+@article{ducharme_finitesize,
+  title = {Intrinsic Ferroelectric Coercive Field},
+  author = {Ducharme, Stephen and Fridkin, V. M. and Bune, A. V. and Palto, S. P. and Blinov, L. M. and Petukhova, N. N. and Yudin, S. G.},
+  journal = {Phys. Rev. Lett.},
+  volume = {84},
+  issue = {1},
+  pages = {175--178},
+  numpages = {0},
+  year = {2000},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.84.175},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.84.175}
+}
+
+
+@article{langlois_inversion,
+   author = "Langlois, J.‐M. and Noirhomme, B. and Filion, A. and Rambo, A. and Caron, L. G.",
+   title = "Induced inversion at a silicon ferroelectric copolymer interface",
+   journal = "Journal of Applied Physics",
+   year = "1987",
+   volume = "61",
+   number = "12", 
+   pages = "5360-5365",
+   url = "http://scitation.aip.org/content/aip/journal/jap/61/12/10.1063/1.338274",
+   doi = "http://dx.doi.org/10.1063/1.338274" 
+}
+
+
+@Article{yuan_opvenhancement,
+author ="Yuan, Yongbo and Sharma, Pankaj and Xiao, Zhengguo and Poddar, Shashi and Gruverman, Alexei and Ducharme, Stephen and Huang, Jinsong",
+title  ="Understanding the effect of ferroelectric polarization on power conversion efficiency of organic photovoltaic devices",
+journal  ="Energy Environ. Sci.",
+year  ="2012",
+volume  ="5",
+issue  ="9",
+pages  ="8558-8563",
+publisher  ="The Royal Society of Chemistry",
+}
+
+
+@article{liu_THEpaper,
+   author = "Liu, Q. and Khatri, I. and Ishikawa, R. and Fujimori, A. and Ueno, K. and Manabe, K. and Nishino, H. and Shirai, H.",
+   title = "Improved photovoltaic performance of crystalline-Si/organic Schottky junction solar cells using ferroelectric polymers",
+   journal = "Applied Physics Letters",
+   year = "2013",
+   volume = "103",
+   number = "16", 
+   eid = 163503,
+   pages = "",
+   url = "http://scitation.aip.org/content/aip/journal/apl/103/16/10.1063/1.4826323",
+   doi = "http://dx.doi.org/10.1063/1.4826323" 
+}
+
+@Article{nalwa_enhancedopvchargesep,
+author ="Nalwa, Kanwar S. and Carr, John A. and Mahadevapuram, Rakesh C. and Kodali, Hari K. and Bose, Sayantan and Chen, Yuqing and Petrich, Jacob W. and Ganapathysubramanian, Baskar and Chaudhary, Sumit",
+title  ="Enhanced charge separation in organic photovoltaic films doped with ferroelectric dipoles",
+journal  ="Energy Environ. Sci.",
+year  ="2012",
+volume  ="5",
+issue  ="5",
+pages  ="7042-7049",
+publisher  ="The Royal Society of Chemistry",
+}
+
+
+@article{asadi_opvenhancement,
+   author = "Asadi, Kamal and de Bruyn, Paul and Blom, Paul W. M. and de Leeuw, Dago M.",
+   title = "Origin of the efficiency enhancement in ferroelectric functionalized organic solar cells",
+   journal = "Applied Physics Letters",
+   year = "2011",
+   volume = "98",
+   number = "18", 
+   eid = 183301,
+   pages = "",
+   url = "http://scitation.aip.org/content/aip/journal/apl/98/18/10.1063/1.3587630",
+   doi = "http://dx.doi.org/10.1063/1.3587630" 
+}
+
+
+@article{kang_annealspeed,
+   author = "Kang, Seok Ju and Park, Youn Jung and Sung, Jinwoo and Jo, Pil Sung and Park, Cheolmin and Kim, Kap Jin and Cho, Beong Ok",
+   title = "Spin cast ferroelectric beta poly(vinylidene fluoride) thin films via rapid thermal annealing",
+   journal = "Applied Physics Letters",
+   year = "2008",
+   volume = "92",
+   number = "1", 
+   eid = 012921,
+   pages = "",
+   url = "http://scitation.aip.org/content/aip/journal/apl/92/1/10.1063/1.2830701",
+   doi = "http://dx.doi.org/10.1063/1.2830701" 
+}
+
+@article{takeo,
+author = {Takeo Furukawa},
+title = {Ferroelectric properties of vinylidene fluoride copolymers},
+journal = {Phase Transitions},
+volume = {18},
+number = {3-4},
+pages = {143-211},
+year = {1989},
+doi = {10.1080/01411598908206863},
+}
+
+
+@article{silverstein,
+author={Silverstein, Todd P.},
+title = {The Real Reason Why Oil and Water Don't Mix},
+journal = {Journal of Chemical Education},
+volume = {75},
+number = {1},
+pages = {116},
+year = {1998},
+doi = {10.1021/ed075p116},
+URL = { http://dx.doi.org/10.1021/ed075p116},
+}
+
+
+@article{kliem_lbpvdf,
+  author={R Tadros-Morgane and H Kliem},
+  title={Polarization curves of Langmuir–Blodgett PVDF-copolymer films},
+  journal={Journal of Physics D: Applied Physics},
+  volume={39},
+  number={22},
+  pages={4872},
+  url={http://stacks.iop.org/0022-3727/39/i=22/a=020},
+  year={2006},
+}
+
+@article{chen_lbpvdf,
+title = "Self-polarized ferroelectric \{PVDF\} homopolymer ultra-thin films derived from Langmuir–Blodgett deposition ",
+journal = "Polymer ",
+volume = "53",
+number = "6",
+pages = "1404 - 1408",
+year = "2012",
+note = "",
+issn = "0032-3861",
+doi = "http://dx.doi.org/10.1016/j.polymer.2012.01.058",
+url = "http://www.sciencedirect.com/science/article/pii/S0032386112001073",
+author = "Shuting Chen and Xue Li and Kui Yao and Francis Eng Hock Tay and Amit Kumar and Kaiyang Zeng",
+keywords = "Poly(vinylidene fluoride) (PVDF)",
+keywords = "Ferroelectric polymer",
+keywords = "Langmuir–Blodgett film "
+}
+
+@article{naber_cyclo,
+   author = "Naber, R. C. G. and de Boer, B. and Blom, P. W. M. and de Leeuw, D. M.",
+   title = "Low-voltage polymer field-effect transistors for nonvolatile memories",
+   journal = "Applied Physics Letters",
+   year = "2005",
+   volume = "87",
+   number = "20", 
+   eid = 203509,
+   pages = "",
+   url = "http://scitation.aip.org/content/aip/journal/apl/87/20/10.1063/1.2132062",
+   doi = "http://dx.doi.org/10.1063/1.2132062" 
+}
+
+
+@Book{encyclopedia,
+editor = {Schwartz, Mel M.},
+title = {Encyclopedia of Smart Materials},
+publisher = {John Wiley and Sons, Inc.},
+year = {2002},
+volume = {1 and 2},
+}
+
+
+@Book{kittel,
+author = {Kittel, Charles},
+title = {Introduction to Solid State Physics},
+publisher = {John Wiley and Sons, Inc.},
+year = {2005},
+edition = {Eigths},
+}
+
+
+
+@article{omote_pvdfproperties,
+   author = "Omote, Kenji and Ohigashi, Hiroji and Koga, Keiko",
+   title = "Temperature dependence of elastic, dielectric, and piezoelectric properties of “single crystalline’’ films of vinylidene fluoride trifluoroethylene copolymer",
+   journal = "Journal of Applied Physics",
+   year = "1997",
+   volume = "81",
+   number = "6", 
+   pages = "2760-2769",
+   url = "http://scitation.aip.org/content/aip/journal/jap/81/6/10.1063/1.364300",
+   doi = "http://dx.doi.org/10.1063/1.364300" 
+}
+
+
+@Book{atkins,
+author = {Atkins, Peter and De Paula, Julio},
+title = {Atkins' Physical Chemistry},
+publisher = {Oxford University Press},
+year = {2006},
+edition = {8th},
+}
+
+
+@Article{varghese_fenps,
+author ="Varghese, Justin and Whatmore, Roger W. and Holmes, Justin D.",
+title  ="Ferroelectric nanoparticles{,} wires and tubes: synthesis{,} characterisation and applications",
+journal  ="J. Mater. Chem. C",
+year  ="2013",
+volume  ="1",
+issue  ="15",
+pages  ="2618-2638",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C3TC00597F",
+url  ="http://dx.doi.org/10.1039/C3TC00597F",
+}
+
+@Article{yu_gr-fe-si-cell,
+author ="Yu, Xuegong and Yang, Lifei and Lv, Qingmin and Xu, Mingsheng and Chen, Hongzheng and Yang, Deren",
+title  ="The enhanced efficiency of graphene-silicon solar cells by electric field doping",
+journal  ="Nanoscale",
+year  ="2015",
+volume  ="7",
+issue  ="16",
+pages  ="7072-7077",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C4NR06677D",
+url  ="http://dx.doi.org/10.1039/C4NR06677D",
+}
+
+
+@Article{yuan_ferrooverview,
+author ="Yuan, Yongbo and Xiao, Zhengguo and Yang, Bin and Huang, Jinsong",
+title  ="Arising applications of ferroelectric materials in photovoltaic devices",
+journal  ="J. Mater. Chem. A",
+year  ="2014",
+volume  ="2",
+issue  ="17",
+pages  ="6027-6041",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C3TA14188H",
+url  ="http://dx.doi.org/10.1039/C3TA14188H",
+}
+
+@article {NPsynthesis,
+author = {Xiao, Zhengguo and Dong, Qingfeng and Sharma, Pankaj and Yuan, Yongbo and Mao, Baodong and Tian, Wenjing and Gruverman, Alexei and Huang, Jinsong},
+title = {Synthesis and Application of Ferroelectric {P}({VDF-TrFE}) Nanoparticles in Organic Photovoltaic Devices for High Efficiency},
+journal = {Advanced Energy Materials},
+volume = {3},
+number = {12},
+issn = {1614-6840},
+url = {http://dx.doi.org/10.1002/aenm.201300396},
+doi = {10.1002/aenm.201300396},
+pages = {1581--1588},
+keywords = {ferroelectric materials, organic photovoltaics, nanoparticles},
+year = {2013},
+}
+
+
+@online{spi,
+author = {Inc., Structure Probe},
+title = {SPI Supplies},
+year = {2005},
+howpublished = {\url{http://www.2spi.com/}},
+}
+
+@online{besocke,
+author = {Besocke Delta PHI GmbH},
+title = {Kelvin System},
+year = {2005},
+howpublished = {\url{http://www.besocke-delta-phi.de/kelvin.htm}},
+}
+
+
+@online{sintononline,
+author = {Sinton, R.A.},
+title = {Contactless Carrier-Lifetime Measurement in Silicon Wafers, Ingots, and Blocks},
+year = {2009},
+month = {July},
+howpublished = {\url{http://www.sintoninstruments.com/PDFs/WhitePaperHamburgFinal.pdf}},
+}
+
+
+@article{auger,
+   author = {Vossier, Alexis and Hirsch, Baruch and Gordon, Jeffrey M.},
+   title = {Is {Auger} recombination the ultimate performance limiter in concentrator solar cells?},
+   journal = {Applied Physics Letters},
+   year = {2010},
+   volume = {97},
+   number = {19}, 
+   eid = {193509},
+   pages = {},
+   url = {http://scitation.aip.org/content/aip/journal/apl/97/19/10.1063/1.3510474},
+   doi = {http://dx.doi.org/10.1063/1.3510474} 
+}
+
+@article{gaaslifetime, 
+author={Miller, O. D. and Yablonovitch, E. and Kurtz, S. R.}, 
+journal={Photovoltaics, IEEE Journal of}, 
+title={Strong Internal and External Luminescence as Solar Cells Approach the {Shockley}-{Queisser} Limit}, 
+year={2012}, 
+volume={2}, 
+number={3}, 
+pages={303-311}, 
+doi={10.1109/JPHOTOV.2012.2198434}, 
+ISSN={2156-3381}, 
+month={July},
+}
+
+@article{edgerecom, 
+author={DeMoulin, P.D. and Tobin, S.P. and Lundstrom, M.S. and Carpenter, M.S. and Melloch, M.R.}, 
+journal={Electron Device Letters, IEEE}, 
+title={Influence of perimeter recombination on high-efficiency {GaAs} p/n heteroface solar cells}, 
+year={1988}, 
+volume={9}, 
+number={8}, 
+pages={368-370}, 
+keywords={III-V semiconductors;electron-hole recombination;gallium arsenide;p-n heterojunctions;solar cells;GaAs;dark current component;high-efficiency solar cells;limiting conversion efficiencies;one-sun fill factor;open-circuit voltage;p/n heteroface solar cells;perimeter recombination;Current measurement;Dark current;Degradation;Diodes;Electrical resistance measurement;Gallium arsenide;Photovoltaic cells;Q measurement;Solar energy;Voltage control}, 
+doi={10.1109/55.746}, 
+ISSN={0741-3106}, 
+month={Aug},
+}
+
+@inproceedings{sinton2,
+  title={Quasi-steady-state photoconductance, a new method for solar cell material and device characterization},
+  author={Sinton, Ronald A and Cuevas, Andres and Stuckings, Michael},
+  booktitle={Photovoltaic Specialists Conference, 1996., Conference Record of the Twenty Fifth IEEE},
+  pages={457--460},
+  year={1996},
+  organization={IEEE}
+}
+
+@article{sinton1,
+  title={Contactless determination of current--voltage characteristics and minority-carrier lifetimes in semiconductors from quasi-steady-state photoconductance data},
+  author={Sinton, Ronald A and Cuevas, Andres},
+  journal={Applied Physics Letters},
+  volume={69},
+  number={17},
+  pages={2510--2512},
+  year={1996},
+  publisher={AIP Publishing}
+}
+
+
+@article{sproul_lifetime,
+   author = {Sproul, A. B.},
+   title = {Dimensionless solution of the equation describing the effect of surface recombination on carrier decay in semiconductors},
+   journal = {Journal of Applied Physics},
+   year = {1994},
+   volume = {76},
+   number = {5}, 
+   pages = {2851-2854},
+   url = {http://scitation.aip.org/content/aip/journal/jap/76/5/10.1063/1.357521},
+   doi = {http://dx.doi.org/10.1063/1.357521} 
+}
+
+@article{luke_lifetime,
+   author = {Luke, Keung L. and Cheng, Li-Jen},
+   title = {Analysis of the interaction of a laser pulse with a silicon wafer: Determination of bulk lifetime and surface recombination velocity},
+   journal = {Journal of Applied Physics},
+   year = {1987},
+   volume = {61},
+   number = {6}, 
+   pages = {2282-2293},
+   url = {http://scitation.aip.org/content/aip/journal/jap/61/6/10.1063/1.337938},
+   doi = {http://dx.doi.org/10.1063/1.337938} 
+}
+
+@article{nagel_lifetime,
+   author = {Nagel, Henning and Berge, Christopher and Aberle, Armin G.},
+   title = {Generalized analysis of quasi-steady-state and quasi-transient measurements of carrier lifetimes in semiconductors},
+   journal = {Journal of Applied Physics},
+   year = {1999},
+   volume = {86},
+   number = {11}, 
+   pages = {6218-6221},
+   url = {http://scitation.aip.org/content/aip/journal/jap/86/11/10.1063/1.371633},
+   doi = {http://dx.doi.org/10.1063/1.371633} 
+}
+
+@online{ledengin,
+author = {{LED} {Engin}},
+title = {{LZP-00CW0R}},
+year = {2015},
+howpublished = {\url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf}}
+}
+
+
+@online{lakeshore,
+author = {{Inc.}, {Lake} {Shore} {Cryotronics}},
+title = {{Model} {TTPX} {Cryogenic} {Probe} {Station}},
+year = {2015},
+howpublished = {\url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx}},
+}
+
+
+@report{solgel,
+author = {Wigstein, Anders and Moffatt, Claire},
+title = {Sol-gel synthesis of {VO}2 thin films and the effects of W and Re doping},
+type = {Technical Report},
+institution = {FOI - Swedish Defence Research Agency},
+year = {2005},
+month = {June},
+isrn = {FOI-R--1684-SE},
+}
+
+
+@online{radue_raman,
+author = {Radue, E. and Crisman, E. and Wang, L. and Kittiwatanakul, S. and Lu, J. and Wolf, S. A. and Wincheski, R. and Lukaszew, R. A. and Novikova1, I.},
+title = {Optical properties differences across the Insulator-Metal Transition in {VO}2 Thin Films grown on different substrates},
+year = {2013},
+howpublished = {\url{http://arxiv.org/pdf/1210.7746v2}},
+date = {11},
+month = {January},
+}
+
+
+@article{eyert_theobands,
+author = {Eyert, Volker},
+title = {The metal-insulator transitions of {VO}2: A band theoretical approach},
+journal = {Annalen der Physik},
+year = {2002},
+volume = {11},
+issue = {9},
+month = {July},
+}
+
+
+@online{booth_theobands,
+author = {Booth, Jamie M. and Drumm, Daniel W. and Casey, Phil S. and Smith, Jackson S. and Russo, Salvy P.},
+title = {Electronic structure of tungsten-doped vanadium dioxide: from band to {Mott} insulator},
+year = {2015},
+howpublished = {\url{http://arxiv.org/abs/1507.00105}},
+date = {7},
+month = {July},
+}
+
+
+@inbook{tempdepmet,
+author={Akbi, Mohamed},
+title={On the Temperature Dependence of the Photoelectric Work Function of Contact Materials},
+place={Berlin},
+urldate={2015-11-9},
+booktitle={27th International Conference on Electrical Contacts},
+publisher={VDE VERLAG GMBH},
+year={2014},
+pages={463-467}
+}
+
+@article{tempdepmet2,
+year={2001},
+issn={0020-1685},
+journal={Inorganic Materials},
+volume={37},
+number={6},
+doi={10.1023/A:1017556031226},
+title={Temperature Dependence of the Work Function of Metals and Binary Alloys},
+url={http://dx.doi.org/10.1023/A%3A1017556031226},
+publisher={Kluwer Academic Publishers-Plenum Publishers},
+author={Ibragimov, Kh.I. and Korol'kov, V.A.},
+pages={567-572},
+language={English},
+}
+
+@article{tempdepmet3,
+  title = {Temperature Dependence of the Work Function of Silver, Sodium, and Potassium},
+  author = {Crowell, C. R. and Armstrong, R. A.},
+  journal = {Phys. Rev.},
+  volume = {114},
+  issue = {6},
+  pages = {1500--1506},
+  numpages = {0},
+  year = {1959},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.114.1500},
+  url = {http://link.aps.org/doi/10.1103/PhysRev.114.1500},
+}
+
+@article{tempdepmet4,
+title = {On the temperature dependence of the work function},
+journal = {Surface Science},
+volume = {178},
+number = {1},
+pages = {349 - 358},
+year = {1986},
+note = {},
+issn = {0039-6028},
+doi = {http://dx.doi.org/10.1016/0039-6028(86)90311-0},
+url = {http://www.sciencedirect.com/science/article/pii/0039602886903110},
+author = {A. Kiejna},
+abstract = {},
+}
+
+@article{tempdepmet5,
+  author={A Kiejna and K F Wojciechowski and J Zebrowski},
+  title={The temperature dependence of metal work functions},
+  journal={Journal of Physics F: Metal Physics},
+  volume={11},
+  number={11},
+  pages={2495},
+  url={http://stacks.iop.org/0305-4608/11/i=11/a=528},
+  year={1981},
+  abstract={}
+}
+
+@article{biermann_theogap,
+author={Biermann, S. and Poteryaev, A. and Lichtenstein, A. I. and Georges, A.},
+title={Dynamical Singlets and Correlation-Assisted Peierls Transition in {VO}2},
+volume={94},
+doi={10.1103/physrevlett.94.026404},
+number={2},
+journal={Phys. Rev. Lett.},
+year={2005}
+}
+
+@phdthesis{garcia_expgap,
+author={Garcia, Helena Prima},
+title={Laser-induced structural changes at surfaces investigated with synchrotron radiation},
+school={Freie Universit{\"a}t Berlin},
+year={2007}
+}
+
+@MastersThesis{jensen_expgap,
+author={Jensen, Graham H.},
+title={Temperature-Dependent Femtosecond Pump-Probe Spectroscopy of Thin-Film Vanadium Dioxide},
+school={University of Rochester},
+year={2014}
+}
+
+@article{koethe_expstud,
+author={Koethe, T. C. and Hu, Z. and Haverkort, M. W. and Sch{\"u}{\ss}ler-Langeheine, C. and Venturini, F. and Brookes, N. B. and Tjernberg, O. and Reichelt, W. and Hsieh, H. H. and Lin, H.-J. et al.},
+title={Transfer of Spectral Weight and Symmetry across the Metal-Insulator Transition in {VO}2},
+volume={97},
+doi={10.1103/physrevlett.97.116402},
+number={11},
+journal={Phys. Rev. Lett.},
+year={2006}
+}
+
+@article{ko_kp,
+author={Ko, Changhyun and Yang, Zheng and Ramanathan, Shriram},
+title={Work Function of Vanadium Dioxide Thin Films Across the Metal-Insulator Transition and the Role of Surface Nonstoichiometry},
+volume={3},
+doi={10.1021/am2006299},
+number={9},
+journal={ACS Appl. Mater. Interfaces},
+year={2011},
+pages={3396-3401}
+}
+
+@article{kronik_spv,
+author={Kronik, L},
+title={Surface photovoltage phenomena: theory, experiment, and applications},
+volume={37},
+doi={10.1016/s0167-5729(99)00002-3},
+number={1-5},
+journal={Surface Science Reports},
+year={1999},
+pages={1-206}
+}
+
+@phdthesis{lagel_tempdep,
+author={L{\"a}gel, Bert},
+title={THE APPLICATION OF THE {Kelvin} PROBE IN MATERIALS SCIENCE},
+school={Robert Gordon University},
+year={2000}
+}
+
+@MastersThesis{macnamara_tempdepspv,
+author={McNamara, Joy Dorene},
+title={The Effect of Temperature on the Electrical and Optical Properties of p-type {GaN}},
+school={Virginia Commonwealth University},
+year={2011}
+}
+
+@article{mao_phasetrans,
+author={MAO, Mao and HUANG, Wan-Xia and ZHANG, Ya-Xin and YAN, Jia-Zhen and LUO, Yi and SHI, Qi-Wu and CAI, Jing-Han},
+title={Study on Phase Transition Property of Tungsten-doped Vanadium Dioxide Thin Film at Terahertz Range},
+volume={27},
+doi={10.3724/sp.j.1077.2012.12131},
+number={8},
+journal={Journal of Inorganic Materials},
+year={2012},
+pages={891-896}
+}
+
+@article{merenda_expgap,
+author={Merenda, P. and Kaplan, D. and Sommers, C.},
+title={NEAR BAND GAP OPTICAL ABSORPTION IN SEMICONDUCTING {VO}2},
+volume={37},
+doi={10.1051/jphyscol:1976409},
+number={C4},
+journal={J. Phys. Colloques},
+year={1976},
+pages={C4-59-C4-62}
+}
+
+@article{macnamara_tempdepspv2,
+author={McNamara, J. D. and Baski, A. A. and Reshchikov, M. A.},
+title={Temperature-dependent {Kelvin} probe studies on {GaN} from 80 to 600 K},
+volume={11},
+doi={10.1002/pssc.201300553},
+number={3-4},
+journal={physica status solidi (c)},
+year={2014},
+pages={726-729}
+}
+
+@article{nakano_gapopen,
+author={Nakano, M. and Shibuya, K. and Okuyama, D. and Hatano, T. and Ono, S. and Kawasaki, M. and Iwasa, Y. and Tokura, Y.},
+title={Collective bulk carrier delocalization driven by electrostatic surface charge accumulation},
+volume={487},
+doi={10.1038/nature11296},
+number={7408},
+journal={Nature},
+year={2012},
+pages={459-462}
+}
+
+@article{pergament_mixphase,
+author={Pergament, A. L. and Stefanovich, G. B. and Kuldin, N. A. and Velichko, A. A.},
+title={On the Problem of Metal-Insulator Transitions in Vanadium Oxides},
+volume={2013},
+doi={10.1155/2013/960627},
+journal={ISRN Condensed Matter Physics},
+year={2013},
+pages={1-6}
+}
+
+@article{shibuya_physlet,
+author={Shibuya, Keisuke and Kawasaki, Masashi and Tokura, Yoshinori},
+title={Metal-insulator transition in epitaxial V[sub 1-x]W[sub x]O[sub 2](0=x=0.33) thin films},
+volume={96},
+doi={10.1063/1.3291053},
+number={2},
+journal={Appl. Phys. Lett.},
+year={2010},
+pages={022102}
+}
+
+@article{shibuya_physrev,
+author={Shibuya, Keisuke and Kawasaki, Masashi and Tokura, Yoshinori},
+title={Metal-insulator transitions in {TiO}2/{VO}2 superlattices},
+volume={82},
+doi={10.1103/physrevb.82.205118},
+number={20},
+journal={Phys. Rev. B},
+year={2010}
+}
+
+@article{yates_bandbend,
+author={Zhang, Zhen and Yates, John T.},
+title={Band Bending in Semiconductors: Chemical and Physical Consequences at Surfaces and Interfaces},
+volume={112},
+doi={10.1021/cr3000626},
+number={10},
+journal={Chemical Reviews},
+year={2012},
+pages={5520-5551}
+}
+
+@article{yin_450change,
+author={Yin, Haihong and Luo, Min and Yu, Ke and Gao, Yanfeng and Huang, Rong and Zhang, Zhengli and Zeng, Min and Cao, Chuanxiang and Zhu, Ziqiang},
+title={Fabrication and Temperature-Dependent Field-Emission Properties of Bundlelike {VO}2 Nanostructures},
+volume={3},
+doi={10.1021/am200291a},
+number={6},
+journal={ACS Appl. Mater. Interfaces},
+year={2011},
+pages={2057-2062},
+}

@@ -5,18 +5,21 @@
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 \textbf{\atr{}} & \textbf{A}ttenuated \textbf{T}otal \textbf{R}eflectance		\\
-\textbf{\bfs{}}	& \textbf{B}ack \textbf{S}urface \textbf{F}ield				\\
 \textbf{\cpd{}} & \textbf{C}ontact \textbf{P}otential \textbf{D}ifference		\\
 \textbf{\dls{}} & \textbf{D}ynamic \textbf{L}ight \textbf{S}cattering			\\
+\textbf{\edg{}} & \textbf{E}thyl\textbf{d}i\textbf{g}lycol				\\
 \textbf{\ftir{}}& \textbf{F}ourier \textbf{T}ransform \textbf{I}nfra \textbf{R}ed	\\
 \textbf{\hopg{}}& \textbf{H}ighly \textbf{O}rdered \textbf{P}yrolitic \textbf{G}raphite	\\
 \textbf{\ir{}}	& \textbf{I}nfra\textbf{r}ed						\\
 \textbf{\kp{}}	& \textbf{K}elvin \textbf{P}robe					\\
+\textbf{\lb{}}	& \textbf{L}angmuir-\textbf{B}lodgett					\\
 \textbf{\led{}} & \textbf{L}ight \textbf{E}mitting \textbf{D}iode			\\
 \textbf{\mit{}} & \textbf{M}etal \textbf{I}nsulator \textbf{T}ransition			\\
 \textbf{\np{}}	& \textbf{N}ano\textbf{p}article					\\
 \textbf{\opvs{}}& \textbf{O}rganic \textbf{P}hoto\textbf{v}oltaic cells			\\
 \textbf{\pcb{}} & \textbf{P}rinted \textbf{C}ircuit \textbf{B}oard			\\
+\textbf{\pdot{}}& \textbf{P}oly(3,4-\textbf{e}thylene\textbf{d}ioxy\textbf{t}hiophene) \textbf{p}oly\textbf{s}tyrene \textbf{s}ulfonate		\\
+\textbf{\pmma{}}& \textbf{P}oly(\textbf{m}ethyl\textbf{m}eth\textbf{a}crylate)		\\
 \textbf{\pvdf{}}& \textbf{P}oly\textbf{v}inylidene \textbf{D}i\textbf{f}luoroethylene	\\
 \textbf{\pvfe{}}& \textbf{P}oly\textbf{v}inylidene \textbf{D}i\textbf{f}luoro-\textbf{Tr}i\textbf{f}luoro\textbf{e}thylene copolymer\\	
 \textbf{\sem{}}	& \textbf{S}canning \textbf{E}lectron \textbf{M}icroscopy		\\

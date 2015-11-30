@@ -1,5 +1,126 @@
 \begin{thebibliography}{10}
 
+\bibitem{cahen_energylimitations}
+Igor Lubomirsky and David Cahen.
+\newblock Energy limitations on materials availability.
+\newblock {\em MRS Bulletin}, 37:412--416, 4 2012.
+
+\bibitem{cahen_opvlimitations}
+Pabitra~K. Nayak, Juan Bisquert, and David Cahen.
+\newblock Assessing possibilities and limits for solar cells.
+\newblock {\em Advanced Materials}, 23(25):2870--2876, 2011.
+
+\bibitem{cahen_energycrisis}
+David Cahen.
+\newblock Materials research and the ‘energy crisis’.
+\newblock {\em Materials Today}, 11(3):64 --, 2008.
+
+\bibitem{schermer_35}
+G.J. Bauhuis, P.~Mulder, and J.J. Schermer.
+\newblock Thin-film iii–v solar cells using epitaxial lift-off.
+\newblock In Xiaodong Wang and Zhiming~M. Wang, editors, {\em High-Efficiency
+  Solar Cells}, volume 190 of {\em Springer Series in Materials Science}, pages
+  623--643. Springer International Publishing, 2014.
+
+\bibitem{efftab}
+Martin~A. Green, Keith Emery, Yoshihiro Hishikawa, Wilhelm Warta, and Ewan~D.
+  Dunlop.
+\newblock Solar cell efficiency tables (version 45).
+\newblock {\em Progress in Photovoltaics: Research and Applications},
+  23(1):1--9, 2015.
+\newblock PIP-14-274.
+
+\bibitem{saar}
+Eran Edri, Saar Kirmayer, David Cahen, and Gary Hodes.
+\newblock High open-circuit voltage solar cells based on organic–inorganic
+  lead bromide perovskite.
+\newblock {\em The Journal of Physical Chemistry Letters}, 4(6):897--902, 2013.
+
+\bibitem{cahen_alkyltransport}
+Oliver Seitz, Ayelet Vilan, Hagai Cohen, Jaehyung Hwang, Marc Haeming, Achim
+  Schoell, Eberhard Umbach, Antoine Kahn, and David Cahen.
+\newblock Doping molecular monolayers: Effects on electrical transport through
+  alkyl chains on silicon.
+\newblock {\em Advanced Functional Materials}, 18(14):2102--2113, 2008.
+
+\bibitem{tal_wfcontrol}
+Tal Toledano, Ariel Biller, Tatyana Bendikov, Hagai Cohen, Ayelet Vilan, and
+  David Cahen.
+\newblock Controlling space charge of oxide-free si by in situ modification of
+  dipolar alkyl monolayers.
+\newblock {\em The Journal of Physical Chemistry C}, 116(21):11434--11443,
+  2012.
+
+\bibitem{cahen_alkyl}
+Avi Lavi, Hagai Cohen, Tatyana Bendikov, Ayelet Vilan, and David Cahen.
+\newblock Si-c-bound alkyl chains on oxide-free si: towards versatile solution
+  preparation of electronic transport quality monolayers.
+\newblock {\em Phys. Chem. Chem. Phys.}, 13:1293--1296, 2011.
+
+\bibitem{ann_inversion}
+Ann~S. Erickson, Arava Zohar, and David Cahen.
+\newblock n-si–organic inversion layer interfaces: A low temperature
+  deposition method for forming a p–n homojunction in n-si.
+\newblock {\em Advanced Energy Materials}, 4(9):n/a--n/a, 2014.
+\newblock 1301724.
+
+\bibitem{ann_inversion2}
+A.~S. Erickson, N.~K. Kedem, A.~E. Haj-Yahia, and D.~Cahen.
+\newblock Aluminum oxide–n-si field effect inversion layer solar cells with
+  organic top contact.
+\newblock {\em Applied Physics Letters}, 101(23), 2012.
+
+\bibitem{yuan_ferrooverview}
+Yongbo Yuan, Zhengguo Xiao, Bin Yang, and Jinsong Huang.
+\newblock Arising applications of ferroelectric materials in photovoltaic
+  devices.
+\newblock {\em J. Mater. Chem. A}, 2:6027--6041, 2014.
+
+\bibitem{langlois_inversion}
+J.-M. Langlois, B.~Noirhomme, A.~Filion, A.~Rambo, and L.~G. Caron.
+\newblock Induced inversion at a silicon ferroelectric copolymer interface.
+\newblock {\em Journal of Applied Physics}, 61(12):5360--5365, 1987.
+
+\bibitem{liu_THEpaper}
+Q.~Liu, I.~Khatri, R.~Ishikawa, A.~Fujimori, K.~Ueno, K.~Manabe, H.~Nishino,
+  and H.~Shirai.
+\newblock Improved photovoltaic performance of crystalline-si/organic schottky
+  junction solar cells using ferroelectric polymers.
+\newblock {\em Applied Physics Letters}, 103(16), 2013.
+
+\bibitem{asadi_opvenhancement}
+Kamal Asadi, Paul de~Bruyn, Paul W.~M. Blom, and Dago~M. de~Leeuw.
+\newblock Origin of the efficiency enhancement in ferroelectric functionalized
+  organic solar cells.
+\newblock {\em Applied Physics Letters}, 98(18), 2011.
+
+\bibitem{yuan_opvenhancement}
+Yongbo Yuan, Pankaj Sharma, Zhengguo Xiao, Shashi Poddar, Alexei Gruverman,
+  Stephen Ducharme, and Jinsong Huang.
+\newblock Understanding the effect of ferroelectric polarization on power
+  conversion efficiency of organic photovoltaic devices.
+\newblock {\em Energy Environ. Sci.}, 5:8558--8563, 2012.
+
+\bibitem{nalwa_enhancedopvchargesep}
+Kanwar~S. Nalwa, John~A. Carr, Rakesh~C. Mahadevapuram, Hari~K. Kodali,
+  Sayantan Bose, Yuqing Chen, Jacob~W. Petrich, Baskar Ganapathysubramanian,
+  and Sumit Chaudhary.
+\newblock Enhanced charge separation in organic photovoltaic films doped with
+  ferroelectric dipoles.
+\newblock {\em Energy Environ. Sci.}, 5:7042--7049, 2012.
+
+\bibitem{yu_gr-fe-si-cell}
+Xuegong Yu, Lifei Yang, Qingmin Lv, Mingsheng Xu, Hongzheng Chen, and Deren
+  Yang.
+\newblock The enhanced efficiency of graphene-silicon solar cells by electric
+  field doping.
+\newblock {\em Nanoscale}, 7:7072--7077, 2015.
+
+\bibitem{atkins}
+Peter Atkins and Julio De~Paula.
+\newblock {\em Atkins' Physical Chemistry}.
+\newblock Oxford University Press, 8th edition, 2006.
+
 \bibitem{kittel}
 Charles Kittel.
 \newblock {\em Introduction to Solid State Physics}.
@@ -9,24 +130,6 @@ Charles Kittel.
 Mel~M. Schwartz, editor.
 \newblock {\em Encyclopedia of Smart Materials}, volume 1 and 2.
 \newblock John Wiley and Sons, Inc., 2002.
-
-\bibitem{lakeshore}
-{Lake} {Shore}~{Cryotronics} {Inc.}
-\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
-\newblock
-  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
-  2015.
-
-\bibitem{ledengin}
-{LED} {Engin}.
-\newblock {LZP-00CW0R}.
-\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
-  2015.
-
-\bibitem{atkins}
-Peter Atkins and Julio De~Paula.
-\newblock {\em Atkins' Physical Chemistry}.
-\newblock Oxford University Press, 8th edition, 2006.
 
 \bibitem{takeo}
 Takeo Furukawa.
@@ -134,6 +237,12 @@ R.~C.~G. Naber, B.~de~Boer, P.~W.~M. Blom, and D.~M. de~Leeuw.
   memories.
 \newblock {\em Applied Physics Letters}, 87(20), 2005.
 
+\bibitem{mao_optim}
+D.~Mao, M.A. Quevedo-Lopez, H.~Stiegler, B.E. Gnade, and H.N. Alshareef.
+\newblock Optimization of poly(vinylidene fluoride-trifluoroethylene) films as
+  non-volatile memory for flexible electronics.
+\newblock {\em Organic Electronics}, 11(5):925 -- 932, 2010.
+
 \bibitem{tempdepmet}
 Mohamed Akbi.
 \newblock {\em On the Temperature Dependence of the Photoelectric Work Function
@@ -189,6 +298,19 @@ L~Kronik.
 Besocke Delta~PHI GmbH.
 \newblock Kelvin system.
 \newblock \url{http://www.besocke-delta-phi.de/kelvin.htm}, 2005.
+
+\bibitem{lakeshore}
+{Lake} {Shore}~{Cryotronics} {Inc.}
+\newblock {Model} {TTPX} {Cryogenic} {Probe} {Station}.
+\newblock
+  \url{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx},
+  2015.
+
+\bibitem{ledengin}
+{LED} {Engin}.
+\newblock {LZP-00CW0R}.
+\newblock \url{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf},
+  2015.
 
 \bibitem{nakano_gapopen}
 M.~Nakano, K.~Shibuya, D.~Okuyama, T.~Hatano, S.~Ono, M.~Kawasaki, Y.~Iwasa,

@@ -46,7 +46,8 @@
 \newcommand{\boe}{BOE}
 \newcommand{\dmf}{DMF}
 \newcommand{\thf}{THF}
-
+\newcommand{\ito}{ITO}
+\newcommand{\pmma}{PMMA}
 %Chemicals
 \newcommand{\sih}{\text{Si--H}}
 \newcommand{\siox}{\text{SiO}\ensuremath{_2}}

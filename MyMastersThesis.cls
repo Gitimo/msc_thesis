@@ -372,6 +372,24 @@
 \vfil\vfil\null
 }
 
+
+%----------------------------------------------------------------------------------------
+%	Personal Intro PAGE DESIGN
+%----------------------------------------------------------------------------------------
+
+\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish} {\introname}{Personal Introduction} % Acknowledgement text for English countries
+\providecaptionname{german,ngerman,austrian,naustrian}{\acknowledgementname}{Danksagung} % Acknowledgement text for Germanic countries
+
+\NewDocumentEnvironment{personalintro}{}{%
+\checktoopen
+\tttypeout{\introname}
+\thispagestyle{plain}
+\begin{center}{\huge\textit{\introname}\par}\end{center}
+}
+{
+\vfil\vfil\null
+}
+
 %----------------------------------------------------------------------------------------
 \usepackage{color}
 	\definecolor{RUred}{RGB}{190,49,26}	%custom color

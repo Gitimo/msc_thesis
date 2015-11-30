@@ -1,6 +1,6 @@
 \ProvidesPackage{TimosTheseInfo}
 
-\thesistitle{\@title} %  \ttitle
+\thesistitle{Enhancing Solar Cell Efficiency with a Ferroelectric Polymer and Temperature Dependent Surface Photovoltage} %  \ttitle
 \supervisor{\href{mailto:david.cahen@weizmann.ac.il}{Prof. Dr. David \textsc{Cahen}}} %  \supname
 \examiner{\href{mailto:h.meekes@science.ru.nl}{Dr. Hugo \textsc{Meekes}}} %  \examname
 \degree{\textsc{Masters of Science}} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename

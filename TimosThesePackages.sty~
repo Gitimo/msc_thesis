@@ -16,9 +16,14 @@
 \usepackage{wallpaper}
 \usepackage{letltxmacro}
 \usepackage[notindex,nottoc,notlof,notlot]{tocbibind}
+\usepackage{textcomp} %Making microtype-warnings disappear
 
 \sisetup{%
 	exponent-product = \cdot ,%
 	separate-uncertainty = true ,%
 	per-mode = symbol%
 	}
+
+%Pagebreak before new section
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}

@@ -21,24 +21,24 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 \pagestyle{plain}
 %	%TitlePage
 	\include{./tex/TimosTitle}
-%	%Declaration
-%	\include{./tex/Declaration}
+	%Clear Page for Title
+	\include{./tex/emptypage}
+%	%Declaration	
+	\include{./tex/Declaration}
 %	%Quotation-page
 	\include{./tex/Quotation}
 %	%Abstract
-%	\include{./tex/Abstract}
+	\include{./tex/Abstract}
 %	%Acknowledgements
-%	\include{./tex/Acknowledgments}
+	\include{./tex/Acknowledgements}
+	%Personal Intro
+	\include{./tex/persintro}
 %	%Content lists
 	\tableofcontents % Prints the main table of contents
 	\listoffigures % Prints the list of figures
 	\listoftables % Prints the list of tables
 %	%Abbreviations
 	\include{./tex/Abbreviations}
-	%Constants
-	%\include{./tex/Constants}
-	%Symbols
-	%\include{./tex/Symbols}
 	%Dedication
 	\dedicatory{Dedicated to my family who thankfully pushed me on. \\ Willing or not.} 
 

@@ -9,56 +9,56 @@ A level-1 auxiliary file: ./tex/spv-t.aux
 The style file: timounsrt.bst
 Database file #1: biblio.bib
 Warning--entry type for "besocke" isn't style-file defined
---line 264 of file biblio.bib
+--line 453 of file biblio.bib
 Warning--entry type for "sintononline" isn't style-file defined
---line 272 of file biblio.bib
+--line 461 of file biblio.bib
 Warning--entry type for "ledengin" isn't style-file defined
---line 378 of file biblio.bib
+--line 567 of file biblio.bib
 Warning--entry type for "lakeshore" isn't style-file defined
---line 386 of file biblio.bib
+--line 575 of file biblio.bib
 Warning--entry type for "radue_raman" isn't style-file defined
---line 405 of file biblio.bib
+--line 594 of file biblio.bib
 Warning--entry type for "booth_theobands" isn't style-file defined
---line 426 of file biblio.bib
-You've used 46 entries,
+--line 615 of file biblio.bib
+You've used 65 entries,
             1829 wiz_defined-function locations,
-            727 strings with 11848 characters,
-and the built_in function-call counts, 10423 in all, are:
-= -- 851
-> -- 515
-< -- 3
-+ -- 192
-- -- 146
-* -- 753
-:= -- 1676
-add.period$ -- 139
-call.type$ -- 46
-change.case$ -- 43
+            833 strings with 15963 characters,
+and the built_in function-call counts, 15763 in all, are:
+= -- 1278
+> -- 839
+< -- 5
++ -- 306
+- -- 241
+* -- 1210
+:= -- 2546
+add.period$ -- 199
+call.type$ -- 65
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 448
-empty$ -- 1076
-format.name$ -- 146
-if$ -- 2325
+cite$ -- 65
+duplicate$ -- 649
+empty$ -- 1568
+format.name$ -- 241
+if$ -- 3486
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 40
-newline$ -- 233
-num.names$ -- 47
-pop$ -- 150
+int.to.str$ -- 65
+missing$ -- 59
+newline$ -- 330
+num.names$ -- 68
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 169
+skip$ -- 242
 stack$ -- 0
-substring$ -- 634
-swap$ -- 64
-text.length$ -- 3
+substring$ -- 1042
+swap$ -- 94
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 80
-width$ -- 48
-write$ -- 503
+while$ -- 122
+width$ -- 67
+write$ -- 718
 (There were 6 warnings)

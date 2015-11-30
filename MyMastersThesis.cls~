@@ -131,7 +131,7 @@
 \usepackage{siunitx} % Required for \SI commands
 
 \usepackage{graphicx} % Required to include images
-\graphicspath{{./figs/}{./figs/logos}{./}} % Specifies where to look for included images
+\graphicspath{{./figs/}{./figs/logos}{./figs/chap1}{./figs/chap2}} % Specifies where to look for included images
 
 \usepackage{booktabs} % Required for better table rules
 
