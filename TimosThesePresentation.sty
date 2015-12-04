@@ -1,0 +1,69 @@
+\ProvidesPackage{TimosThesePresentation}
+
+%	Things needed before my own packages
+%Packages
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{upgreek}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[bottom]{footmisc}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{microtype}
+\usepackage{wallpaper}
+\usepackage{letltxmacro}
+\usepackage{textcomp} %Making microtype-warnings disappear
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{ru}
+\usepackage{color}
+	\definecolor{RUred}{RGB}{190,49,26}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\captionsetup[table]{labelformat=empty}
+\usepackage{hyperref} % Required for customising links and the PDF
+\hypersetup{pdfpagemode={UseOutlines},
+pdfborder={0 0 0},	%no border around pdf
+bookmarksopen=true,
+bookmarksopenlevel=0,
+hypertexnames=false,
+colorlinks=true, % Set to false to disable coloring links
+citecolor=blue, % The color of citations
+linkcolor=blue, % The color of references to document elements (sections, figures, etc)
+urlcolor=RUred, % The color of hyperlinks (URLs)
+pdfstartview={FitV},
+unicode,
+breaklinks=true,
+}
+
+
+\sisetup{%
+	exponent-product = \cdot ,%
+	separate-uncertainty = true ,%
+	per-mode = symbol%
+	}
+%Commands
+\newcommand*{\supervisor}[1]{\def\supname{#1}}
+\newcommand*{\thesistitle}[1]{\def\@title{#1}\def\ttitle{#1}}
+\newcommand*{\examiner}[1]{\def\examname{#1}}
+\newcommand*{\degree}[1]{\def\degreename{#1}}
+\renewcommand*{\author}[1]{\def\authorname{#1}}
+\newcommand*{\addresses}[1]{\def\addressname{#1}}
+\newcommand*{\university}[1]{\def\univname{#1}}
+\newcommand*{\department}[1]{\def\deptname{#1}}
+\newcommand*{\group}[1]{\def\groupname{#1}}
+\newcommand*{\faculty}[1]{\def\facname{#1}}
+\renewcommand*{\subject}[1]{\def\subjectname{#1}}
+\renewcommand*{\keywords}[1]{\def\keywordnames{#1}}
+
+
+%My own Packages
+
+
+%My own commands
+\newcommand{\RUemph}[1]{\textcolor{RUred}{\emph{#1}}}

@@ -18,7 +18,7 @@ In the configuration outline above, the materials behave like a parallel plate c
 \end{equation}  
 in which $\epsilon$ \& $\epsilon_0$ are the permittivity and the permittivity of free-space respectively, $A$ is the area of the parallel plate and $d(t)$ is the distance between the plates. $d(t)$ is taken as a function of time, because the Kelvin Probe varies the distance in time. The current between the plates is given by the change in charge on the plates, which is in turn given by the change in capacitance:
 \begin{equation}
-	I(t) = \frac{dQ}{dt}= \Delta V \frac{dC}{dV} \, ,
+	I(t) = \frac{dQ}{dT}= \Delta V \frac{dC}{dV} \, ,
 \end{equation}
 where $\Delta V$ is the difference in potential between the plates, which is the sum of the applied backing voltage and the naturally occurring potential difference between the plates, the \cpd{}: $\Delta V = V_{\text{Backing}} + \cpd$. If we assume a sinusoidally varying distance with the average distance between the plates being $d_0$, $d_1$ being the amplitude of oscillation, $\omega$ being its frequency of oscillation and an arbitrary phase $\psi$, then
 \begin{equation}
