@@ -23,13 +23,14 @@
 \end{frame}
 
 \section{Introduction}
+
 \begin{frame}
-\frametitle{Some Background}
-\begin{block}{About my M.Sc. project\dots}
+\frametitle{Some background\dots}
+\begin{block}{\dots about my M.Sc. project}
 \begin{minipage}{0.55\linewidth}
 	\begin{itemize}
 		\item Research carried out in 13/14 at \deptname{}
-		\item Project had two parts: \pvdf{} \& \spv{}(T)
+		\item Project had two parts: enhancing solar cells \& setting up a new experimental system
 		\item Only part two will be presented
 	\end{itemize}
 \end{minipage}
@@ -44,91 +45,81 @@
 \frametitle{Motivation}
 \begin{block}{The goal of this project is to\dots}
 	\begin{itemize}
-		\item verify results from a \enhyphen{new} experimental set up against established systems
-		\item expand the capabilities of the \enhyphen{new} set up
-		\item ultimately measure temperature dependent \spv{}
+		\item Use a new experimental Kelvin Probe (\kp{}) system
+		\item Add illumination to \enhyphen{new} \kp{}
+		\item Compare results from \enhyphen{new} \kp{} to established, \enhyphen{old} \kp{}s
+		\begin{itemize}
+			\item[$\rightarrow$] Does \enhyphen{old} \& \enhyphen{new} Contact Potential Difference (\cpd{}) agree?
+			\item[$\rightarrow$] Does \enhyphen{old} \& \enhyphen{new} Surface Photovoltage (\spv{}) agree?
+		\end{itemize}
+		\item Ultimately measure temperature dependent Surface Photovoltage (\spv{}(T)) with the new system
 	\end{itemize}
 \end{block}\end{frame}
 
 \section{Theory}
 \begin{frame}
-\frametitle{Physical Causes of \cpd{} \& \spv{}}
-\begin{block}{The Kelvin Probe}
-\begin{minipage}{0.55\linewidth}
-	$\begin{array}{l l}
-		\cpd{} &\equiv \wfp - \wfs \\
-		C(t) &= \frac{\epsilon \epsilon_0 A}{d(t)} \\
-		I(t) &= \frac{dQ}{dt}= (\cpd{}+V_b) \frac{dC}{dV} \\
-		I(\Delta V) &= -\epsilon \epsilon _0 A (\cpd{}+V_b) \, f(\omega t)
-	\end{array}$
-\end{minipage}
-\hfill
+\frametitle{The Contact Potential Difference (\cpd{})}
+\begin{block}{Physical Causes of \cpd{}}
+\centering
 \begin{minipage}{0.4\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/kp-scheme}\\
-	\textcolor{RUred}{[1]}
-\end{minipage}
-\end{block}\end{frame}
-
-\begin{frame}
-\frametitle{Physical Causes of \cpd{} \& \spv{}}
-\begin{block}{Band bending \& \spv{}: dark vs. light}
-\centering
-$\text{\spv} \equiv \cpd_{\text{light}} - \cpd_{\text{dark}}$\\[-8pt]\hrulefill\\[-5pt]
-\begin{minipage}{0.45\linewidth}
-\centering
-	\includegraphics[width=1\linewidth]{./figs/pres/bb-dark}
+	The \cpd{} is the difference in local vacuum levels, here defined as:\\[10pt]
+	$\cpd{} \equiv \wfp - \wfs$, \\
+	where $\upvarphi$ is Work function\\
 \end{minipage}
 \hfill
-\begin{minipage}{0.45\linewidth}
+\begin{minipage}{0.55\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/bb-light}
+	\only<1>{Semiconductor-Metal:\\\includegraphics[width=1\linewidth]{./figs/pres/CPDsemi1}\\\textcolor{RUred}{[1]}}
+	\only<2>{Semiconductor-Metal:\\\includegraphics[width=1\linewidth]{./figs/pres/CPDsemi2}\\\textcolor{RUred}{[1]}}
+	\only<3>{Semiconductor-Metal:\\\includegraphics[width=1\linewidth]{./figs/pres/CPDsemi3}\\\textcolor{RUred}{[1]}}
+	%Figure defining Wf S
+	
+	%Cite Kronik Shapira
 \end{minipage}
 \end{block}\end{frame}
 
+
 \begin{frame}
-\frametitle{Physical Causes of \cpd{} \& \spv{}}
-\begin{block}{Band bending \& \spv{}: n-type vs. p-type}
+\frametitle{The Contact Potential Difference (\cpd{})}
+\begin{block}{Measuring \cpd{}: The Kelvin Probe (\kp{})}
 \centering
-$\text{\spv} \equiv \upvarphi _{\text{s,dark}} - \upvarphi _{\text{s,light}}$\\[-8pt]\hrulefill\\[-5pt]
 \begin{minipage}{0.45\linewidth}
 \centering
-	\includegraphics[width=0.9\linewidth]{./figs/pres/bbdefn}
+$\begin{array}{l c c l}
+I(t) 	=& \frac{dQ}{dt}	&=& (\cpd{}+V_b) \frac{dC}{dt}	\\
+		& 				& &								\\
+I(t)		=& 0				&\text{iff}&	V_b=-\cpd{}			\end{array}$
 \end{minipage}
 \hfill
-\begin{minipage}{0.45\linewidth}
-\centering
-	\includegraphics[width=0.9\linewidth]{./figs/pres/bbdefp}
-\end{minipage}\\\hrulefill\\
-$\text{\spv}_{\text{n-Type}} 	> 0	\qquad	\text{\spv}_{\text{p-Type}} 	< 0	$
-\end{block}\end{frame}
-
-\begin{frame}
-\frametitle{Choosing a Model System}
-\begin{block}{Metal Insulator Transition in \vadiox{}}
 \begin{minipage}{0.5\linewidth}
-	\begin{itemize}
-		\item metal at $T>T_{MI}$
-		\item semiconductor at $T<T_{MI}$
-		\item insulator at $T \ll T_{MI}$
-		\item Influences of W-doping:
-		\begin{itemize}
-			\item $T_{MI}\approx \SI{270}{\kelvin}$ \hspace{0.15cm} \textcolor{RUred}{[2]}
-			\item $\upvarphi \phantom{_{MI}} \approx  \SI{5.15}{\electronvolt}$ \textcolor{RUred}{[3]}
-		\end{itemize}
-	\end{itemize}
-\end{minipage}
-\hfill
-\begin{minipage}{0.45\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/vo2gapopening}\\
-	\textcolor{RUred}{[4]}
+	\includegraphics[width=1\linewidth]{./figs/pres/simple-kp-scheme}\\
+	%Equivalent Circuit
+\end{minipage}
+\end{block}\end{frame}
+
+\begin{frame}
+\frametitle{Physical Causes of Surface Photovoltage (\spv{})}
+\begin{block}{\spv{}: \cpd{} in the dark dark vs. light}
+\centering
+\begin{minipage}{0.38\linewidth}
+\centering
+Different surface potentials in light and dark yield \spv{}:\\[12pt]
+$\begin{array}{l l}
+\text{\spv} &\equiv \cpd_{\text{l}} - \cpd_{\text{d}}\\
+			&\equiv \upvarphi _{\text{s,d}} - \upvarphi _{\text{s,l}}\\
+\text{\spv}_{\text{n}} 	&> 0	 \\
+\text{\spv}_{\text{p}} 	&< 0			\end{array}$
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+\includegraphics[width=1\linewidth]{./figs/pres/spvdef}
 \end{minipage}
 \end{block}\end{frame}
 
 \section{The Systems}
 \begin{frame}
-\frametitle{Established \kp{} Systems}
+\frametitle{Established, \enhyphen{old} \kp{} Systems}
 \begin{block}{Ambient \& Glovebox \kp{}s}
 \centering
 \begin{minipage}{0.55\linewidth}
@@ -145,13 +136,13 @@ $\text{\spv}_{\text{n-Type}} 	> 0	\qquad	\text{\spv}_{\text{p-Type}} 	< 0	$
 \begin{minipage}{0.4\linewidth}
 \centering
 	\includegraphics[width=1\linewidth]{./figs/pres/besocke}\\
-	\textcolor{RUred}{[5]}
+	\textcolor{RUred}{[2]}
 \end{minipage}
 \end{block}\end{frame}
 
 \begin{frame}
-\frametitle{Cryogenic System with a \kp{}}
-\begin{block}{Lakeshore with \McA{} \& \led{}}
+\frametitle{\enhyphen{New} System: Cryostat with a \kp{}}
+\begin{block}{Lakeshore Cryostat with \McA{} \kp{} \& \led{} illumination}
 \centering
 \begin{minipage}{0.45\linewidth}
 \centering
@@ -162,7 +153,7 @@ $\text{\spv}_{\text{n-Type}} 	> 0	\qquad	\text{\spv}_{\text{p-Type}} 	< 0	$
 \centering
 	\includegraphics[width=1\linewidth]{./figs/pres/ledspec}
 \end{minipage}\\
-\hspace{0.25\linewidth}\textcolor{RUred}{[6]}\hfill\textcolor{RUred}{[7]}\hspace{0.2\linewidth}
+\hspace{0.25\linewidth}\textcolor{RUred}{[3]}\hfill\textcolor{RUred}{[4]}\hspace{0.2\linewidth}
 \end{block}\end{frame}
 
 \section{Experimental}
@@ -183,29 +174,57 @@ $\text{\spv}_{\text{n-Type}} 	> 0	\qquad	\text{\spv}_{\text{p-Type}} 	< 0	$
 Excellent agreement between systems
 \end{block}\end{frame}
 
+
 \begin{frame}
 \frametitle{Checking against Established Systems}
 \begin{block}{Behaviour at lower temperatures and \spv{}}
 \centering
 \begin{minipage}{0.4\linewidth}
+\centering
+\SI{30}{\nano\metre} AlO$_3$ on Si,\\ 
+by plasma-enhanced atomic layer deposition \textcolor{RUred}{[5]}
 	\begin{itemize}
-		\item $\upvarphi_{\text{Alumina}}$ at \SI{300}{\kelvin}: \SI{4.00+-0.12}{\electronvolt}
-		\item $\upvarphi_{\text{Alumina}}$ at \SI{250}{\kelvin}: \SI{4.17+-0.15}{\electronvolt}
+		\item $\upvarphi_{\text{Si/Alumina}}$ at \SI{300}{\kelvin}: \SI{4.42+-0.03}{\electronvolt}
+		\item $\upvarphi_{\text{Si/Alumina}}$ at \SI{250}{\kelvin}: \SI{4.44+-0.04}{\electronvolt}
 	\end{itemize}
 \end{minipage}
 \hfill
 \begin{minipage}{0.55\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/currentseries}
+\vspace{5pt}
+	\includegraphics[width=0.9\linewidth]{./figs/pres/currentseries}
 \end{minipage}\\[5pt]\hrulefill\\
 Probably no ice, even on very hydrophilic surface\\
-\spv{} $\sim$\SI{12}{\percent} too low. Shadows on the sample?
+\spv{} $\sim$\SI{12}{\percent} too low compared to other system and literature (\textcolor{RUred}{[5]}). Shadows on the sample?
+\end{block}\end{frame}
+
+\begin{frame}
+\frametitle{Intermission: Choosing a Model System for \spv{}(T)}
+\begin{block}{Metal Insulator (MI) Transition in \vadiox{}}
+\begin{minipage}{0.6\linewidth}
+	\begin{itemize}
+		\item metal at $T>T_{MI}$
+		\item semiconductor at $T<T_{MI}$
+		\item insulator at $T \ll T_{MI}$
+		\item $\phantom{\Delta}T_{MI}\approx \phantom{-}\SI{270}{\kelvin}$ \hspace{0.15cm} \textcolor{RUred}{[6]} (W-doped)
+		\item $\phantom{\Delta}\upvarphi\phantom{_{MI}} \approx  \phantom{-}\SI{5.15}{\electronvolt}$ \textcolor{RUred}{[7]} (at RT)
+		\item $\Delta\upvarphi_{MI} \approx  -\SI{0.15}{\electronvolt}$ \textcolor{RUred}{[7]}
+		\item $\Delta\upvarphi_{MI} \approx  \phantom{-}\SI{0.45}{\electronvolt}$ \textcolor{RUred}{[8]} (W-doped)
+	\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\linewidth}
+\centering
+	\includegraphics[width=1\linewidth]{./figs/pres/vo2gapopening}\\
+	\textcolor{RUred}{[9]}
+\end{minipage}
 \end{block}\end{frame}
 
 \begin{frame}
 \frametitle{Temperature Dependent \cpd{} in \wvadiox{}}
-\begin{block}{Temperature Sweep and precise Measurement}
+\begin{block}{Two independent Measurements: Sweep and Stabilise}
 \centering
+{\tiny Samples supplied by M. Nakano, RKIEN}\\[-10pt]\hrulefill\\[2pt]
 \begin{minipage}{0.45\linewidth}
 \centering
 	\includegraphics[width=1\linewidth]{./figs/pres/vox1pres}
@@ -225,18 +244,20 @@ Effect of substrate?
 \centering
 \begin{minipage}{0.45\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/vo2resis}\\
-	{\small Measurement by Nir Kedem}
+	\includegraphics[width=0.9\linewidth]{./figs/pres/vo2resis}\\
+	{\tiny Measurement by Nir Kedem}
 \end{minipage}
 \hfill
 \begin{minipage}{0.45\linewidth}
 \centering
-	\includegraphics[width=1\linewidth]{./figs/pres/vox3}\\
-	\phantom{{\small Measurement by Nir Kedem}}
-\end{minipage}\\[5pt]\hrulefill\\
-\spv{} identifies \wvadiox{} as n-type material\\
-Appearance of \spv{} and change in \wf{} in accordance with resistivity and literature \textcolor{RUred}{[2,3]}
+	\includegraphics[width=0.9\linewidth]{./figs/pres/vox3}\\
+\end{minipage}\\[2pt]\hrulefill\\[2pt]
+$\rho$(T) magnitude and $T_{MI}$-range agrees with literature (\textcolor{RUred}{[7]},\textcolor{RUred}{[10]})\\
+$\Delta \upvarphi _{MI}$ observed before; direction \& magnitude unclear (\textcolor{RUred}{[6]},\textcolor{RUred}{[8]})\\
+Gradual gap opening process $\rightarrow$ appearance of \spv{}\\
+Sign of \spv{} identifies sample as n-type $\rightarrow$ W-doping
 \end{block}\end{frame}
+
 \section{Discussion \& Conclusion}
 \begin{frame}
 \frametitle{Discussion \& Conclusion}
@@ -246,8 +267,9 @@ Appearance of \spv{} and change in \wf{} in accordance with resistivity and lite
 	\item \cpd{} is in excellent agreement with established systems
 	\item \spv{} $\sim$\SI{12}{\percent} too low. Shadowing?
 	\item \cpd{}(T) reproducible and interesting
-	\item \spv{}(T) shows expected behaviour for model system
-	\item[$\rightarrow$] Lakeshore + \McA{} + \led{} is a viable system for \spv{}(T)
+	\item \cpd{}(T) \& \spv{}(T) reasonable
+	\item[$\rightarrow$] Lakeshore + \McA{} + \led{} is a viable experimental system for \spv{}(T)
+	\item System has successfully been used in that configuration since 2014, publication forthcoming \textcolor{RUred}{[11]}
 \end{itemize}
 \end{block}\end{frame}
 
@@ -256,27 +278,29 @@ Appearance of \spv{} and change in \wf{} in accordance with resistivity and lite
 \begin{block}{Literature and links}
 \centering
 	\begin{tabular}{r l}
-	\textcolor{RUred}{[1]} & \href{https://www.helmholtz-berlin.de/media/media/forschung/energie/heterogen/eta/methods/spv-techniques-2010-08-09.pdf}{SPV Technique, Helmholtz Institute Berlin}\\
-	\textcolor{RUred}{[2]} & Changhyun Ko~\etal{} \emph{ACS Appl. Mater. Interfaces}, \\
-	& 3(9):3396-3401, 2011\\
-	\textcolor{RUred}{[3]} & Keisuke Shibuya~\etal{}. \emph{Phys Rev. B}, 82(20), 2010 \\
-	\textcolor{RUred}{[4]} & M. Nakano~\etal{}. \emph{Nature}, 487(7408):459-462, 2012 \\
-	\textcolor{RUred}{[5]} & \href{http://www.besocke-delta-phi.de/kelvin.htm}{Besocke Website} \\
-	\textcolor{RUred}{[6]} & \href{http://lakeshore.com/products/cryogenic-probe-stations/
-model-ttpx-cryogenic-probe-station/pages/Overview.aspx}{Lakeshore Website} \\
-	\textcolor{RUred}{[7]} & \href{http://www.ledengin.com/files/products/LZP/
-LZP-00CW0R.pdf}{LEDengine Website}
+	\textcolor{RUred}{[1]} & L. Kronik \& Y. Shapira \emph{Surf. Sci. Rep.}, \textbf{37(1-5)}, 1999\\
+	\textcolor{RUred}{[2]} & \href{http://www.besocke-delta-phi.de/kelvin.htm}{Besocke Website} \\
+	\textcolor{RUred}{[3]} & \href{http://lakeshore.com/products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station/pages/Overview.aspx}{Lakeshore Website}\\
+	\textcolor{RUred}{[4]} & \href{http://www.ledengin.com/files/products/LZP/LZP-00CW0R.pdf}{LEDengin Website}\\
+	\textcolor{RUred}{[5]} & D. Cahen~\etal{} \emph{Appl. Phys. Lett.}, \textbf{101}, 2012\\
+	\textcolor{RUred}{[6]} & K. Shibuya~\etal{} \emph{Phys Rev. B}, \textbf{82(20)}, 2010 \\
+	\textcolor{RUred}{[7]} & C. Ko~\etal{} \emph{ACS Appl. Mater. Interfaces}, \textbf{3(9)}, 2011\\
+	\textcolor{RUred}{[8]} & H. Yin~\etal{} \emph{ACS Appl. Mater. Interfaces}, \textbf{3(6)}, 2011 \\
+	\textcolor{RUred}{[9]} & M. Nakano~\etal{} \emph{Nature}, \textbf{487(7408)}, 2012 \\
+	\textcolor{RUred}{[10]} & K. Shibuya~\etal{} \emph{Appl. Phys. Lett.}, \textbf{96}, 2010 \\
+	\textcolor{RUred}{[11]} & D. Cahen~\etal{} \emph{J. Phys. Chem. Lett.}, forthcoming \\
 	\end{tabular}
 \end{block}\end{frame}
+
 
 \begin{frame}
 \frametitle{Acknowledgements}
 \begin{block}{Thanks! to\dots}
 \centering
 	\begin{tabular}{r l}
-	\textcolor{RUred}{Prof. Dr. David Cahen} & for his supervision \\
+	\textcolor{RUred}{Prof. David Cahen} & for his supervision \\
 	\textcolor{RUred}{Dr. Hugo Meekes} & for his spontaneous support \\
-	\textcolor{RUred}{Igal Levin} & for keeping me (somewhat) on track \\
+	\textcolor{RUred}{Igal Levine} & for keeping me (somewhat) on track \\
 	\textcolor{RUred}{Nir Kedem} & for always having an answer
 	\end{tabular}
 \end{block}\end{frame}

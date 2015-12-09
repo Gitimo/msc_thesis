@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  4 DEC 2015 02:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  8 DEC 2015 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,15 +662,7 @@ y
 Package: beamerouterthemedefault 2012/10/02  (rcs-revision 5ed0f4010e8a)
 ))) (./TimosThesePresentation.sty
 Package: TimosThesePresentation 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+ (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -1653,10 +1645,11 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 15.
 
-(/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1747,41 +1740,41 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/lmr/m/n on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/lmr/m/n on input line 15.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 15.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 15.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 15.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 15.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 15.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 15.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 15.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 15.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 15.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 15.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 15.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 15.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/lmr/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> OT1/lmr/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 15.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 15.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 15.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 15.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 15.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1821,7 +1814,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: T1).
+(microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
@@ -1829,21 +1822,18 @@ Package microtype Info: Loading generic settings for font family
 fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 ) (./presentation_main.nav)
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 15.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 15.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <6> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 15.
+LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <6> not available
+(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/6'.
-(microtype)             Ignoring protrusion settings for this character.
 \c__siunitx_mathsf_int=\count301
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -1891,20 +1881,21 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 15.
 \c__siunitx_mathtt_int=\count302
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 15.
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
+(microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1913,7 +1904,7 @@ Package microtype Info: Loading generic settings for font family
 (./presentation_main.toc) [2
 
  <./figs/logos/ru_logo.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 42.
 
 
 (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
@@ -1928,178 +1919,189 @@ Package microtype Info: Loading generic settings for font family
 File: ./figs/logos/weiz.png Graphic file (type png)
 
 <use ./figs/logos/weiz.png>
-Package pdftex.def Info: ./figs/logos/weiz.png used on input line 41.
+Package pdftex.def Info: ./figs/logos/weiz.png used on input line 42.
 (pdftex.def)             Requested size: 122.91406pt x 90.47055pt.
  [3
 
- <./figs/logos/ru_logo.pdf> <./figs/logos/weiz.png>] [4
+ <./figs/logos/ru_logo.pdf> <./figs/logos/weiz.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 57.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 57.
+ [4
 
  <./figs/logos/ru_logo.pdf>]
-Overfull \hbox (7.06133pt too wide) in paragraph at lines 71--71
-[]$[]$ 
- []
+<./figs/pres/CPDsemi1.png, id=132, 413.3844pt x 225.0006pt>
+File: ./figs/pres/CPDsemi1.png Graphic file (type png)
 
-<./figs/pres/kp-scheme.png, id=131, 526.1256pt x 322.806pt>
-File: ./figs/pres/kp-scheme.png Graphic file (type png)
-
-<use ./figs/pres/kp-scheme.png>
-Package pdftex.def Info: ./figs/pres/kp-scheme.png used on input line 71.
-(pdftex.def)             Requested size: 122.91406pt x 75.41118pt.
+<use ./figs/pres/CPDsemi1.png>
+Package pdftex.def Info: ./figs/pres/CPDsemi1.png used on input line 80.
+(pdftex.def)             Requested size: 169.01036pt x 91.9899pt.
  [5
 
- <./figs/logos/ru_logo.pdf> <./figs/pres/kp-scheme.png>] <./figs/pres/bb-dark.p
-ng, id=155, 216.81pt x 184.5294pt>
-File: ./figs/pres/bb-dark.png Graphic file (type png)
+ <./figs/logos/ru_logo.pdf> <./figs/pres/CPDsemi1.png>] <./figs/pres/CPDsemi2.p
+ng, id=149, 413.3844pt x 225.0006pt>
+File: ./figs/pres/CPDsemi2.png Graphic file (type png)
 
-<use ./figs/pres/bb-dark.png>
-Package pdftex.def Info: ./figs/pres/bb-dark.png used on input line 87.
-(pdftex.def)             Requested size: 138.2795pt x 117.69576pt.
-
-<./figs/pres/bb-light.png, id=156, 216.81pt x 184.5294pt>
-File: ./figs/pres/bb-light.png Graphic file (type png)
-
-<use ./figs/pres/bb-light.png>
-Package pdftex.def Info: ./figs/pres/bb-light.png used on input line 87.
-(pdftex.def)             Requested size: 138.2795pt x 117.69576pt.
+<use ./figs/pres/CPDsemi2.png>
+Package pdftex.def Info: ./figs/pres/CPDsemi2.png used on input line 80.
+(pdftex.def)             Requested size: 169.01036pt x 91.9899pt.
  [6
 
- <./figs/logos/ru_logo.pdf> <./figs/pres/bb-dark.png> <./figs/pres/bb-light.png
->]
-<./figs/pres/bbdefn.png, id=174, 216.81pt x 184.5294pt>
-File: ./figs/pres/bbdefn.png Graphic file (type png)
+ <./figs/logos/ru_logo.pdf> <./figs/pres/CPDsemi2.png>] <./figs/pres/CPDsemi3.p
+ng, id=166, 413.3844pt x 225.0006pt>
+File: ./figs/pres/CPDsemi3.png Graphic file (type png)
 
-<use ./figs/pres/bbdefn.png>
-Package pdftex.def Info: ./figs/pres/bbdefn.png used on input line 104.
-(pdftex.def)             Requested size: 124.4507pt x 105.92337pt.
-
-<./figs/pres/bbdefp.png, id=175, 216.81pt x 184.5294pt>
-File: ./figs/pres/bbdefp.png Graphic file (type png)
-
-<use ./figs/pres/bbdefp.png>
-Package pdftex.def Info: ./figs/pres/bbdefp.png used on input line 104.
-(pdftex.def)             Requested size: 124.4507pt x 105.92337pt.
+<use ./figs/pres/CPDsemi3.png>
+Package pdftex.def Info: ./figs/pres/CPDsemi3.png used on input line 80.
+(pdftex.def)             Requested size: 169.01036pt x 91.9899pt.
  [7
 
- <./figs/logos/ru_logo.pdf> <./figs/pres/bbdefn.png> <./figs/pres/bbdefp.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 127.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 127.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 127.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 127.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 127.
+ <./figs/logos/ru_logo.pdf> <./figs/pres/CPDsemi3.png>]
+Overfull \hbox (22.38864pt too wide) in paragraph at lines 100--100
+ []$[]$ 
+ []
 
-<./figs/pres/vo2gapopening.png, id=193, 94.4328pt x 93.7101pt>
-File: ./figs/pres/vo2gapopening.png Graphic file (type png)
+<./figs/pres/simple-kp-scheme.png, id=183, 329.0694pt x 176.8206pt>
+File: ./figs/pres/simple-kp-scheme.png Graphic file (type png)
 
-<use ./figs/pres/vo2gapopening.png>
-Package pdftex.def Info: ./figs/pres/vo2gapopening.png used on input line 127.
-(pdftex.def)             Requested size: 138.2795pt x 137.236pt.
+<use ./figs/pres/simple-kp-scheme.png>
+Package pdftex.def Info: ./figs/pres/simple-kp-scheme.png used on input line 10
+0.
+(pdftex.def)             Requested size: 153.64493pt x 82.55797pt.
  [8
 
- <./figs/logos/ru_logo.pdf> <./figs/pres/vo2gapopening.png>] <./figs/pres/besoc
-ke.jpg, id=210, 590.205pt x 370.38374pt>
+ <./figs/logos/ru_logo.pdf> <./figs/pres/simple-kp-scheme.png>]
+Overfull \hbox (4.65533pt too wide) in paragraph at lines 118--118
+ []$[]$ 
+ []
+
+<./figs/pres/spvdef.png, id=202, 429.7656pt x 176.8206pt>
+File: ./figs/pres/spvdef.png Graphic file (type png)
+
+<use ./figs/pres/spvdef.png>
+Package pdftex.def Info: ./figs/pres/spvdef.png used on input line 118.
+(pdftex.def)             Requested size: 184.3758pt x 75.85869pt.
+ [9
+
+ <./figs/logos/ru_logo.pdf> <./figs/pres/spvdef.png>] <./figs/pres/besocke.jpg,
+ id=219, 590.205pt x 370.38374pt>
 File: ./figs/pres/besocke.jpg Graphic file (type jpg)
 
 <use ./figs/pres/besocke.jpg>
-Package pdftex.def Info: ./figs/pres/besocke.jpg used on input line 150.
+Package pdftex.def Info: ./figs/pres/besocke.jpg used on input line 141.
 (pdftex.def)             Requested size: 122.91406pt x 77.13293pt.
- [9
+ [10
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/besocke.jpg>] <./figs/pres/Config_TTPX
-.png, id=224, 470.75874pt x 222.8325pt>
+.png, id=233, 470.75874pt x 222.8325pt>
 File: ./figs/pres/Config_TTPX.png Graphic file (type png)
 
 <use ./figs/pres/Config_TTPX.png>
-Package pdftex.def Info: ./figs/pres/Config_TTPX.png used on input line 166.
+Package pdftex.def Info: ./figs/pres/Config_TTPX.png used on input line 157.
 (pdftex.def)             Requested size: 138.2795pt x 65.4528pt.
 
-<./figs/pres/ledspec.png, id=225, 1044.90375pt x 703.62875pt>
+<./figs/pres/ledspec.png, id=234, 1044.90375pt x 703.62875pt>
 File: ./figs/pres/ledspec.png Graphic file (type png)
 
 <use ./figs/pres/ledspec.png>
-Package pdftex.def Info: ./figs/pres/ledspec.png used on input line 166.
+Package pdftex.def Info: ./figs/pres/ledspec.png used on input line 157.
 (pdftex.def)             Requested size: 138.2795pt x 93.10689pt.
- [10
+ [11
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/Config_TTPX.png> <./figs/pres/ledspec.
 png>]
-<./figs/pres/HOPGMcA.png, id=242, 1211.52625pt x 909.3975pt>
+<./figs/pres/HOPGMcA.png, id=251, 1211.52625pt x 909.3975pt>
 File: ./figs/pres/HOPGMcA.png Graphic file (type png)
 
 <use ./figs/pres/HOPGMcA.png>
-Package pdftex.def Info: ./figs/pres/HOPGMcA.png used on input line 184.
+Package pdftex.def Info: ./figs/pres/HOPGMcA.png used on input line 175.
 (pdftex.def)             Requested size: 138.2795pt x 103.7945pt.
 
-<./figs/pres/Sih.png, id=243, 1221.56375pt x 915.42pt>
+<./figs/pres/Sih.png, id=252, 1221.56375pt x 915.42pt>
 File: ./figs/pres/Sih.png Graphic file (type png)
 
 <use ./figs/pres/Sih.png>
-Package pdftex.def Info: ./figs/pres/Sih.png used on input line 184.
+Package pdftex.def Info: ./figs/pres/Sih.png used on input line 175.
 (pdftex.def)             Requested size: 138.2795pt x 103.61586pt.
- [11
+ [12
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/HOPGMcA.png> <./figs/pres/Sih.png>]
-<./figs/pres/currentseries.png, id=259, 1200.485pt x 900.36375pt>
+<./figs/pres/currentseries.png, id=268, 1200.485pt x 900.36375pt>
 File: ./figs/pres/currentseries.png Graphic file (type png)
 
 <use ./figs/pres/currentseries.png>
-Package pdftex.def Info: ./figs/pres/currentseries.png used on input line 203.
-(pdftex.def)             Requested size: 169.01036pt x 126.75072pt.
- [12
+Package pdftex.def Info: ./figs/pres/currentseries.png used on input line 199.
+(pdftex.def)             Requested size: 152.10829pt x 114.07016pt.
+ [13
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/currentseries.png>]
-<./figs/pres/vox1pres.png, id=275, 702.4644pt x 489.2679pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 221.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 221.
+
+
+<./figs/pres/vo2gapopening.png, id=284, 94.4328pt x 93.7101pt>
+File: ./figs/pres/vo2gapopening.png Graphic file (type png)
+
+<use ./figs/pres/vo2gapopening.png>
+Package pdftex.def Info: ./figs/pres/vo2gapopening.png used on input line 221.
+(pdftex.def)             Requested size: 107.55333pt x 106.73338pt.
+ [14
+
+ <./figs/logos/ru_logo.pdf> <./figs/pres/vo2gapopening.png>]
+<./figs/pres/vox1pres.png, id=300, 975.645pt x 679.53876pt>
 File: ./figs/pres/vox1pres.png Graphic file (type png)
 
 <use ./figs/pres/vox1pres.png>
-Package pdftex.def Info: ./figs/pres/vox1pres.png used on input line 220.
+Package pdftex.def Info: ./figs/pres/vox1pres.png used on input line 239.
 (pdftex.def)             Requested size: 138.2795pt x 96.30646pt.
 
-<./figs/pres/vox2pres.png, id=276, 719.8092pt x 501.5538pt>
+<./figs/pres/vox2pres.png, id=301, 999.735pt x 696.6025pt>
 File: ./figs/pres/vox2pres.png Graphic file (type png)
 
 <use ./figs/pres/vox2pres.png>
-Package pdftex.def Info: ./figs/pres/vox2pres.png used on input line 220.
-(pdftex.def)             Requested size: 138.2795pt x 96.35234pt.
+Package pdftex.def Info: ./figs/pres/vox2pres.png used on input line 239.
+(pdftex.def)             Requested size: 138.2795pt x 96.34383pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 220.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 220.
- [13
+(Font)              <14.4> on input line 239.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 239.
+
+ [15
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/vox1pres.png> <./figs/pres/vox2pres.pn
 g>]
-<./figs/pres/vo2resis.png, id=294, 417.7206pt x 273.1806pt>
+<./figs/pres/vo2resis.png, id=317, 417.7206pt x 273.1806pt>
 File: ./figs/pres/vo2resis.png Graphic file (type png)
 
 <use ./figs/pres/vo2resis.png>
-Package pdftex.def Info: ./figs/pres/vo2resis.png used on input line 239.
-(pdftex.def)             Requested size: 138.2795pt x 90.42915pt.
+Package pdftex.def Info: ./figs/pres/vo2resis.png used on input line 259.
+(pdftex.def)             Requested size: 124.4507pt x 81.3879pt.
 
-<./figs/pres/vox3.png, id=295, 578.16pt x 433.62pt>
+<./figs/pres/vox3.png, id=318, 578.16pt x 433.62pt>
 File: ./figs/pres/vox3.png Graphic file (type png)
  <use ./figs/pres/vox3.png>
-Package pdftex.def Info: ./figs/pres/vox3.png used on input line 239.
-(pdftex.def)             Requested size: 138.2795pt x 103.70702pt.
+Package pdftex.def Info: ./figs/pres/vox3.png used on input line 259.
+(pdftex.def)             Requested size: 124.4507pt x 93.33234pt.
 
-[14
+[16
 
  <./figs/logos/ru_logo.pdf> <./figs/pres/vo2resis.png> <./figs/pres/vox3.png>] 
-[15
+[17
 
- <./figs/logos/ru_logo.pdf>] [16
+ <./figs/logos/ru_logo.pdf>] [18
 
- <./figs/logos/ru_logo.pdf>] [17
+ <./figs/logos/ru_logo.pdf>] [19
 
  <./figs/logos/ru_logo.pdf>]
 \tf@nav=\write6
@@ -2111,41 +2113,39 @@ Package pdftex.def Info: ./figs/pres/vox3.png used on input line 239.
 \tf@snm=\write8
 \openout8 = `presentation_main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (./presentation_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `presentation_main.out' has not changed.
 (rerunfilecheck)             Checksum: ED14349D9AE6A0A641950FC4637409DC;552.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 31155 strings out of 494985
- 595803 string characters out of 6180356
- 626386 words of memory out of 5000000
- 33638 multiletter control sequences out of 15000+600000
- 82020 words of font info for 113 fonts, out of 8000000 for 9000
+ 31073 strings out of 494985
+ 594021 string characters out of 6180356
+ 628498 words of memory out of 5000000
+ 33566 multiletter control sequences out of 15000+600000
+ 79383 words of font info for 108 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,19n,53p,10462b,1331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,53p,10462b,1221s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-sbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb>
-Output written on presentation_main.pdf (17 pages, 895073 bytes).
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+m-rmsc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on presentation_main.pdf (19 pages, 914878 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 40 named destinations out of 1000 (max. 500000)
- 31001 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 28963 words of extra memory for PDF output out of 29859 (max. 10000000)
 
