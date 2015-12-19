@@ -225,6 +225,25 @@ Seok~Ju Kang, Youn~Jung Park, Jinwoo Sung, Pil~Sung Jo, Cheolmin Park, Kap~Jin
   rapid thermal annealing.
 \newblock {\em Applied Physics Letters}, 92(1), 2008.
 
+\bibitem{airbreakdown}
+F.W. Peek.
+\newblock The law of corona and the dielectric strength of air.
+\newblock {\em American Institute of Electrical Engineers, Proceedings of the},
+  30(7):1485--1561, July 1911.
+
+\bibitem{polymerbreakdown}
+Jason Claude, Yingying Lu, and Qing Wang.
+\newblock Effect of molecular weight on the dielectric breakdown strength of
+  ferroelectric poly(vinylidene fluoride-chlorotrifluoroethylene)s.
+\newblock {\em Applied Physics Letters}, 91(21), 2007.
+
+\bibitem{teflonbreakdown}
+C.T. Rosenmaver, J.~W. Bartz, and J.~Hammes.
+\newblock Adhesion and dielectric strength of ultra-low dielectric constant
+  ptfe thin films.
+\newblock In {\em Symposium N – Low-Dielectric Constant Materials III},
+  volume 476 of {\em MRS Proceedings}, 1997.
+
 \bibitem{ducharme_finitesize}
 Stephen Ducharme, V.~M. Fridkin, A.~V. Bune, S.~P. Palto, L.~M. Blinov, N.~N.
   Petukhova, and S.~G. Yudin.

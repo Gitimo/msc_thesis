@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  30 NOV 2015 03:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.5)  11 DEC 2015 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1693,7 +1693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  Personal Introduction
 --------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
@@ -1701,37 +1701,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--13
 
 
 
-] [7] (./main.toc [8
+] (./main.toc [7
 
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [9] (./main.lof [10
+ [8] (./main.lof [9
 
 ])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [11] (./main.lot)
+ [10] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [12
+ [11
 
 ]
 \openout2 = `./tex/Abbreviations.aux'.
 
 
-(./tex/Abbreviations.tex) [13
+(./tex/Abbreviations.tex) [12
 
 
 ]
 --------------------
  Dedicatory
 --------------------
-[14
+[13
 
 
 ]
@@ -1753,7 +1753,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [2
 
 ] [3]
-<./figs/chap1/dielpolplot.png, id=606, 144.54pt x 144.54pt>
+<./figs/chap1/dielpolplot.png, id=602, 144.54pt x 144.54pt>
 File: ./figs/chap1/dielpolplot.png Graphic file (type png)
 
 <use ./figs/chap1/dielpolplot.png>
@@ -1763,35 +1763,35 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-<./figs/chap1/parelpolplot.png, id=607, 144.54pt x 144.54pt>
+<./figs/chap1/parelpolplot.png, id=603, 144.54pt x 144.54pt>
 File: ./figs/chap1/parelpolplot.png Graphic file (type png)
 
 <use ./figs/chap1/parelpolplot.png>
 Package pdftex.def Info: ./figs/chap1/parelpolplot.png used on input line 37.
 (pdftex.def)             Requested size: 112.54524pt x 112.54443pt.
 
-<./figs/chap1/ferelpolplot.png, id=608, 144.54pt x 144.54pt>
+<./figs/chap1/ferelpolplot.png, id=604, 144.54pt x 144.54pt>
 File: ./figs/chap1/ferelpolplot.png Graphic file (type png)
 
 <use ./figs/chap1/ferelpolplot.png>
 Package pdftex.def Info: ./figs/chap1/ferelpolplot.png used on input line 43.
 (pdftex.def)             Requested size: 112.54524pt x 112.54443pt.
 
-<./figs/chap1/ferroscheme1.png, id=614, 144.54pt x 144.54pt>
+<./figs/chap1/ferroscheme1.png, id=610, 144.54pt x 144.54pt>
 File: ./figs/chap1/ferroscheme1.png Graphic file (type png)
 
 <use ./figs/chap1/ferroscheme1.png>
 Package pdftex.def Info: ./figs/chap1/ferroscheme1.png used on input line 54.
 (pdftex.def)             Requested size: 112.54524pt x 112.54443pt.
 
-<./figs/chap1/ferroscheme2.png, id=615, 144.54pt x 144.54pt>
+<./figs/chap1/ferroscheme2.png, id=611, 144.54pt x 144.54pt>
 File: ./figs/chap1/ferroscheme2.png Graphic file (type png)
 
 <use ./figs/chap1/ferroscheme2.png>
 Package pdftex.def Info: ./figs/chap1/ferroscheme2.png used on input line 60.
 (pdftex.def)             Requested size: 112.54524pt x 112.54443pt.
 
-<./figs/chap1/ferroscheme3.png, id=616, 144.54pt x 144.54pt>
+<./figs/chap1/ferroscheme3.png, id=612, 144.54pt x 144.54pt>
 File: ./figs/chap1/ferroscheme3.png Graphic file (type png)
 
 <use ./figs/chap1/ferroscheme3.png>
@@ -1800,14 +1800,14 @@ Package pdftex.def Info: ./figs/chap1/ferroscheme3.png used on input line 66.
  [4 <./figs/chap1/dielpolplot.png> <./figs/chap1/parelpolplot.png> <./figs/chap
 1/ferelpolplot.png>] [5 <./figs/chap1/ferroscheme1.png> <./figs/chap1/ferrosche
 me2.png> <./figs/chap1/ferroscheme3.png>]
-<./figs/chap1/pvdfstruct.png, id=647, 433.62pt x 84.315pt>
+<./figs/chap1/pvdfstruct.png, id=643, 433.62pt x 84.315pt>
 File: ./figs/chap1/pvdfstruct.png Graphic file (type png)
 
 <use ./figs/chap1/pvdfstruct.png>
 Package pdftex.def Info: ./figs/chap1/pvdfstruct.png used on input line 78.
 (pdftex.def)             Requested size: 375.14705pt x 72.94946pt.
 
-<./figs/chap1/pvdfbeta.png, id=650, 216.81pt x 232.7094pt>
+<./figs/chap1/pvdfbeta.png, id=646, 216.81pt x 232.7094pt>
 File: ./figs/chap1/pvdfbeta.png Graphic file (type png)
 
 <use ./figs/chap1/pvdfbeta.png>
@@ -1818,7 +1818,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 88.
 
-<./figs/chap1/pvdfalpha.png, id=651, 216.81pt x 232.7094pt>
+<./figs/chap1/pvdfalpha.png, id=647, 216.81pt x 232.7094pt>
 File: ./figs/chap1/pvdfalpha.png Graphic file (type png)
 
 <use ./figs/chap1/pvdfalpha.png>
@@ -1829,7 +1829,7 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 85--97
 []$[]$ $[]$ 
  []
 
-<./figs/chap1/fischerproject.png, id=654, 441.8106pt x 297.2706pt>
+<./figs/chap1/fischerproject.png, id=650, 441.8106pt x 297.2706pt>
 File: ./figs/chap1/fischerproject.png Graphic file (type png)
 
 <use ./figs/chap1/fischerproject.png>
@@ -1837,14 +1837,14 @@ Package pdftex.def Info: ./figs/chap1/fischerproject.png used on input line 102
 .
 (pdftex.def)             Requested size: 375.14705pt x 252.43172pt.
 
-<./figs/chap1/betaunitcell.png, id=665, 225.0006pt x 208.6194pt>
+<./figs/chap1/betaunitcell.png, id=661, 225.0006pt x 208.6194pt>
 File: ./figs/chap1/betaunitcell.png Graphic file (type png)
 
 <use ./figs/chap1/betaunitcell.png>
 Package pdftex.def Info: ./figs/chap1/betaunitcell.png used on input line 110.
 (pdftex.def)             Requested size: 166.73378pt x 154.59239pt.
 
-<./figs/chap1/alphaunitcell.png, id=666, 225.0006pt x 208.6194pt>
+<./figs/chap1/alphaunitcell.png, id=662, 225.0006pt x 208.6194pt>
 File: ./figs/chap1/alphaunitcell.png Graphic file (type png)
 
 <use ./figs/chap1/alphaunitcell.png>
@@ -1871,7 +1871,7 @@ Underfull \hbox (badness 3128) in paragraph at lines 3--3
 []\T1/lmr/m/n/10.95 (+20) TrFE con-tent
  []
 
-) <./figs/chap1/annealtemp.png, id=678, 425.4294pt x 264.99pt>
+) <./figs/chap1/annealtemp.png, id=674, 425.4294pt x 264.99pt>
 File: ./figs/chap1/annealtemp.png Graphic file (type png)
 
 <use ./figs/chap1/annealtemp.png>
@@ -1881,14 +1881,14 @@ Package pdftex.def Info: ./figs/chap1/annealtemp.png used on input line 138.
 /pvdfalpha.png> <./figs/chap1/fischerproject.png>] [8 <./figs/chap1/betaunitcel
 l.png> <./figs/chap1/alphaunitcell.png>]
 [9 <./figs/chap1/annealtemp.png>] [10] [11]
-<./figs/chap1/IRoverview.png, id=755, 216.81pt x 112.2594pt>
+<./figs/chap1/IRoverview.png, id=751, 216.81pt x 112.2594pt>
 File: ./figs/chap1/IRoverview.png Graphic file (type png)
 
 <use ./figs/chap1/IRoverview.png>
 Package pdftex.def Info: ./figs/chap1/IRoverview.png used on input line 198.
 (pdftex.def)             Requested size: 166.73378pt x 86.3355pt.
 
-<./figs/chap1/IRwave.png, id=756, 216.81pt x 112.2594pt>
+<./figs/chap1/IRwave.png, id=752, 216.81pt x 112.2594pt>
 File: ./figs/chap1/IRwave.png Graphic file (type png)
 
 <use ./figs/chap1/IRwave.png>
@@ -1900,14 +1900,14 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 196--208
  []
 
 [12] [13 <./figs/chap1/IRoverview.png> <./figs/chap1/IRwave.png>] [14]
-<./figs/chap1/dlssetup.png, id=791, 216.81pt x 156.585pt>
+<./figs/chap1/dlssetup.png, id=787, 216.81pt x 156.585pt>
 File: ./figs/chap1/dlssetup.png Graphic file (type png)
 
 <use ./figs/chap1/dlssetup.png>
 Package pdftex.def Info: ./figs/chap1/dlssetup.png used on input line 243.
 (pdftex.def)             Requested size: 166.73378pt x 120.42506pt.
 
-<./figs/chap1/dlsnoise.png, id=792, 216.81pt x 156.585pt>
+<./figs/chap1/dlsnoise.png, id=788, 216.81pt x 156.585pt>
 File: ./figs/chap1/dlsnoise.png Graphic file (type png)
 
 <use ./figs/chap1/dlsnoise.png>
@@ -1919,76 +1919,79 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 241--253
  []
 
 [15 <./figs/chap1/dlssetup.png> <./figs/chap1/dlsnoise.png>] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 284--289
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 [17] [18] [19] [20] (./tabs/sihlifetimes.tex) [21]
-<./figs/chap1/semCYCLO.jpg, id=854, 1284.8pt x 1027.84pt>
+<./figs/chap1/semCYCLO.jpg, id=862, 1284.8pt x 1027.84pt>
 File: ./figs/chap1/semCYCLO.jpg Graphic file (type jpg)
 
 <use ./figs/chap1/semCYCLO.jpg>
-Package pdftex.def Info: ./figs/chap1/semCYCLO.jpg used on input line 324.
+Package pdftex.def Info: ./figs/chap1/semCYCLO.jpg used on input line 326.
 (pdftex.def)             Requested size: 375.14705pt x 300.12051pt.
 
-<./figs/chap1/semDMF.jpg, id=855, 1284.8pt x 1027.84pt>
+<./figs/chap1/semDMF.jpg, id=863, 1284.8pt x 1027.84pt>
 File: ./figs/chap1/semDMF.jpg Graphic file (type jpg)
 
 <use ./figs/chap1/semDMF.jpg>
-Package pdftex.def Info: ./figs/chap1/semDMF.jpg used on input line 331.
+Package pdftex.def Info: ./figs/chap1/semDMF.jpg used on input line 333.
 (pdftex.def)             Requested size: 375.14705pt x 300.12051pt.
 
 
-LaTeX Warning: Float too large for page by 22.90326pt on input line 337.
+LaTeX Warning: Float too large for page by 22.90326pt on input line 339.
 
-<./figs/chap1/semTYPNANO.jpg, id=856, 1284.8pt x 1027.84pt>
+<./figs/chap1/semTYPNANO.jpg, id=864, 1284.8pt x 1027.84pt>
 File: ./figs/chap1/semTYPNANO.jpg Graphic file (type jpg)
 
 <use ./figs/chap1/semTYPNANO.jpg>
-Package pdftex.def Info: ./figs/chap1/semTYPNANO.jpg used on input line 341.
+Package pdftex.def Info: ./figs/chap1/semTYPNANO.jpg used on input line 343.
 (pdftex.def)             Requested size: 375.14705pt x 300.12051pt.
 
-<./figs/chap1/semNANOSOUP.jpg, id=857, 1284.8pt x 1027.84pt>
+<./figs/chap1/semNANOSOUP.jpg, id=865, 1284.8pt x 1027.84pt>
 File: ./figs/chap1/semNANOSOUP.jpg Graphic file (type jpg)
 
 <use ./figs/chap1/semNANOSOUP.jpg>
-Package pdftex.def Info: ./figs/chap1/semNANOSOUP.jpg used on input line 348.
+Package pdftex.def Info: ./figs/chap1/semNANOSOUP.jpg used on input line 350.
 (pdftex.def)             Requested size: 375.14705pt x 300.12051pt.
 
 
-LaTeX Warning: Float too large for page by 22.90326pt on input line 354.
+LaTeX Warning: Float too large for page by 22.90326pt on input line 356.
 
-(./tabs/npsize.tex) [22] [23 <./figs/chap1/semCYCLO.jpg> <./figs/chap1/semDMF.j
-pg>] [24 <./figs/chap1/semTYPNANO.jpg> <./figs/chap1/semNANOSOUP.jpg>] [25]
-<./figs/chap1/dlscompare.png, id=889, 433.62pt x 289.08pt>
+[22] (./tabs/npsize.tex)
+<./figs/chap1/dlscompare.png, id=881, 433.62pt x 289.08pt>
 File: ./figs/chap1/dlscompare.png Graphic file (type png)
 
 <use ./figs/chap1/dlscompare.png>
-Package pdftex.def Info: ./figs/chap1/dlscompare.png used on input line 370.
+Package pdftex.def Info: ./figs/chap1/dlscompare.png used on input line 372.
 (pdftex.def)             Requested size: 375.14705pt x 250.1125pt.
+ [23] [24 <./figs/chap1/semCYCLO.jpg> <./figs/chap1/semDMF.jpg>] [25 <./figs/ch
+ap1/semTYPNANO.jpg> <./figs/chap1/semNANOSOUP.jpg>]
 
-<./figs/chap1/IRplot.png, id=892, 433.62pt x 273.1806pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figs/chap1/IRplot.png, id=899, 433.62pt x 273.1806pt>
 File: ./figs/chap1/IRplot.png Graphic file (type png)
 
 <use ./figs/chap1/IRplot.png>
-Package pdftex.def Info: ./figs/chap1/IRplot.png used on input line 379.
+Package pdftex.def Info: ./figs/chap1/IRplot.png used on input line 381.
 (pdftex.def)             Requested size: 375.14705pt x 236.35631pt.
- [26 <./figs/chap1/dlscompare.png>]
-<./figs/chap1/IV1.png, id=899, 433.62pt x 273.1806pt>
+ [26]
+<./figs/chap1/IV1.png, id=906, 433.62pt x 273.1806pt>
 File: ./figs/chap1/IV1.png Graphic file (type png)
 
 <use ./figs/chap1/IV1.png>
-Package pdftex.def Info: ./figs/chap1/IV1.png used on input line 391.
+Package pdftex.def Info: ./figs/chap1/IV1.png used on input line 393.
 (pdftex.def)             Requested size: 375.14705pt x 236.35631pt.
 
-<./figs/chap1/IV2.png, id=900, 433.62pt x 273.1806pt>
+<./figs/chap1/IV2.png, id=907, 433.62pt x 273.1806pt>
 File: ./figs/chap1/IV2.png Graphic file (type png)
 
 <use ./figs/chap1/IV2.png>
-Package pdftex.def Info: ./figs/chap1/IV2.png used on input line 398.
+Package pdftex.def Info: ./figs/chap1/IV2.png used on input line 400.
 (pdftex.def)             Requested size: 375.14705pt x 236.35631pt.
- [27 <./figs/chap1/IRplot.png>] [28 <./figs/chap1/IV1.png> <./figs/chap1/IV2.pn
-g>] [29]) [30]
+ [27 <./figs/chap1/dlscompare.png>] [28 <./figs/chap1/IRplot.png>] [29 <./figs/
+chap1/IV1.png> <./figs/chap1/IV2.png>]) [30]
 Chapter 2.
 --------------------
  2. Temperature Dependent Surface Photovoltage
@@ -2002,14 +2005,14 @@ Chapter 2.
  (./tex/spv-t.tex [32
 
 ] [33]
-<./figs/chap2/bb-dark.png, id=966, 216.81pt x 184.5294pt>
+<./figs/chap2/bb-dark.png, id=974, 216.81pt x 184.5294pt>
 File: ./figs/chap2/bb-dark.png Graphic file (type png)
 
 <use ./figs/chap2/bb-dark.png>
 Package pdftex.def Info: ./figs/chap2/bb-dark.png used on input line 73.
 (pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
 
-<./figs/chap2/bb-light.png, id=967, 216.81pt x 184.5294pt>
+<./figs/chap2/bb-light.png, id=975, 216.81pt x 184.5294pt>
 File: ./figs/chap2/bb-light.png Graphic file (type png)
 
 <use ./figs/chap2/bb-light.png>
@@ -2021,104 +2024,104 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 71--83
  []
 
 [34 <./figs/chap2/bb-dark.png> <./figs/chap2/bb-light.png>]
-<./figs/chap2/bbdefn.png, id=988, 216.81pt x 184.5294pt>
-File: ./figs/chap2/bbdefn.png Graphic file (type png)
+<./figs/chap2/bbdefn-2.png, id=995, 216.81pt x 176.8206pt>
+File: ./figs/chap2/bbdefn-2.png Graphic file (type png)
 
-<use ./figs/chap2/bbdefn.png>
-Package pdftex.def Info: ./figs/chap2/bbdefn.png used on input line 95.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
+<use ./figs/chap2/bbdefn-2.png>
+Package pdftex.def Info: ./figs/chap2/bbdefn-2.png used on input line 95.
+(pdftex.def)             Requested size: 166.73378pt x 135.98767pt.
 
-<./figs/chap2/bbdefp.png, id=989, 216.81pt x 184.5294pt>
-File: ./figs/chap2/bbdefp.png Graphic file (type png)
+<./figs/chap2/bbdefp-2.png, id=996, 216.81pt x 176.8206pt>
+File: ./figs/chap2/bbdefp-2.png Graphic file (type png)
 
-<use ./figs/chap2/bbdefp.png>
-Package pdftex.def Info: ./figs/chap2/bbdefp.png used on input line 101.
-(pdftex.def)             Requested size: 166.73378pt x 141.9163pt.
+<use ./figs/chap2/bbdefp-2.png>
+Package pdftex.def Info: ./figs/chap2/bbdefp-2.png used on input line 101.
+(pdftex.def)             Requested size: 166.73378pt x 135.98767pt.
 
 Overfull \hbox (2.43333pt too wide) in paragraph at lines 93--105
 []$[]$ $[]$ 
  []
 
-[35 <./figs/chap2/bbdefn.png> <./figs/chap2/bbdefp.png>] [36]
-<./figs/chap2/Config_TTPX.png, id=1022, 470.75874pt x 222.8325pt>
+[35 <./figs/chap2/bbdefn-2.png> <./figs/chap2/bbdefp-2.png>] [36]
+<./figs/chap2/Config_TTPX.png, id=1030, 470.75874pt x 222.8325pt>
 File: ./figs/chap2/Config_TTPX.png Graphic file (type png)
 
 <use ./figs/chap2/Config_TTPX.png>
-Package pdftex.def Info: ./figs/chap2/Config_TTPX.png used on input line 134.
+Package pdftex.def Info: ./figs/chap2/Config_TTPX.png used on input line 139.
 (pdftex.def)             Requested size: 333.46758pt x 157.84836pt.
 
-<./figs/chap2/ledspec.png, id=1027, 1044.90375pt x 703.62875pt>
+<./figs/chap2/ledspec.png, id=1035, 1044.90375pt x 703.62875pt>
 File: ./figs/chap2/ledspec.png Graphic file (type png)
 
 <use ./figs/chap2/ledspec.png>
-Package pdftex.def Info: ./figs/chap2/ledspec.png used on input line 142.
+Package pdftex.def Info: ./figs/chap2/ledspec.png used on input line 147.
 (pdftex.def)             Requested size: 333.46758pt x 224.55382pt.
  [37] [38 <./figs/chap2/Config_TTPX.png>]
 [39 <./figs/chap2/ledspec.png>]
-<./figs/chap2/Sih.png, id=1050, 1221.56375pt x 915.42pt>
+<./figs/chap2/Sih.png, id=1058, 1221.56375pt x 915.42pt>
 File: ./figs/chap2/Sih.png Graphic file (type png)
 
 <use ./figs/chap2/Sih.png>
-Package pdftex.def Info: ./figs/chap2/Sih.png used on input line 157.
+Package pdftex.def Info: ./figs/chap2/Sih.png used on input line 162.
 (pdftex.def)             Requested size: 333.46758pt x 249.89049pt.
  [40]
-<./figs/chap2/HOPGMcA.png, id=1057, 1211.52625pt x 909.3975pt>
+<./figs/chap2/HOPGMcA.png, id=1064, 1211.52625pt x 909.3975pt>
 File: ./figs/chap2/HOPGMcA.png Graphic file (type png)
 
 <use ./figs/chap2/HOPGMcA.png>
-Package pdftex.def Info: ./figs/chap2/HOPGMcA.png used on input line 169.
+Package pdftex.def Info: ./figs/chap2/HOPGMcA.png used on input line 174.
 (pdftex.def)             Requested size: 197.99498pt x 148.61485pt.
 
-<./figs/chap2/HOPGMcAPres.png, id=1058, 1235.61626pt x 926.46124pt>
+<./figs/chap2/HOPGMcAPres.png, id=1065, 1235.61626pt x 926.46124pt>
 File: ./figs/chap2/HOPGMcAPres.png Graphic file (type png)
 
 <use ./figs/chap2/HOPGMcAPres.png>
-Package pdftex.def Info: ./figs/chap2/HOPGMcAPres.png used on input line 175.
+Package pdftex.def Info: ./figs/chap2/HOPGMcAPres.png used on input line 180.
 (pdftex.def)             Requested size: 197.99498pt x 148.44887pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 167--179
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 172--184
 []$[]$ $[]$ 
  []
 
 [41 <./figs/chap2/Sih.png>] [42 <./figs/chap2/HOPGMcA.png> <./figs/chap2/HOPGMc
 APres.png>]
-<./figs/chap2/currentseries.png, id=1079, 1200.485pt x 900.36375pt>
+<./figs/chap2/currentseries.png, id=1088, 1200.485pt x 900.36375pt>
 File: ./figs/chap2/currentseries.png Graphic file (type png)
 
 <use ./figs/chap2/currentseries.png>
-Package pdftex.def Info: ./figs/chap2/currentseries.png used on input line 193.
+Package pdftex.def Info: ./figs/chap2/currentseries.png used on input line 198.
 
 (pdftex.def)             Requested size: 333.46758pt x 250.09431pt.
- [43] [44] [45 <./figs/chap2/currentseries.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+ [43] [44 <./figs/chap2/currentseries.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
-[46] [47] <./figs/chap2/vox1.pdf, id=1123, 820.06375pt x 571.13374pt>
+[45] [46] <./figs/chap2/vox1.pdf, id=1120, 820.06375pt x 571.13374pt>
 File: ./figs/chap2/vox1.pdf Graphic file (type pdf)
 
 <use ./figs/chap2/vox1.pdf>
-Package pdftex.def Info: ./figs/chap2/vox1.pdf used on input line 216.
+Package pdftex.def Info: ./figs/chap2/vox1.pdf used on input line 221.
 (pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
 
-<./figs/chap2/vox2.pdf, id=1125, 820.06375pt x 571.13374pt>
+<./figs/chap2/vox2.pdf, id=1122, 820.06375pt x 571.13374pt>
 File: ./figs/chap2/vox2.pdf Graphic file (type pdf)
 
 <use ./figs/chap2/vox2.pdf>
-Package pdftex.def Info: ./figs/chap2/vox2.pdf used on input line 223.
+Package pdftex.def Info: ./figs/chap2/vox2.pdf used on input line 228.
 (pdftex.def)             Requested size: 333.46758pt x 232.2491pt.
 
-<./figs/chap2/vox3.png, id=1132, 578.16pt x 433.62pt>
+<./figs/chap2/vox3.png, id=1129, 578.16pt x 433.62pt>
 File: ./figs/chap2/vox3.png Graphic file (type png)
 
 <use ./figs/chap2/vox3.png>
-Package pdftex.def Info: ./figs/chap2/vox3.png used on input line 231.
+Package pdftex.def Info: ./figs/chap2/vox3.png used on input line 236.
 (pdftex.def)             Requested size: 333.46758pt x 250.09708pt.
- [48] [49 <./figs/chap2/vox1.pdf>] [50 <./figs/chap2/vox2.pdf>] [51 <./figs/cha
-p2/vox3.png>] [52]) [53] (./main.bbl [54
+ [47] [48 <./figs/chap2/vox1.pdf>] [49 <./figs/chap2/vox2.pdf>] [50 <./figs/cha
+p2/vox3.png>] [51]) [52] (./main.bbl [53
 
 
-] [55]
+] [54]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 186.
 
 
@@ -2129,21 +2132,21 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [56]
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
+ [55]
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 []\T1/lmr/m/n/10.95 (+20) Lake Shore Cry-otron-ics Inc.  Model TTPX Cryo-genic 
 Probe Sta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 \T1/lmr/m/n/10.95 (+20) tion.  [][]$\T1/lmtt/m/n/10.95 http : / / lakeshore . c
 om / products / cryogenic-[]probe-[]stations /
  []
 
-[57])
+[56])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
- [58]
+ [57]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (./main.aux (./tex/TimosTitle.aux) (./tex/emptypage.aux)
 (./tex/Declaration.aux) (./tex/Quotation.aux) (./tex/Abstract.aux)
@@ -2152,44 +2155,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9FA8A1A79305C80CC1BB8A33BFF1AAC0;12394.
+(rerunfilecheck)             Checksum: 887DDCDC8CBD755F5CC76DF14359BAF9;12394.
  ) 
 Here is how much of TeX's memory you used:
- 25129 strings out of 494985
- 447181 string characters out of 6180356
- 537564 words of memory out of 5000000
- 27263 multiletter control sequences out of 15000+600000
- 151050 words of font info for 225 fonts, out of 8000000 for 9000
+ 25139 strings out of 494985
+ 447363 string characters out of 6180356
+ 541844 words of memory out of 5000000
+ 27267 multiletter control sequences out of 15000+600000
+ 151198 words of font info for 226 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  47i,19n,52p,10402b,1091s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.131} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.127} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.130} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.125} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.122} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.115} has been referenced but does not exi
 st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.112} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.109} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.107} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.106} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.103} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.95} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.96} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.75} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.76} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.42} has been referenced but does not exis
@@ -2208,30 +2211,30 @@ pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
 , replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
 athex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
-6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (73 pages, 6076723 bytes).
+/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (71 pages, 6078594 bytes).
 PDF statistics:
- 1391 PDF objects out of 1440 (max. 8388607)
- 1190 compressed objects within 12 object streams
- 276 named destinations out of 1000 (max. 500000)
+ 1395 PDF objects out of 1440 (max. 8388607)
+ 1196 compressed objects within 12 object streams
+ 280 named destinations out of 1000 (max. 500000)
  52385 words of extra memory for PDF output out of 61914 (max. 10000000)
 
